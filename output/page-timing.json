@@ -1,0 +1,118 @@
+{
+  "fps": 25,
+  "sample_rate": 48000,
+  "musical_end_seconds": 435.6,
+  "release_tail_seconds": 3.0,
+  "pages": [
+    {
+      "page": 1,
+      "first_bar": 1,
+      "last_bar": 20,
+      "start_seconds": 0.0,
+      "end_seconds": 44.0,
+      "start_frame": 0,
+      "end_frame": 1100,
+      "start_sample": 0,
+      "end_sample": 2112000
+    },
+    {
+      "page": 2,
+      "first_bar": 21,
+      "last_bar": 40,
+      "start_seconds": 44.0,
+      "end_seconds": 84.0,
+      "start_frame": 1100,
+      "end_frame": 2100,
+      "start_sample": 2112000,
+      "end_sample": 4032000
+    },
+    {
+      "page": 3,
+      "first_bar": 41,
+      "last_bar": 60,
+      "start_seconds": 84.0,
+      "end_seconds": 132.0,
+      "start_frame": 2100,
+      "end_frame": 3300,
+      "start_sample": 4032000,
+      "end_sample": 6336000
+    },
+    {
+      "page": 4,
+      "first_bar": 61,
+      "last_bar": 80,
+      "start_seconds": 132.0,
+      "end_seconds": 173.6,
+      "start_frame": 3300,
+      "end_frame": 4340,
+      "start_sample": 6336000,
+      "end_sample": 8332800
+    },
+    {
+      "page": 5,
+      "first_bar": 81,
+      "last_bar": 100,
+      "start_seconds": 173.6,
+      "end_seconds": 213.6,
+      "start_frame": 4340,
+      "end_frame": 5340,
+      "start_sample": 8332800,
+      "end_sample": 10252800
+    },
+    {
+      "page": 6,
+      "first_bar": 101,
+      "last_bar": 120,
+      "start_seconds": 213.6,
+      "end_seconds": 260.2,
+      "start_frame": 5340,
+      "end_frame": 6505,
+      "start_sample": 10252800,
+      "end_sample": 12489600
+    },
+    {
+      "page": 7,
+      "first_bar": 121,
+      "last_bar": 140,
+      "start_seconds": 260.2,
+      "end_seconds": 300.2,
+      "start_frame": 6505,
+      "end_frame": 7505,
+      "start_sample": 12489600,
+      "end_sample": 14409600
+    },
+    {
+      "page": 8,
+      "first_bar": 141,
+      "last_bar": 160,
+      "start_seconds": 300.2,
+      "end_seconds": 340.2,
+      "start_frame": 7505,
+      "end_frame": 8505,
+      "start_sample": 14409600,
+      "end_sample": 16329600
+    },
+    {
+      "page": 9,
+      "first_bar": 161,
+      "last_bar": 180,
+      "start_seconds": 340.2,
+      "end_seconds": 388.2,
+      "start_frame": 8505,
+      "end_frame": 9705,
+      "start_sample": 16329600,
+      "end_sample": 18633600
+    },
+    {
+      "page": 10,
+      "first_bar": 181,
+      "last_bar": 200,
+      "start_seconds": 388.2,
+      "end_seconds": 438.6,
+      "start_frame": 9705,
+      "end_frame": 10965,
+      "start_sample": 18633600,
+      "end_sample": 21052800
+    }
+  ]
+}

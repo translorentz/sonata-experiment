@@ -12,12 +12,15 @@ dominant-key second subject, a turbulent development, and a tonic resolution.
 - [Complete, standalone LilyPond source](score/second-spring.ly)
 - [Print-ready A4 score, PDF](output/second-spring.pdf)
 - [MIDI performance](output/second-spring.mid)
-- [Score video with sampled grand piano, MP4](output/second-spring.mp4)
-- [Lossless piano audio, FLAC](output/second-spring.flac)
 - [Individual score pages, PNG](output/pages/)
 - [Sonata-form requirements and measure-by-measure explanation](docs/FORM.md)
 - [Source motif and exact adaptation](docs/SOURCES.md)
 - [Page timings](output/page-timing.json) and [build validation](output/validation.json)
+
+The completed MP4 is supplied separately from this repository, as authorized
+in the commission. The build program reproduces it in `output/second-spring.mp4`
+and also writes an intermediate lossless piano rendering in FLAC format.
+These two large generated media files are excluded from version control.
 
 The music lasts **7:15.6**; the video lasts **7:18.6**, including a three-second
 release tail. It contains ten score pages at 1080 × 1528, 25 frames/second,

@@ -1,0 +1,194 @@
+{
+  "title": "The Second Spring",
+  "bars": 200,
+  "beats_per_bar": 4,
+  "pages": [
+    {
+      "page": 1,
+      "first_bar": 1,
+      "last_bar": 20
+    },
+    {
+      "page": 2,
+      "first_bar": 21,
+      "last_bar": 40
+    },
+    {
+      "page": 3,
+      "first_bar": 41,
+      "last_bar": 60
+    },
+    {
+      "page": 4,
+      "first_bar": 61,
+      "last_bar": 80
+    },
+    {
+      "page": 5,
+      "first_bar": 81,
+      "last_bar": 100
+    },
+    {
+      "page": 6,
+      "first_bar": 101,
+      "last_bar": 120
+    },
+    {
+      "page": 7,
+      "first_bar": 121,
+      "last_bar": 140
+    },
+    {
+      "page": 8,
+      "first_bar": 141,
+      "last_bar": 160
+    },
+    {
+      "page": 9,
+      "first_bar": 161,
+      "last_bar": 180
+    },
+    {
+      "page": 10,
+      "first_bar": 181,
+      "last_bar": 200
+    }
+  ],
+  "tempos": [
+    {
+      "bar": 1,
+      "bpm": 80,
+      "label": "Andante, quasi una memoria"
+    },
+    {
+      "bar": 5,
+      "bpm": 120,
+      "label": "Allegro moderato"
+    },
+    {
+      "bar": 41,
+      "bpm": 100,
+      "label": "Cantabile, poco meno mosso"
+    },
+    {
+      "bar": 65,
+      "bpm": 120,
+      "label": "Tempo I"
+    },
+    {
+      "bar": 73,
+      "bpm": 120,
+      "label": "Agitato"
+    },
+    {
+      "bar": 105,
+      "bpm": 120,
+      "label": "Con fuoco"
+    },
+    {
+      "bar": 113,
+      "bpm": 100,
+      "label": "Poco a poco tranquillo"
+    },
+    {
+      "bar": 117,
+      "bpm": 80,
+      "label": "Meno mosso"
+    },
+    {
+      "bar": 120,
+      "bpm": 60,
+      "label": "Sospeso"
+    },
+    {
+      "bar": 121,
+      "bpm": 120,
+      "label": "Tempo I, dolce"
+    },
+    {
+      "bar": 161,
+      "bpm": 100,
+      "label": "Cantabile"
+    },
+    {
+      "bar": 185,
+      "bpm": 120,
+      "label": "Tempo I"
+    },
+    {
+      "bar": 193,
+      "bpm": 80,
+      "label": "La memoria"
+    },
+    {
+      "bar": 195,
+      "bpm": 100,
+      "label": "Animando"
+    },
+    {
+      "bar": 197,
+      "bpm": 120,
+      "label": "Risoluto"
+    },
+    {
+      "bar": 199,
+      "bpm": 80,
+      "label": "Allargando"
+    },
+    {
+      "bar": 200,
+      "bpm": 60,
+      "label": "Largo"
+    }
+  ],
+  "sections": [
+    {
+      "bar": 1,
+      "label": "P \u00b7 Exposition"
+    },
+    {
+      "bar": 25,
+      "label": "TR"
+    },
+    {
+      "bar": 41,
+      "label": "S \u00b7 D major"
+    },
+    {
+      "bar": 65,
+      "label": "Closing"
+    },
+    {
+      "bar": 73,
+      "label": "Development"
+    },
+    {
+      "bar": 89,
+      "label": "Inversion"
+    },
+    {
+      "bar": 105,
+      "label": "Retransition"
+    },
+    {
+      "bar": 121,
+      "label": "Recapitulation"
+    },
+    {
+      "bar": 145,
+      "label": "TR \u00b7 recomposed"
+    },
+    {
+      "bar": 161,
+      "label": "S \u00b7 G major"
+    },
+    {
+      "bar": 185,
+      "label": "Closing"
+    },
+    {
+      "bar": 193,
+      "label": "Coda"
+    }
+  ]
+}

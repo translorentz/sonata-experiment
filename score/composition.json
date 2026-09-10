@@ -1,0 +1,1741 @@
+[
+  {
+    "bar": 1,
+    "section": "P",
+    "rh": "r4. e8( d e c b)",
+    "lh": "<g, d>2 <g b>2",
+    "harmony": "G",
+    "transpose": null
+  },
+  {
+    "bar": 2,
+    "section": "P",
+    "rh": "a2 a8.( b16) g8( g16 a)",
+    "lh": "<d a>2 <c' fis'>2",
+    "harmony": "D7",
+    "transpose": null
+  },
+  {
+    "bar": 3,
+    "section": "P",
+    "rh": "b4.( d8) e8( d) e16( d e g)",
+    "lh": "<g, d>2 <g b>2",
+    "harmony": "G",
+    "transpose": null
+  },
+  {
+    "bar": 4,
+    "section": "P",
+    "rh": "d8.( b16) d8( d16 b) a8( e') d16( e g a)",
+    "lh": "<d a>2 <c' fis'>2",
+    "harmony": "D7",
+    "transpose": null
+  },
+  {
+    "bar": 5,
+    "section": "P",
+    "rh": "g4( fis8 e) d4( b8 a)",
+    "lh": "<e b>2 <e' g'>2",
+    "harmony": "Em",
+    "transpose": null,
+    "rh_octaves": 1
+  },
+  {
+    "bar": 6,
+    "section": "P",
+    "rh": "g8( a b c) d4( e8 c)",
+    "lh": "<c g>2 <c' e'>2",
+    "harmony": "C",
+    "transpose": null
+  },
+  {
+    "bar": 7,
+    "section": "P",
+    "rh": "b4( a) g8( e' d c)",
+    "lh": "<d a>2 <c' fis'>2",
+    "harmony": "D7",
+    "transpose": null
+  },
+  {
+    "bar": 8,
+    "section": "P",
+    "rh": "b4( a8 fis) g2",
+    "lh": "d4 <a c' fis'> g,2",
+    "harmony": "G",
+    "transpose": null
+  },
+  {
+    "bar": 9,
+    "section": "P",
+    "rh": "e8( d e c) b4( d8 g)",
+    "lh": "g,8( b d b g b d b)",
+    "harmony": "G",
+    "transpose": null
+  },
+  {
+    "bar": 10,
+    "section": "P",
+    "rh": "fis8( e fis d) c4( a8 d)",
+    "lh": "d8( fis' a fis' c' fis' a fis')",
+    "harmony": "D7",
+    "transpose": null
+  },
+  {
+    "bar": 11,
+    "section": "P",
+    "rh": "b8( d g fis) e( d c b)",
+    "lh": "g,8( b d b g b d b)",
+    "harmony": "G",
+    "transpose": null
+  },
+  {
+    "bar": 12,
+    "section": "P",
+    "rh": "a4( b8 c) d2",
+    "lh": "d8( fis' a fis' d' fis' a fis')",
+    "harmony": "D",
+    "transpose": null
+  },
+  {
+    "bar": 13,
+    "section": "P",
+    "rh": "e8( d e c) b( c d e)",
+    "lh": "c8( e' g e' c' e' g e')",
+    "harmony": "C",
+    "transpose": null
+  },
+  {
+    "bar": 14,
+    "section": "P",
+    "rh": "fis8( e fis d) c( b a g)",
+    "lh": "fis,8( fis a fis d fis a fis)",
+    "harmony": "D/F#",
+    "transpose": null
+  },
+  {
+    "bar": 15,
+    "section": "P",
+    "rh": "a8( b c d) e4( cis8 a)",
+    "lh": "a,8( cis' e cis' g cis' e cis')",
+    "harmony": "A7",
+    "transpose": null
+  },
+  {
+    "bar": 16,
+    "section": "P",
+    "rh": "<a d fis>2 r4 d8( c)",
+    "lh": "d8( fis' a fis' d' fis' a fis')",
+    "harmony": "D",
+    "transpose": null
+  },
+  {
+    "bar": 17,
+    "section": "P",
+    "rh": "b8( d g a) b4( a8 g)",
+    "lh": "g,8( d g b g d g d)",
+    "harmony": "G",
+    "transpose": null
+  },
+  {
+    "bar": 18,
+    "section": "P",
+    "rh": "a8( fis d c) b4( a)",
+    "lh": "fis,8( a d fis d a d a)",
+    "harmony": "D/F#",
+    "transpose": null,
+    "rh_octaves": 1
+  },
+  {
+    "bar": 19,
+    "section": "P",
+    "rh": "g8( b e fis) g4( fis8 e)",
+    "lh": "e8( b e' g' e' b e' b)",
+    "harmony": "Em",
+    "transpose": null
+  },
+  {
+    "bar": 20,
+    "section": "P",
+    "rh": "fis8( dis b a) g4( fis)",
+    "lh": "b,8( fis a dis' a fis a fis)",
+    "harmony": "B7",
+    "transpose": null
+  },
+  {
+    "bar": 21,
+    "section": "P",
+    "rh": "e8( g c d) e4( d8 c)",
+    "lh": "c8( g c' e' c' g c' g)",
+    "harmony": "C",
+    "transpose": null,
+    "rh_octaves": -1
+  },
+  {
+    "bar": 22,
+    "section": "P",
+    "rh": "b8( a g fis) e4( c')",
+    "lh": "c8( e a c' a e a e)",
+    "harmony": "Am/C",
+    "transpose": null
+  },
+  {
+    "bar": 23,
+    "section": "P",
+    "rh": "b4( a8 g) fis8( e d fis)",
+    "lh": "d8( a c' fis' c' a c' a)",
+    "harmony": "D7",
+    "transpose": null
+  },
+  {
+    "bar": 24,
+    "section": "P",
+    "rh": "<g b g'>2 r2",
+    "lh": "<g, d g>2 r2",
+    "harmony": "G",
+    "transpose": null
+  },
+  {
+    "bar": 25,
+    "section": "TR",
+    "rh": "e16( d e c b c d e) g8-. g-. fis-. e-.",
+    "lh": "e4 <b e' g'>8-. <b e' g'>-. e4 <b e' g'>4-.",
+    "harmony": "Em",
+    "transpose": null
+  },
+  {
+    "bar": 26,
+    "section": "TR",
+    "rh": "fis16( e fis d c d e fis) a8-. a-. g-. fis-.",
+    "lh": "fis,4 <a d fis>8-. <a d fis>-. fis,4 <a d fis>4-.",
+    "harmony": "D/F#",
+    "transpose": null
+  },
+  {
+    "bar": 27,
+    "section": "TR",
+    "rh": "g16( fis g e d e fis g) b8-. b-. a-. g-.",
+    "lh": "g,4 <d g b>8-. <d g b>-. g,4 <d g b>4-.",
+    "harmony": "G",
+    "transpose": null
+  },
+  {
+    "bar": 28,
+    "section": "TR",
+    "rh": "ais8( b cis b) ais4( fis)",
+    "lh": "fis,4 <cis e ais>8-. <cis e ais>-. fis,4 <cis e ais>4-.",
+    "harmony": "F#7",
+    "transpose": null
+  },
+  {
+    "bar": 29,
+    "section": "TR",
+    "rh": "b16( a b g fis g a b) d8-. cis-. b-. a-.",
+    "lh": "b,4 <fis b d'>8-. <fis b d'>-. b,4 <fis b d'>4-.",
+    "harmony": "Bm",
+    "transpose": null
+  },
+  {
+    "bar": 30,
+    "section": "TR",
+    "rh": "gis8( a b a) gis4( e)",
+    "lh": "e4 <b d' gis'>8-. <b d' gis'>-. e4 <b d' gis'>4-.",
+    "harmony": "E7",
+    "transpose": null
+  },
+  {
+    "bar": 31,
+    "section": "TR",
+    "rh": "a16( g a fis e fis g a) cis8-. b-. a-. g-.",
+    "lh": "a,4 <e a cis'>8-. <e a cis'>-. a,4 <e a cis'>4-.",
+    "harmony": "A",
+    "transpose": null
+  },
+  {
+    "bar": 32,
+    "section": "TR",
+    "rh": "fis4( e8 cis) d4 r4",
+    "lh": "d4 <a d' fis'>8-. <a d' fis'>-. d4 <a d' fis'>4-.",
+    "harmony": "D",
+    "transpose": null
+  },
+  {
+    "bar": 33,
+    "section": "TR",
+    "rh": "fis8( e fis d) cis8( e a g)",
+    "lh": "cis4 <e a cis'>8-. <e a cis'>-. cis4 <e a cis'>4-.",
+    "harmony": "A/C#",
+    "transpose": null
+  },
+  {
+    "bar": 34,
+    "section": "TR",
+    "rh": "fis8( a d cis) b4( a8 g)",
+    "lh": "d4 <a d' fis'>8-. <a d' fis'>-. d4 <a d' fis'>4-.",
+    "harmony": "D",
+    "transpose": null
+  },
+  {
+    "bar": 35,
+    "section": "TR",
+    "rh": "fis8( e d fis) e4( d8 b)",
+    "lh": "b,4 <fis b d'>8-. <fis b d'>-. b,4 <fis b d'>4-.",
+    "harmony": "Bm",
+    "transpose": null
+  },
+  {
+    "bar": 36,
+    "section": "TR",
+    "rh": "cis8( b a cis) e4( g8 e)",
+    "lh": "a,4 <e g cis'>8-. <e g cis'>-. a,4 <e g cis'>4-.",
+    "harmony": "A7",
+    "transpose": null
+  },
+  {
+    "bar": 37,
+    "section": "TR",
+    "rh": "<a, cis e>4-> r8 e'8 <a, cis e>4-> r8 e'8",
+    "lh": "a,4 <e g cis'>8-. <e g cis'>-. a,4 <e g cis'>4-.",
+    "harmony": "A7",
+    "transpose": null,
+    "rh_octaves": 1
+  },
+  {
+    "bar": 38,
+    "section": "TR",
+    "rh": "g8( fis e d) cis4( b8 a)",
+    "lh": "a,4 <e g cis'>8-. <e g cis'>-. a,4 <e g cis'>4-.",
+    "harmony": "A7",
+    "transpose": null,
+    "rh_octaves": 1
+  },
+  {
+    "bar": 39,
+    "section": "TR",
+    "rh": "<a cis e>4 <b d e> <cis e a> <b d gis>",
+    "lh": "a,4 <e g cis'>8-. <e g cis'>-. a,4 <e g cis'>4-.",
+    "harmony": "A7",
+    "transpose": null
+  },
+  {
+    "bar": 40,
+    "section": "TR",
+    "rh": "<cis e a>2 r2",
+    "lh": "<a, e a>2 r2",
+    "harmony": "A",
+    "transpose": null
+  },
+  {
+    "bar": 41,
+    "section": "S",
+    "rh": "fis'2( e4 d)",
+    "lh": "d8( a d' fis' d' a d' a)",
+    "harmony": "D",
+    "transpose": null,
+    "rh_octaves": -1
+  },
+  {
+    "bar": 42,
+    "section": "S",
+    "rh": "e4.( fis8) cis2",
+    "lh": "cis8( e a cis' a e a e)",
+    "harmony": "A/C#",
+    "transpose": null
+  },
+  {
+    "bar": 43,
+    "section": "S",
+    "rh": "d4( fis8 a) g4( fis8 e)",
+    "lh": "b,8( fis b d' b fis b fis)",
+    "harmony": "Bm",
+    "transpose": null
+  },
+  {
+    "bar": 44,
+    "section": "S",
+    "rh": "fis2( e4) r4",
+    "lh": "fis,8( cis fis a fis cis fis cis)",
+    "harmony": "F#m",
+    "transpose": null
+  },
+  {
+    "bar": 45,
+    "section": "S",
+    "rh": "g4.( fis8) e4( d)",
+    "lh": "g,8( d g b g d g d)",
+    "harmony": "G",
+    "transpose": null,
+    "rh_octaves": 1
+  },
+  {
+    "bar": 46,
+    "section": "S",
+    "rh": "cis8( d e fis) g4( e)",
+    "lh": "e8( b e' g' e' b e' b)",
+    "harmony": "Em",
+    "transpose": null
+  },
+  {
+    "bar": 47,
+    "section": "S",
+    "rh": "fis4( e8 d) cis4( b8 cis)",
+    "lh": "a,8( e g cis' g e g e)",
+    "harmony": "A7",
+    "transpose": null
+  },
+  {
+    "bar": 48,
+    "section": "S",
+    "rh": "fis'2. r4",
+    "lh": "d8( a d' fis' d' a d' a)",
+    "harmony": "D",
+    "transpose": null,
+    "rh_octaves": -1
+  },
+  {
+    "bar": 49,
+    "section": "S",
+    "rh": "a'2( g4 fis)",
+    "lh": "d8( a d' fis' d' a d' a)",
+    "harmony": "D",
+    "transpose": null
+  },
+  {
+    "bar": 50,
+    "section": "S",
+    "rh": "g4.( a8) e2",
+    "lh": "cis8( e a cis' a e a e)",
+    "harmony": "A/C#",
+    "transpose": null,
+    "rh_octaves": 1
+  },
+  {
+    "bar": 51,
+    "section": "S",
+    "rh": "fis8( e d fis) b4( a8 g)",
+    "lh": "b,8( fis b d' b fis b fis)",
+    "harmony": "Bm",
+    "transpose": null
+  },
+  {
+    "bar": 52,
+    "section": "S",
+    "rh": "a4( fis8 d) cis2",
+    "lh": "a,8( d fis a fis d fis d)",
+    "harmony": "D/A",
+    "transpose": null,
+    "rh_octaves": 1
+  },
+  {
+    "bar": 53,
+    "section": "S",
+    "rh": "b8( cis d e) fis4( g8 fis)",
+    "lh": "g,8( d g b g d g d)",
+    "harmony": "G",
+    "transpose": null
+  },
+  {
+    "bar": 54,
+    "section": "S",
+    "rh": "e4( g8 fis) e4( d8 b)",
+    "lh": "e8( b e' g' e' b e' b)",
+    "harmony": "Em",
+    "transpose": null
+  },
+  {
+    "bar": 55,
+    "section": "S",
+    "rh": "cis4( d8 e) <g, cis e>4( <a cis e>)",
+    "lh": "a,8( e g cis' g e g e)",
+    "harmony": "A7",
+    "transpose": null
+  },
+  {
+    "bar": 56,
+    "section": "S",
+    "rh": "<b d fis>2 r4 fis'8( e)",
+    "lh": "b,8( fis b d' b fis b fis)",
+    "harmony": "Bm",
+    "transpose": null
+  },
+  {
+    "bar": 57,
+    "section": "S",
+    "rh": "d4( cis8 b) a4( fis8 d)",
+    "lh": "b,8( fis b d' b fis b fis)",
+    "harmony": "Bm",
+    "transpose": null,
+    "rh_octaves": 1
+  },
+  {
+    "bar": 58,
+    "section": "S",
+    "rh": "e8( fis g a) b4( g8 e)",
+    "lh": "e8( b e' g' e' b e' b)",
+    "harmony": "Em",
+    "transpose": null
+  },
+  {
+    "bar": 59,
+    "section": "S",
+    "rh": "fis4( g8 a) d4( cis8 b)",
+    "lh": "d8( a d' fis' d' a d' a)",
+    "harmony": "D",
+    "transpose": null
+  },
+  {
+    "bar": 60,
+    "section": "S",
+    "rh": "a8( g fis e) d4( fis8 a)",
+    "lh": "fis,8( cis fis a fis cis fis cis)",
+    "harmony": "F#m",
+    "transpose": null,
+    "rh_octaves": 1
+  },
+  {
+    "bar": 61,
+    "section": "S",
+    "rh": "b4( a8 g) fis4( e8 d)",
+    "lh": "g,8( d g b g d g d)",
+    "harmony": "G",
+    "transpose": null,
+    "rh_octaves": 1
+  },
+  {
+    "bar": 62,
+    "section": "S",
+    "rh": "e4( fis8 g) <g b e>2",
+    "lh": "e8( b e' g' e' b e' b)",
+    "harmony": "Em",
+    "transpose": null
+  },
+  {
+    "bar": 63,
+    "section": "S",
+    "rh": "<fis a d>2 <e g cis>4( <e g a>)",
+    "lh": "a,8( e g cis' g e g e)",
+    "harmony": "A7",
+    "transpose": null
+  },
+  {
+    "bar": 64,
+    "section": "S",
+    "rh": "<fis a d>1",
+    "lh": "<d a d'>1",
+    "harmony": "D",
+    "transpose": null
+  },
+  {
+    "bar": 65,
+    "section": "C",
+    "rh": "d8-. fis-. a-. d-. cis( b a g)",
+    "lh": "d4 <a d' fis'>8-. <a d' fis'>-. d4 <a d' fis'>4-.",
+    "harmony": "D",
+    "transpose": null
+  },
+  {
+    "bar": 66,
+    "section": "C",
+    "rh": "fis8( e fis d) cis4( a)",
+    "lh": "a,4 <e g cis'>8-. <e g cis'>-. a,4 <e g cis'>4-.",
+    "harmony": "A7",
+    "transpose": null
+  },
+  {
+    "bar": 67,
+    "section": "C",
+    "rh": "b8-. d-. g-. b-. a( g fis e)",
+    "lh": "g,4 <d g b>8-. <d g b>-. g,4 <d g b>4-.",
+    "harmony": "G",
+    "transpose": null
+  },
+  {
+    "bar": 68,
+    "section": "C",
+    "rh": "<e g a>2 <cis e a>2",
+    "lh": "a,4 <e g cis'>8-. <e g cis'>-. a,4 <e g cis'>4-.",
+    "harmony": "A7",
+    "transpose": null
+  },
+  {
+    "bar": 69,
+    "section": "C",
+    "rh": "fis8( e fis d) a4( cis8 e)",
+    "lh": "d4 <a d' fis'>8-. <a d' fis'>-. d4 <a d' fis'>4-.",
+    "harmony": "D",
+    "transpose": null
+  },
+  {
+    "bar": 70,
+    "section": "C",
+    "rh": "d8( cis d b) a4( fis)",
+    "lh": "a,4 <d fis a>8-. <d fis a>-. a,4 <d fis a>4-.",
+    "harmony": "D/A",
+    "transpose": null
+  },
+  {
+    "bar": 71,
+    "section": "C",
+    "rh": "<g a cis>2 <e g a>2",
+    "lh": "a,4 <e g cis'>8-. <e g cis'>-. a,4 <e g cis'>4-.",
+    "harmony": "A7",
+    "transpose": null
+  },
+  {
+    "bar": 72,
+    "section": "C",
+    "rh": "<fis a d>2 r2",
+    "lh": "<d a d'>2 r2",
+    "harmony": "D",
+    "transpose": null,
+    "rh_octaves": -1
+  },
+  {
+    "bar": 73,
+    "section": "DEV",
+    "rh": "g'8( fis g e) d4( fis8 b)",
+    "lh": "b,8( d' fis d' b d' fis d')",
+    "harmony": "Bm",
+    "transpose": null
+  },
+  {
+    "bar": 74,
+    "section": "DEV",
+    "rh": "ais8( gis ais fis) e4( cis8 ais)",
+    "lh": "fis,8( ais cis ais e ais cis ais)",
+    "harmony": "F#7",
+    "transpose": null,
+    "rh_octaves": 1
+  },
+  {
+    "bar": 75,
+    "section": "DEV",
+    "rh": "b8( cis d e) fis4( e8 d)",
+    "lh": "b,8( d' fis d' b d' fis d')",
+    "harmony": "Bm",
+    "transpose": null
+  },
+  {
+    "bar": 76,
+    "section": "DEV",
+    "rh": "cis4( b8 ais) b4 r4",
+    "lh": "fis,8( ais cis ais e ais cis ais)",
+    "harmony": "F#7",
+    "transpose": null
+  },
+  {
+    "bar": 77,
+    "section": "DEV",
+    "rh": "fis'4( e8 d) cis4( d8 e)",
+    "lh": "g8( fis g e) d4( fis8 b)",
+    "harmony": "Bm",
+    "transpose": null,
+    "rh_octaves": -1
+  },
+  {
+    "bar": 78,
+    "section": "DEV",
+    "rh": "dis4( fis8 a) g4( fis8 e)",
+    "lh": "a8( fis a fis) dis4( b,)",
+    "harmony": "B7",
+    "transpose": null
+  },
+  {
+    "bar": 79,
+    "section": "DEV",
+    "rh": "e4( fis8 g) a4( g8 fis)",
+    "lh": "c'8( b c a) g4( b8 e')",
+    "harmony": "Em",
+    "transpose": null
+  },
+  {
+    "bar": 80,
+    "section": "DEV",
+    "rh": "fis4( e8 dis) e2",
+    "lh": "fis8( e dis cis) b2",
+    "harmony": "B7",
+    "transpose": null
+  },
+  {
+    "bar": 81,
+    "section": "DEV",
+    "rh": "c'8( b c a) g4( b8 e)",
+    "lh": "e8( g' b g' e' g' b g')",
+    "harmony": "Em",
+    "transpose": null
+  },
+  {
+    "bar": 82,
+    "section": "DEV",
+    "rh": "dis8( cis dis b) a4( fis8 dis)",
+    "lh": "b,8( dis' fis dis' a dis' fis dis')",
+    "harmony": "B7",
+    "transpose": null,
+    "rh_octaves": 1
+  },
+  {
+    "bar": 83,
+    "section": "DEV",
+    "rh": "e8( fis g a) b4( a8 g)",
+    "lh": "e8( g' b g' e' g' b g')",
+    "harmony": "Em",
+    "transpose": null
+  },
+  {
+    "bar": 84,
+    "section": "DEV",
+    "rh": "fis4( e8 dis) e4 r4",
+    "lh": "b,8( dis' fis dis' a dis' fis dis')",
+    "harmony": "B7",
+    "transpose": null
+  },
+  {
+    "bar": 85,
+    "section": "DEV",
+    "rh": "b'4( a8 g) fis4( g8 a)",
+    "lh": "c'8( b c' a) g4( b8 e')",
+    "harmony": "Em",
+    "transpose": null
+  },
+  {
+    "bar": 86,
+    "section": "DEV",
+    "rh": "gis4( b8 d) c4( b8 a)",
+    "lh": "d'8( b d' b) gis4( e)",
+    "harmony": "E7",
+    "transpose": null,
+    "rh_octaves": 1
+  },
+  {
+    "bar": 87,
+    "section": "DEV",
+    "rh": "a4( b8 c) d4( c8 b)",
+    "lh": "f'8( e' f' d') c'4( e'8 a')",
+    "harmony": "Am",
+    "transpose": null,
+    "rh_octaves": 1
+  },
+  {
+    "bar": 88,
+    "section": "DEV",
+    "rh": "b4( a8 gis) a2",
+    "lh": "b8( a gis fis) e2",
+    "harmony": "E7",
+    "transpose": null,
+    "rh_octaves": 1
+  },
+  {
+    "bar": 89,
+    "section": "DEV",
+    "rh": "a8( b a c) d4( c8 b)",
+    "lh": "a,8( e a c' a e a e)",
+    "harmony": "Am",
+    "transpose": null
+  },
+  {
+    "bar": 90,
+    "section": "DEV",
+    "rh": "c8( d c e) f4( e8 d)",
+    "lh": "f8( c' f' a' f' c' f' c')",
+    "harmony": "F",
+    "transpose": null
+  },
+  {
+    "bar": 91,
+    "section": "DEV",
+    "rh": "b8( c b d) e4( d8 c)",
+    "lh": "g,8( d f b f d f d)",
+    "harmony": "G7",
+    "transpose": null
+  },
+  {
+    "bar": 92,
+    "section": "DEV",
+    "rh": "c8( d c e) f4( e8 d)",
+    "lh": "c8( g c' e' c' g c' g)",
+    "harmony": "C",
+    "transpose": null
+  },
+  {
+    "bar": 93,
+    "section": "DEV",
+    "rh": "d16( e f g a g f e) d8( a' f d)",
+    "lh": "d8( a d' f' d' a d' a)",
+    "harmony": "Dm",
+    "transpose": null
+  },
+  {
+    "bar": 94,
+    "section": "DEV",
+    "rh": "e16( fis g a b a g fis) e8( b' g e)",
+    "lh": "e8( b e' g' e' b e' b)",
+    "harmony": "Em",
+    "transpose": null
+  },
+  {
+    "bar": 95,
+    "section": "DEV",
+    "rh": "f16( g a bes c bes a g) f8( c' a f)",
+    "lh": "f8( c' f' a' f' c' f' c')",
+    "harmony": "F",
+    "transpose": null
+  },
+  {
+    "bar": 96,
+    "section": "DEV",
+    "rh": "g8( f ees d) c4( bes8 aes)",
+    "lh": "c8( g c' ees' c' g c' g)",
+    "harmony": "Cm",
+    "transpose": null,
+    "rh_octaves": 1
+  },
+  {
+    "bar": 97,
+    "section": "DEV",
+    "rh": "g8( aes bes c) ees4( d8 c)",
+    "lh": "aes,8( ees aes c' aes ees aes ees)",
+    "harmony": "Ab",
+    "transpose": null
+  },
+  {
+    "bar": 98,
+    "section": "DEV",
+    "rh": "bes8( c d ees) f4( ees8 d)",
+    "lh": "bes,8( f bes d' bes f bes f)",
+    "harmony": "Bb",
+    "transpose": null
+  },
+  {
+    "bar": 99,
+    "section": "DEV",
+    "rh": "c8( d ees f) g4( f8 ees)",
+    "lh": "c8( g c' ees' c' g c' g)",
+    "harmony": "Cm",
+    "transpose": null
+  },
+  {
+    "bar": 100,
+    "section": "DEV",
+    "rh": "d4( ees8 f) bes4( aes8 g)",
+    "lh": "bes,8( f bes d' bes f bes f)",
+    "harmony": "Bb",
+    "transpose": null
+  },
+  {
+    "bar": 101,
+    "section": "DEV",
+    "rh": "ees8( f g aes) bes4( aes8 g)",
+    "lh": "ees8( bes ees' g' ees' bes ees' bes)",
+    "harmony": "Eb",
+    "transpose": null
+  },
+  {
+    "bar": 102,
+    "section": "DEV",
+    "rh": "fis16( g a bes c bes a g) fis8( d fis a)",
+    "lh": "d8( a c' fis' c' a c' a)",
+    "harmony": "D7",
+    "transpose": null
+  },
+  {
+    "bar": 103,
+    "section": "DEV",
+    "rh": "bes8( a g fis) g4( bes8 d)",
+    "lh": "g,8( d g bes g d g d)",
+    "harmony": "Gm",
+    "transpose": null,
+    "rh_octaves": 1
+  },
+  {
+    "bar": 104,
+    "section": "DEV",
+    "rh": "<ees, g bes>4-> <e g bes>4-> <cis e g bes>2->",
+    "lh": "a,8( g bes cis' bes g bes g)",
+    "harmony": "A7b9",
+    "transpose": null,
+    "rh_octaves": 1
+  },
+  {
+    "bar": 105,
+    "section": "RT",
+    "rh": "<e g bes cis>4-> <e g bes cis>8-. <e g bes cis>-. <e g bes cis>4-> r4",
+    "lh": "a,8 <g bes cis'> a, <g bes cis'> a, <g bes cis'> a, <g bes cis'>",
+    "harmony": "A7b9",
+    "transpose": null
+  },
+  {
+    "bar": 106,
+    "section": "RT",
+    "rh": "<ees g bes cis>2-> <ees g bes cis>4 r4",
+    "lh": "ees8 <bes cis' g'> ees <bes cis' g'> ees <bes cis' g'> ees <bes cis' g'>",
+    "harmony": "Ger6",
+    "transpose": null
+  },
+  {
+    "bar": 107,
+    "section": "RT",
+    "rh": "<d g b>2 <cis e g>2",
+    "lh": "d8 <a d' g'> d <a d' g'> d <a d' g'> d <a d' g'>",
+    "harmony": "G/D",
+    "transpose": null
+  },
+  {
+    "bar": 108,
+    "section": "RT",
+    "rh": "<c fis a>2 r4 a'8( g)",
+    "lh": "d8 <a c' fis'> d <a c' fis'> d <a c' fis'> d <a c' fis'>",
+    "harmony": "D7",
+    "transpose": null
+  },
+  {
+    "bar": 109,
+    "section": "RT",
+    "rh": "fis8( e fis d) c4( a)",
+    "lh": "d8 <a c' fis'> d <a c' fis'> d <a c' fis'> d <a c' fis'>",
+    "harmony": "D7",
+    "transpose": null
+  },
+  {
+    "bar": 110,
+    "section": "RT",
+    "rh": "g'8( fis g e) d4( b)",
+    "lh": "d8 <a d' g'> d <a d' g'> d <a d' g'> d <a d' g'>",
+    "harmony": "G/D",
+    "transpose": null
+  },
+  {
+    "bar": 111,
+    "section": "RT",
+    "rh": "fis'8( e fis d) c4( a)",
+    "lh": "d8 <a c' fis'> d <a c' fis'> d <a c' fis'> d <a c' fis'>",
+    "harmony": "D7",
+    "transpose": null,
+    "rh_octaves": -1
+  },
+  {
+    "bar": 112,
+    "section": "RT",
+    "rh": "e'8( d e c) b4( g)",
+    "lh": "d8 <a d' g'> d <a d' g'> d <a d' g'> d <a d' g'>",
+    "harmony": "G/D",
+    "transpose": null,
+    "rh_octaves": -1
+  },
+  {
+    "bar": 113,
+    "section": "RT",
+    "rh": "fis'4( e) d( c)",
+    "lh": "d8 <fis a c'> d <fis a c'> d <fis a c'> d <fis a c'>",
+    "harmony": "D7",
+    "transpose": null,
+    "rh_octaves": -1
+  },
+  {
+    "bar": 114,
+    "section": "RT",
+    "rh": "b4( a) g( fis)",
+    "lh": "d8 <g b d'> d <g b d'> d <g b d'> d <g b d'>",
+    "harmony": "G/D",
+    "transpose": null
+  },
+  {
+    "bar": 115,
+    "section": "RT",
+    "rh": "e'4( d) c( b)",
+    "lh": "d8 <fis a c'> d <fis a c'> d <fis a c'> d <fis a c'>",
+    "harmony": "D7",
+    "transpose": null,
+    "rh_octaves": -1
+  },
+  {
+    "bar": 116,
+    "section": "RT",
+    "rh": "a4( g) fis( e)",
+    "lh": "d8 <g b d'> d <g b d'> d <g b d'> d <g b d'>",
+    "harmony": "D7",
+    "transpose": null
+  },
+  {
+    "bar": 117,
+    "section": "RT",
+    "rh": "d8( e fis g) a4( c)",
+    "lh": "d8 <fis a c'> d <fis a c'> d <fis a c'> d <fis a c'>",
+    "harmony": "D7",
+    "transpose": null,
+    "rh_octaves": -1
+  },
+  {
+    "bar": 118,
+    "section": "RT",
+    "rh": "b8( a g fis) e4( cis')",
+    "lh": "d8 <fis a c'> d <fis a c'> d <fis a c'> d <fis a c'>",
+    "harmony": "A7",
+    "transpose": null
+  },
+  {
+    "bar": 119,
+    "section": "RT",
+    "rh": "d4( c8 a) fis'4( e8 c)",
+    "lh": "d8 <fis a c'> d <fis a c'> d <fis a c'> d <fis a c'>",
+    "harmony": "D7",
+    "transpose": null
+  },
+  {
+    "bar": 120,
+    "section": "RT",
+    "rh": "a2 r2",
+    "lh": "d2 <d fis a c'>2",
+    "harmony": "D7",
+    "transpose": null
+  },
+  {
+    "bar": 121,
+    "section": "RECAP-P",
+    "rh": "r4. e8( d e c b)",
+    "lh": "g,8( d g b g d g d)",
+    "harmony": "G",
+    "transpose": null
+  },
+  {
+    "bar": 122,
+    "section": "RECAP-P",
+    "rh": "a2 a8.( b16) g8( g16 a)",
+    "lh": "d8( a c' fis' c' a c' a)",
+    "harmony": "D7",
+    "transpose": null
+  },
+  {
+    "bar": 123,
+    "section": "RECAP-P",
+    "rh": "b4.( d8) e8( d) e16( d e g)",
+    "lh": "g,8( d g b g d g d)",
+    "harmony": "G",
+    "transpose": null
+  },
+  {
+    "bar": 124,
+    "section": "RECAP-P",
+    "rh": "d8.( b16) d8( d16 b) a8( e') d16( e g a)",
+    "lh": "d8( a c' fis' c' a c' a)",
+    "harmony": "D7",
+    "transpose": null
+  },
+  {
+    "bar": 125,
+    "section": "RECAP-P",
+    "rh": "g4( fis8 e) d4( b8 a)",
+    "lh": "e8( b e' g' e' b e' b)",
+    "harmony": "Em",
+    "transpose": null,
+    "rh_octaves": 1
+  },
+  {
+    "bar": 126,
+    "section": "RECAP-P",
+    "rh": "g8( a b c) d4( e8 c)",
+    "lh": "c8( g c' e' c' g c' g)",
+    "harmony": "C",
+    "transpose": null
+  },
+  {
+    "bar": 127,
+    "section": "RECAP-P",
+    "rh": "b4( a) g8( e' d c)",
+    "lh": "d8( a c' fis' c' a c' a)",
+    "harmony": "D7",
+    "transpose": null
+  },
+  {
+    "bar": 128,
+    "section": "RECAP-P",
+    "rh": "b4( a8 fis) g2",
+    "lh": "d4 <a c' fis'> g,2",
+    "harmony": "G",
+    "transpose": null
+  },
+  {
+    "bar": 129,
+    "section": "RECAP-P",
+    "rh": "e8( d e c) b4( d8 g)",
+    "lh": "g,8( b d b g b d b)",
+    "harmony": "G",
+    "transpose": null
+  },
+  {
+    "bar": 130,
+    "section": "RECAP-P",
+    "rh": "fis8( e fis d) c4( a8 d)",
+    "lh": "d8( fis' a fis' c' fis' a fis')",
+    "harmony": "D7",
+    "transpose": null
+  },
+  {
+    "bar": 131,
+    "section": "RECAP-P",
+    "rh": "b8( d g fis) e( d c b)",
+    "lh": "g,8( b d b g b d b)",
+    "harmony": "G",
+    "transpose": null
+  },
+  {
+    "bar": 132,
+    "section": "RECAP-P",
+    "rh": "a4( b8 c) d2",
+    "lh": "d8( fis' a fis' d' fis' a fis')",
+    "harmony": "D",
+    "transpose": null
+  },
+  {
+    "bar": 133,
+    "section": "RECAP-P",
+    "rh": "e8( d e c) b( c d e)",
+    "lh": "c8( e' g e' c' e' g e')",
+    "harmony": "C",
+    "transpose": null
+  },
+  {
+    "bar": 134,
+    "section": "RECAP-P",
+    "rh": "fis8( e fis d) c( b a g)",
+    "lh": "fis,8( fis a fis d fis a fis)",
+    "harmony": "D/F#",
+    "transpose": null
+  },
+  {
+    "bar": 135,
+    "section": "RECAP-P",
+    "rh": "a8( b c d) e4( cis8 a)",
+    "lh": "a,8( cis' e cis' g cis' e cis')",
+    "harmony": "A7",
+    "transpose": null
+  },
+  {
+    "bar": 136,
+    "section": "RECAP-P",
+    "rh": "<a d fis>2 r4 d8( c)",
+    "lh": "d8( fis' a fis' d' fis' a fis')",
+    "harmony": "D",
+    "transpose": null
+  },
+  {
+    "bar": 137,
+    "section": "RECAP-P",
+    "rh": "b8( d g a) b4( a8 g)",
+    "lh": "g,8( d g b g d g d)",
+    "harmony": "G",
+    "transpose": null
+  },
+  {
+    "bar": 138,
+    "section": "RECAP-P",
+    "rh": "a8( fis d c) b4( a)",
+    "lh": "fis,8( a d fis d a d a)",
+    "harmony": "D/F#",
+    "transpose": null,
+    "rh_octaves": 1
+  },
+  {
+    "bar": 139,
+    "section": "RECAP-P",
+    "rh": "g8( b e fis) g4( fis8 e)",
+    "lh": "e8( b e' g' e' b e' b)",
+    "harmony": "Em",
+    "transpose": null
+  },
+  {
+    "bar": 140,
+    "section": "RECAP-P",
+    "rh": "fis8( dis b a) g4( fis)",
+    "lh": "b,8( fis a dis' a fis a fis)",
+    "harmony": "B7",
+    "transpose": null
+  },
+  {
+    "bar": 141,
+    "section": "RECAP-P",
+    "rh": "e8( g c d) e4( d8 c)",
+    "lh": "c8( g c' e' c' g c' g)",
+    "harmony": "C",
+    "transpose": null,
+    "rh_octaves": -1
+  },
+  {
+    "bar": 142,
+    "section": "RECAP-P",
+    "rh": "b8( a g fis) e4( c')",
+    "lh": "c8( e a c' a e a e)",
+    "harmony": "Am/C",
+    "transpose": null
+  },
+  {
+    "bar": 143,
+    "section": "RECAP-P",
+    "rh": "b4( a8 g) fis8( e d fis)",
+    "lh": "d8( a c' fis' c' a c' a)",
+    "harmony": "D7",
+    "transpose": null
+  },
+  {
+    "bar": 144,
+    "section": "RECAP-P",
+    "rh": "<g b g'>2 r2",
+    "lh": "<g, d g>2 r2",
+    "harmony": "G",
+    "transpose": null
+  },
+  {
+    "bar": 145,
+    "section": "RECAP-TR",
+    "rh": "e16( d e c b c d e) g8-. g-. fis-. e-.",
+    "lh": "g,4 <d g b>8-. <d g b>-. g,4 <d g b>4-.",
+    "harmony": "G",
+    "transpose": null
+  },
+  {
+    "bar": 146,
+    "section": "RECAP-TR",
+    "rh": "d16( c d b a b c d) fis8-. fis-. e-. d-.",
+    "lh": "fis,4 <a d fis>8-. <a d fis>-. fis,4 <a d fis>4-.",
+    "harmony": "D/F#",
+    "transpose": null
+  },
+  {
+    "bar": 147,
+    "section": "RECAP-TR",
+    "rh": "c16( b c a g a b c) e8-. e-. d-. c-.",
+    "lh": "a,4 <e a c'>8-. <e a c'>-. a,4 <e a c'>4-.",
+    "harmony": "Am",
+    "transpose": null
+  },
+  {
+    "bar": 148,
+    "section": "RECAP-TR",
+    "rh": "dis8( e fis e) dis4( b)",
+    "lh": "b,4 <fis a dis'>8-. <fis a dis'>-. b,4 <fis a dis'>4-.",
+    "harmony": "B7",
+    "transpose": null
+  },
+  {
+    "bar": 149,
+    "section": "RECAP-TR",
+    "rh": "e16( d e c b c d e) g8-. fis-. e-. d-.",
+    "lh": "e4 <b e' g'>8-. <b e' g'>-. e4 <b e' g'>4-.",
+    "harmony": "Em",
+    "transpose": null
+  },
+  {
+    "bar": 150,
+    "section": "RECAP-TR",
+    "rh": "cis8( d e d) cis4( a)",
+    "lh": "a,4 <e g cis'>8-. <e g cis'>-. a,4 <e g cis'>4-.",
+    "harmony": "A7",
+    "transpose": null
+  },
+  {
+    "bar": 151,
+    "section": "RECAP-TR",
+    "rh": "d16( c d b a b c d) fis8-. e-. d-. c-.",
+    "lh": "d4 <a d' fis'>8-. <a d' fis'>-. d4 <a d' fis'>4-.",
+    "harmony": "D",
+    "transpose": null
+  },
+  {
+    "bar": 152,
+    "section": "RECAP-TR",
+    "rh": "b4( a8 fis) g4 r4",
+    "lh": "g,4 <d g b>8-. <d g b>-. g,4 <d g b>4-.",
+    "harmony": "G",
+    "transpose": null
+  },
+  {
+    "bar": 153,
+    "section": "RECAP-TR",
+    "rh": "b8( a b g) fis( a d c)",
+    "lh": "fis,4 <a d fis>8-. <a d fis>-. fis,4 <a d fis>4-.",
+    "harmony": "D/F#",
+    "transpose": null
+  },
+  {
+    "bar": 154,
+    "section": "RECAP-TR",
+    "rh": "b8( d g fis) e4( d8 c)",
+    "lh": "g,4 <d g b>8-. <d g b>-. g,4 <d g b>4-.",
+    "harmony": "G",
+    "transpose": null
+  },
+  {
+    "bar": 155,
+    "section": "RECAP-TR",
+    "rh": "b8( a g b) a4( g8 e)",
+    "lh": "e4 <b e' g'>8-. <b e' g'>-. e4 <b e' g'>4-.",
+    "harmony": "Em",
+    "transpose": null
+  },
+  {
+    "bar": 156,
+    "section": "RECAP-TR",
+    "rh": "fis8( e d fis) a4( c8 a)",
+    "lh": "d4 <a c' fis'>8-. <a c' fis'>-. d4 <a c' fis'>4-.",
+    "harmony": "D7",
+    "transpose": null,
+    "rh_octaves": -1
+  },
+  {
+    "bar": 157,
+    "section": "RECAP-TR",
+    "rh": "<a c d>4-> r8 a8 <a c d>4-> r8 a8",
+    "lh": "d4 <a c' fis'>8-. <a c' fis'>-. d4 <a c' fis'>4-.",
+    "harmony": "D7",
+    "transpose": null
+  },
+  {
+    "bar": 158,
+    "section": "RECAP-TR",
+    "rh": "c8( b a g) fis4( e8 d)",
+    "lh": "d4 <a c' fis'>8-. <a c' fis'>-. d4 <a c' fis'>4-.",
+    "harmony": "D7",
+    "transpose": null
+  },
+  {
+    "bar": 159,
+    "section": "RECAP-TR",
+    "rh": "<fis a d>4 <g b d> <a c fis> <g c e>",
+    "lh": "d4 <a c' fis'>8-. <a c' fis'>-. d4 <a c' fis'>4-.",
+    "harmony": "D7",
+    "transpose": null,
+    "rh_octaves": -1
+  },
+  {
+    "bar": 160,
+    "section": "RECAP-TR",
+    "rh": "<fis a d>2 r2",
+    "lh": "<d a d'>2 r2",
+    "harmony": "D",
+    "transpose": null,
+    "rh_octaves": -1
+  },
+  {
+    "bar": 161,
+    "section": "RECAP-S",
+    "rh": "fis'2( e4 d)",
+    "lh": "d8( a d' fis' d' a d' a)",
+    "harmony": "D",
+    "transpose": [
+      "d'",
+      "g"
+    ],
+    "rh_octaves": -1
+  },
+  {
+    "bar": 162,
+    "section": "RECAP-S",
+    "rh": "e4.( fis8) cis2",
+    "lh": "cis8( e a cis' a e a e)",
+    "harmony": "A/C#",
+    "transpose": [
+      "d'",
+      "g"
+    ]
+  },
+  {
+    "bar": 163,
+    "section": "RECAP-S",
+    "rh": "d4( fis8 a) g4( fis8 e)",
+    "lh": "b,8( fis b d' b fis b fis)",
+    "harmony": "Bm",
+    "transpose": [
+      "d'",
+      "g"
+    ]
+  },
+  {
+    "bar": 164,
+    "section": "RECAP-S",
+    "rh": "fis2( e4) r4",
+    "lh": "fis,8( cis fis a fis cis fis cis)",
+    "harmony": "F#m",
+    "transpose": [
+      "d'",
+      "g"
+    ]
+  },
+  {
+    "bar": 165,
+    "section": "RECAP-S",
+    "rh": "g4.( fis8) e4( d)",
+    "lh": "g,8( d g b g d g d)",
+    "harmony": "G",
+    "transpose": [
+      "d'",
+      "g"
+    ],
+    "rh_octaves": 1
+  },
+  {
+    "bar": 166,
+    "section": "RECAP-S",
+    "rh": "cis8( d e fis) g4( e)",
+    "lh": "e8( b e' g' e' b e' b)",
+    "harmony": "Em",
+    "transpose": [
+      "d'",
+      "g"
+    ]
+  },
+  {
+    "bar": 167,
+    "section": "RECAP-S",
+    "rh": "fis4( e8 d) cis4( b8 cis)",
+    "lh": "a,8( e g cis' g e g e)",
+    "harmony": "A7",
+    "transpose": [
+      "d'",
+      "g"
+    ]
+  },
+  {
+    "bar": 168,
+    "section": "RECAP-S",
+    "rh": "fis'2. r4",
+    "lh": "d8( a d' fis' d' a d' a)",
+    "harmony": "D",
+    "transpose": [
+      "d'",
+      "g"
+    ],
+    "rh_octaves": -1
+  },
+  {
+    "bar": 169,
+    "section": "RECAP-S",
+    "rh": "a'2( g4 fis)",
+    "lh": "d8( a d' fis' d' a d' a)",
+    "harmony": "D",
+    "transpose": [
+      "d'",
+      "g"
+    ]
+  },
+  {
+    "bar": 170,
+    "section": "RECAP-S",
+    "rh": "g4.( a8) e2",
+    "lh": "cis8( e a cis' a e a e)",
+    "harmony": "A/C#",
+    "transpose": [
+      "d'",
+      "g"
+    ],
+    "rh_octaves": 1
+  },
+  {
+    "bar": 171,
+    "section": "RECAP-S",
+    "rh": "fis8( e d fis) b4( a8 g)",
+    "lh": "b,8( fis b d' b fis b fis)",
+    "harmony": "Bm",
+    "transpose": [
+      "d'",
+      "g"
+    ]
+  },
+  {
+    "bar": 172,
+    "section": "RECAP-S",
+    "rh": "a4( fis8 d) cis2",
+    "lh": "a,8( d fis a fis d fis d)",
+    "harmony": "D/A",
+    "transpose": [
+      "d'",
+      "g"
+    ],
+    "rh_octaves": 1
+  },
+  {
+    "bar": 173,
+    "section": "RECAP-S",
+    "rh": "b8( cis d e) fis4( g8 fis)",
+    "lh": "g,8( d g b g d g d)",
+    "harmony": "G",
+    "transpose": [
+      "d'",
+      "g"
+    ]
+  },
+  {
+    "bar": 174,
+    "section": "RECAP-S",
+    "rh": "e4( g8 fis) e4( d8 b)",
+    "lh": "e8( b e' g' e' b e' b)",
+    "harmony": "Em",
+    "transpose": [
+      "d'",
+      "g"
+    ]
+  },
+  {
+    "bar": 175,
+    "section": "RECAP-S",
+    "rh": "cis4( d8 e) <g, cis e>4( <a cis e>)",
+    "lh": "a,8( e g cis' g e g e)",
+    "harmony": "A7",
+    "transpose": [
+      "d'",
+      "g"
+    ]
+  },
+  {
+    "bar": 176,
+    "section": "RECAP-S",
+    "rh": "<b d fis>2 r4 fis'8( e)",
+    "lh": "b,8( fis b d' b fis b fis)",
+    "harmony": "Bm",
+    "transpose": [
+      "d'",
+      "g"
+    ]
+  },
+  {
+    "bar": 177,
+    "section": "RECAP-S",
+    "rh": "d4( cis8 b) a4( fis8 d)",
+    "lh": "b,8( fis b d' b fis b fis)",
+    "harmony": "Bm",
+    "transpose": [
+      "d'",
+      "g"
+    ],
+    "rh_octaves": 1
+  },
+  {
+    "bar": 178,
+    "section": "RECAP-S",
+    "rh": "e8( fis g a) b4( g8 e)",
+    "lh": "e8( b e' g' e' b e' b)",
+    "harmony": "Em",
+    "transpose": [
+      "d'",
+      "g"
+    ]
+  },
+  {
+    "bar": 179,
+    "section": "RECAP-S",
+    "rh": "fis4( g8 a) d4( cis8 b)",
+    "lh": "d8( a d' fis' d' a d' a)",
+    "harmony": "D",
+    "transpose": [
+      "d'",
+      "g"
+    ]
+  },
+  {
+    "bar": 180,
+    "section": "RECAP-S",
+    "rh": "a8( g fis e) d4( fis8 a)",
+    "lh": "fis,8( cis fis a fis cis fis cis)",
+    "harmony": "F#m",
+    "transpose": [
+      "d'",
+      "g"
+    ],
+    "rh_octaves": 1
+  },
+  {
+    "bar": 181,
+    "section": "RECAP-S",
+    "rh": "b4( a8 g) fis4( e8 d)",
+    "lh": "g,8( d g b g d g d)",
+    "harmony": "G",
+    "transpose": [
+      "d'",
+      "g"
+    ],
+    "rh_octaves": 1
+  },
+  {
+    "bar": 182,
+    "section": "RECAP-S",
+    "rh": "e4( fis8 g) <g b e>2",
+    "lh": "e8( b e' g' e' b e' b)",
+    "harmony": "Em",
+    "transpose": [
+      "d'",
+      "g"
+    ]
+  },
+  {
+    "bar": 183,
+    "section": "RECAP-S",
+    "rh": "<fis a d>2 <e g cis>4( <e g a>)",
+    "lh": "a,8( e g cis' g e g e)",
+    "harmony": "A7",
+    "transpose": [
+      "d'",
+      "g"
+    ]
+  },
+  {
+    "bar": 184,
+    "section": "RECAP-S",
+    "rh": "<fis a d>1",
+    "lh": "<d a d'>1",
+    "harmony": "D",
+    "transpose": [
+      "d'",
+      "g"
+    ]
+  },
+  {
+    "bar": 185,
+    "section": "RECAP-C",
+    "rh": "d8-. fis-. a-. d-. cis( b a g)",
+    "lh": "d4 <a d' fis'>8-. <a d' fis'>-. d4 <a d' fis'>4-.",
+    "harmony": "D",
+    "transpose": [
+      "d'",
+      "g"
+    ]
+  },
+  {
+    "bar": 186,
+    "section": "RECAP-C",
+    "rh": "fis8( e fis d) cis4( a)",
+    "lh": "a,4 <e g cis'>8-. <e g cis'>-. a,4 <e g cis'>4-.",
+    "harmony": "A7",
+    "transpose": [
+      "d'",
+      "g"
+    ]
+  },
+  {
+    "bar": 187,
+    "section": "RECAP-C",
+    "rh": "b8-. d-. g-. b-. a( g fis e)",
+    "lh": "g,4 <d g b>8-. <d g b>-. g,4 <d g b>4-.",
+    "harmony": "G",
+    "transpose": [
+      "d'",
+      "g"
+    ]
+  },
+  {
+    "bar": 188,
+    "section": "RECAP-C",
+    "rh": "<e g a>2 <cis e a>2",
+    "lh": "a,4 <e g cis'>8-. <e g cis'>-. a,4 <e g cis'>4-.",
+    "harmony": "A7",
+    "transpose": [
+      "d'",
+      "g"
+    ]
+  },
+  {
+    "bar": 189,
+    "section": "RECAP-C",
+    "rh": "fis8( e fis d) a4( cis8 e)",
+    "lh": "d4 <a d' fis'>8-. <a d' fis'>-. d4 <a d' fis'>4-.",
+    "harmony": "D",
+    "transpose": [
+      "d'",
+      "g"
+    ]
+  },
+  {
+    "bar": 190,
+    "section": "RECAP-C",
+    "rh": "d8( cis d b) a4( fis)",
+    "lh": "a,4 <d fis a>8-. <d fis a>-. a,4 <d fis a>4-.",
+    "harmony": "D/A",
+    "transpose": [
+      "d'",
+      "g"
+    ]
+  },
+  {
+    "bar": 191,
+    "section": "RECAP-C",
+    "rh": "<g a cis>2 <e g a>2",
+    "lh": "a,4 <e g cis'>8-. <e g cis'>-. a,4 <e g cis'>4-.",
+    "harmony": "A7",
+    "transpose": [
+      "d'",
+      "g"
+    ]
+  },
+  {
+    "bar": 192,
+    "section": "RECAP-C",
+    "rh": "<fis a d>2 r2",
+    "lh": "<d a d'>2 r2",
+    "harmony": "D",
+    "transpose": [
+      "d'",
+      "g"
+    ],
+    "rh_octaves": -1
+  },
+  {
+    "bar": 193,
+    "section": "CODA",
+    "rh": "e8( d e c) b4( d8 g)",
+    "lh": "<g, d>2 <g b>2",
+    "harmony": "G",
+    "transpose": null
+  },
+  {
+    "bar": 194,
+    "section": "CODA",
+    "rh": "ees8( d ees c) bes4( g)",
+    "lh": "<c g>2 <c' ees'>2",
+    "harmony": "Cm",
+    "transpose": null
+  },
+  {
+    "bar": 195,
+    "section": "CODA",
+    "rh": "b8( a g b) d4( g8 fis)",
+    "lh": "b,8( d g b d' b g d)",
+    "harmony": "G/B",
+    "transpose": null
+  },
+  {
+    "bar": 196,
+    "section": "CODA",
+    "rh": "e4( d8 c) a2",
+    "lh": "c8( e a c' e' c' a e)",
+    "harmony": "Am/C",
+    "transpose": null
+  },
+  {
+    "bar": 197,
+    "section": "CODA",
+    "rh": "<b d g>2 <c e g>2",
+    "lh": "g,2 c2",
+    "harmony": "C",
+    "transpose": null
+  },
+  {
+    "bar": 198,
+    "section": "CODA",
+    "rh": "<b d g>2 <a c fis>2",
+    "lh": "d2 d2",
+    "harmony": "D7",
+    "transpose": null
+  },
+  {
+    "bar": 199,
+    "section": "CODA",
+    "rh": "<g b g'>2 <fis a d fis>2",
+    "lh": "g,2 d2",
+    "harmony": "D7",
+    "transpose": null
+  },
+  {
+    "bar": 200,
+    "section": "CODA",
+    "rh": "<g b d g>1",
+    "lh": "<g, d g>1",
+    "harmony": "G",
+    "transpose": null
+  }
+]

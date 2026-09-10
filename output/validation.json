@@ -1,0 +1,64 @@
+{
+  "bars": 200,
+  "quarter_notes": 800,
+  "note_on_events": 3031,
+  "piano_range_midi": [
+    35,
+    88
+  ],
+  "source_sigh_midi": [
+    76,
+    74,
+    76,
+    72,
+    71
+  ],
+  "pages": 10,
+  "largest_simultaneous_hand_span_semitones": 12,
+  "secondary_theme_and_cadence_soprano_midi": {
+    "41": 78,
+    "48": 78,
+    "64": 86,
+    "161": 71,
+    "168": 71,
+    "184": 79,
+    "200": 79
+  },
+  "video_frames": 10965,
+  "duration_seconds": 438.6,
+  "page_turns_verified": 9,
+  "decoded_boundary_frames_checked": 18,
+  "max_boundary_frame_mean_pixel_error": 0.30791157484054565,
+  "page_boundary_frame_error": 0,
+  "page_boundary_sample_error": 0,
+  "audio_codec": "aac",
+  "video_codec": "h264",
+  "audio_start_seconds": 0.0,
+  "video_start_seconds": 0.0,
+  "audio_render": {
+    "sample_rate": 48000,
+    "samples": 21052800,
+    "raw_peak": 11925,
+    "gain": 2.393196138540117,
+    "soundfont": "FluidR3_GM.sf2",
+    "soundfont_sha256": "74594e8f4250680adf590507a306655a299935343583256f3b722c48a1bc1cb0"
+  },
+  "lilypond_version": "GNU LilyPond 2.24.4 (running Guile 2.2)",
+  "artifacts": {
+    "output/page-timing.json": "7240df6089eb4d190708a3472525717c717ac4244869f6c4aeb67105e4ea49a6",
+    "output/pages/page-01.png": "7019cd117fa9b18938d626efb2a2c4b589ef51adc5247f763768592d75b6e4b0",
+    "output/pages/page-02.png": "ee7640b41b0ee860a24857391205acd6c1203271fe3459afda4fd5f0e5ea7f3d",
+    "output/pages/page-03.png": "c6fa00c0e9e4c028a956a30b386b63a31aca9479a6a8d8d0e7eca7bb96497b42",
+    "output/pages/page-04.png": "0e92398f00de2e6406c7467173a0b5982c64fa0f6fec20daf8d4b6c7e53a34b9",
+    "output/pages/page-05.png": "17ec5aad2abe466a05d7afc94d8029196dce9eeeb37e8117c935b2435fcd33cf",
+    "output/pages/page-06.png": "5719fbd18e35da44259c62684effdf738d50ea3528cf305da77372c7e9298e37",
+    "output/pages/page-07.png": "9079b93482b7e9deaa3b76e29c16a1ca08c21f178e90060d91570c94f11394c0",
+    "output/pages/page-08.png": "4f1396925c65f9d4d4c11aff19003ec66f2e57da3f0fc41ac201543fe772653c",
+    "output/pages/page-09.png": "0a65fbfaf451d68d293362606024f279d5a029065ee6325e4e2cd27368b3c794",
+    "output/pages/page-10.png": "50c3077a8c5fd1fddd9f4aac6269bcbc1b08aa30522f4a074cc30df42fbfcfd9",
+    "output/second-spring.flac": "eab7bfb3b72683e832dbee948baa0783cbf21da87641434af9630dc815f90971",
+    "output/second-spring.mid": "832d79b0bb49ab6d6f41a67fc2405947bb688813fce13f5794667eb70258d251",
+    "output/second-spring.mp4": "bc19bb241b9a98e90bfb19d8e9eaef9f8f1a1d184e3ca6c9bbc3d8032d1e3736",
+    "output/second-spring.pdf": "c41e78f33f830c388a3aedc849ad3306200a670574b29d86c4eba15b16e3dd7f"
+  }
+}
