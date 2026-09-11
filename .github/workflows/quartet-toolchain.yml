@@ -1,0 +1,21 @@
+name: Portable quartet engraving tools
+on:
+  push:
+    paths: ['.github/workflows/quartet-toolchain.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  tools:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Fetch versioned LilyPond distribution
+        run: |
+          mkdir -p toolchain
+          curl -fL --retry 3 https://gitlab.com/lilypond/lilypond/-/releases/v2.24.4/downloads/lilypond-2.24.4-linux-x86_64.tar.gz -o toolchain/lilypond.tar.gz
+          sha256sum toolchain/lilypond.tar.gz > toolchain/SHA256SUMS
+      - uses: actions/upload-artifact@v4
+        with:
+          name: quartet-engraving-tools
+          path: toolchain/
+          retention-days: 1
