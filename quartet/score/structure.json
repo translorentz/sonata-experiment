@@ -1,0 +1,484 @@
+{
+  "bars": 150,
+  "beats_per_bar": 4,
+  "voices": [
+    "Violin I",
+    "Violin II",
+    "Viola",
+    "Violoncello"
+  ],
+  "entries": [
+    {
+      "subject": "I",
+      "voice": "Viola",
+      "voice_id": 2,
+      "bar": 1,
+      "key": 7,
+      "minor": false,
+      "octave": 0,
+      "length_bars": 4.0
+    },
+    {
+      "subject": "I",
+      "voice": "Violin II",
+      "voice_id": 1,
+      "bar": 5,
+      "key": 2,
+      "minor": false,
+      "octave": 1,
+      "length_bars": 4.0
+    },
+    {
+      "subject": "I",
+      "voice": "Violin I",
+      "voice_id": 0,
+      "bar": 9,
+      "key": 7,
+      "minor": false,
+      "octave": 1,
+      "length_bars": 4.0
+    },
+    {
+      "subject": "I",
+      "voice": "Violoncello",
+      "voice_id": 3,
+      "bar": 13,
+      "key": 2,
+      "minor": false,
+      "octave": 0,
+      "length_bars": 4.0
+    },
+    {
+      "subject": "I",
+      "voice": "Violin I",
+      "voice_id": 0,
+      "bar": 25,
+      "key": 4,
+      "minor": true,
+      "octave": 1,
+      "length_bars": 4.0
+    },
+    {
+      "subject": "I",
+      "voice": "Viola",
+      "voice_id": 2,
+      "bar": 29,
+      "key": 9,
+      "minor": true,
+      "octave": 0,
+      "length_bars": 4.0
+    },
+    {
+      "subject": "I",
+      "voice": "Violin II",
+      "voice_id": 1,
+      "bar": 33,
+      "key": 0,
+      "minor": false,
+      "octave": 1,
+      "length_bars": 4.0
+    },
+    {
+      "subject": "I",
+      "voice": "Violoncello",
+      "voice_id": 3,
+      "bar": 37,
+      "key": 7,
+      "minor": false,
+      "octave": -1,
+      "length_bars": 4.0
+    },
+    {
+      "subject": "II",
+      "voice": "Violin II",
+      "voice_id": 1,
+      "bar": 49,
+      "key": 7,
+      "minor": false,
+      "octave": 0,
+      "length_bars": 4.0
+    },
+    {
+      "subject": "II",
+      "voice": "Viola",
+      "voice_id": 2,
+      "bar": 53,
+      "key": 2,
+      "minor": false,
+      "octave": 0,
+      "length_bars": 4.0
+    },
+    {
+      "subject": "II",
+      "voice": "Violoncello",
+      "voice_id": 3,
+      "bar": 57,
+      "key": 7,
+      "minor": false,
+      "octave": -2,
+      "length_bars": 4.0
+    },
+    {
+      "subject": "II",
+      "voice": "Violin I",
+      "voice_id": 0,
+      "bar": 61,
+      "key": 2,
+      "minor": false,
+      "octave": 1,
+      "length_bars": 4.0
+    },
+    {
+      "subject": "II",
+      "voice": "Viola",
+      "voice_id": 2,
+      "bar": 73,
+      "key": 7,
+      "minor": false,
+      "octave": -1,
+      "length_bars": 4.0
+    },
+    {
+      "subject": "II",
+      "voice": "Violin II",
+      "voice_id": 1,
+      "bar": 77,
+      "key": 2,
+      "minor": false,
+      "octave": 0,
+      "length_bars": 4.0
+    },
+    {
+      "subject": "I",
+      "voice": "Violoncello",
+      "voice_id": 3,
+      "bar": 81,
+      "key": 7,
+      "minor": false,
+      "octave": -1,
+      "length_bars": 4.0
+    },
+    {
+      "subject": "II",
+      "voice": "Violin II",
+      "voice_id": 1,
+      "bar": 81,
+      "key": 7,
+      "minor": false,
+      "octave": 0,
+      "length_bars": 4.0
+    },
+    {
+      "subject": "I",
+      "voice": "Viola",
+      "voice_id": 2,
+      "bar": 85,
+      "key": 7,
+      "minor": false,
+      "octave": 0,
+      "length_bars": 4.0
+    },
+    {
+      "subject": "II",
+      "voice": "Violin I",
+      "voice_id": 0,
+      "bar": 85,
+      "key": 7,
+      "minor": false,
+      "octave": 1,
+      "length_bars": 4.0
+    },
+    {
+      "subject": "I",
+      "voice": "Violin II",
+      "voice_id": 1,
+      "bar": 89,
+      "key": 2,
+      "minor": false,
+      "octave": 1,
+      "length_bars": 4.0
+    },
+    {
+      "subject": "II",
+      "voice": "Violoncello",
+      "voice_id": 3,
+      "bar": 89,
+      "key": 2,
+      "minor": false,
+      "octave": -1,
+      "length_bars": 4.0
+    },
+    {
+      "subject": "I",
+      "voice": "Violin I",
+      "voice_id": 0,
+      "bar": 93,
+      "key": 7,
+      "minor": false,
+      "octave": 1,
+      "length_bars": 4.0
+    },
+    {
+      "subject": "II",
+      "voice": "Viola",
+      "voice_id": 2,
+      "bar": 93,
+      "key": 7,
+      "minor": false,
+      "octave": -1,
+      "length_bars": 4.0
+    },
+    {
+      "subject": "I",
+      "voice": "Violin II",
+      "voice_id": 1,
+      "bar": 105,
+      "key": 4,
+      "minor": true,
+      "octave": 1,
+      "length_bars": 4.0
+    },
+    {
+      "subject": "II",
+      "voice": "Violoncello",
+      "voice_id": 3,
+      "bar": 105,
+      "key": 4,
+      "minor": true,
+      "octave": -1,
+      "length_bars": 4.0
+    },
+    {
+      "subject": "I",
+      "voice": "Viola",
+      "voice_id": 2,
+      "bar": 109,
+      "key": 9,
+      "minor": true,
+      "octave": 0,
+      "length_bars": 4.0
+    },
+    {
+      "subject": "II",
+      "voice": "Violin I",
+      "voice_id": 0,
+      "bar": 109,
+      "key": 9,
+      "minor": true,
+      "octave": 1,
+      "length_bars": 4.0
+    },
+    {
+      "subject": "I",
+      "voice": "Violin I",
+      "voice_id": 0,
+      "bar": 113,
+      "key": 0,
+      "minor": false,
+      "octave": 2,
+      "length_bars": 4.0
+    },
+    {
+      "subject": "II",
+      "voice": "Violin II",
+      "voice_id": 1,
+      "bar": 113,
+      "key": 0,
+      "minor": false,
+      "octave": 0,
+      "length_bars": 4.0
+    },
+    {
+      "subject": "I",
+      "voice": "Violoncello",
+      "voice_id": 3,
+      "bar": 117,
+      "key": 2,
+      "minor": false,
+      "octave": -1,
+      "length_bars": 4.0
+    },
+    {
+      "subject": "II",
+      "voice": "Violin II",
+      "voice_id": 1,
+      "bar": 117,
+      "key": 2,
+      "minor": false,
+      "octave": 0,
+      "length_bars": 4.0
+    },
+    {
+      "subject": "I",
+      "voice": "Violin I",
+      "voice_id": 0,
+      "bar": 129,
+      "key": 7,
+      "minor": false,
+      "octave": 1,
+      "length_bars": 4.0
+    },
+    {
+      "subject": "II",
+      "voice": "Violoncello",
+      "voice_id": 3,
+      "bar": 129,
+      "key": 7,
+      "minor": false,
+      "octave": -2,
+      "length_bars": 4.0
+    },
+    {
+      "subject": "I",
+      "voice": "Viola",
+      "voice_id": 2,
+      "bar": 133,
+      "key": 7,
+      "minor": false,
+      "octave": 0,
+      "length_bars": 4.0
+    },
+    {
+      "subject": "II",
+      "voice": "Violin II",
+      "voice_id": 1,
+      "bar": 133,
+      "key": 7,
+      "minor": false,
+      "octave": 0,
+      "length_bars": 4.0
+    },
+    {
+      "subject": "I",
+      "voice": "Violin II",
+      "voice_id": 1,
+      "bar": 137,
+      "key": 7,
+      "minor": false,
+      "octave": 0,
+      "length_bars": 4.0
+    },
+    {
+      "subject": "II",
+      "voice": "Violin I",
+      "voice_id": 0,
+      "bar": 137,
+      "key": 7,
+      "minor": false,
+      "octave": 1,
+      "length_bars": 4.0
+    },
+    {
+      "subject": "I",
+      "voice": "Violoncello",
+      "voice_id": 3,
+      "bar": 141,
+      "key": 7,
+      "minor": false,
+      "octave": -1,
+      "length_bars": 4.0
+    },
+    {
+      "subject": "II",
+      "voice": "Viola",
+      "voice_id": 2,
+      "bar": 141,
+      "key": 7,
+      "minor": false,
+      "octave": -1,
+      "length_bars": 4.0
+    },
+    {
+      "subject": "I (augmentation)",
+      "voice": "Violin I",
+      "voice_id": 0,
+      "bar": 121,
+      "key": 7,
+      "minor": false,
+      "octave": 1,
+      "length_bars": 8.0
+    }
+  ],
+  "sections": {
+    "1": "I. The sigh",
+    "17": "First episode",
+    "25": "Wandering entries",
+    "41": "Threshold",
+    "49": "II. The answering current",
+    "65": "Second episode",
+    "73": "Subject II: return",
+    "81": "III. Confluence",
+    "97": "Sequence",
+    "105": "Shadows",
+    "121": "Dominant preparation",
+    "129": "IV. The spring returns",
+    "145": "Coda"
+  },
+  "pages": [
+    {
+      "page": 1,
+      "first_bar": 1,
+      "last_bar": 12
+    },
+    {
+      "page": 2,
+      "first_bar": 13,
+      "last_bar": 24
+    },
+    {
+      "page": 3,
+      "first_bar": 25,
+      "last_bar": 36
+    },
+    {
+      "page": 4,
+      "first_bar": 37,
+      "last_bar": 48
+    },
+    {
+      "page": 5,
+      "first_bar": 49,
+      "last_bar": 60
+    },
+    {
+      "page": 6,
+      "first_bar": 61,
+      "last_bar": 72
+    },
+    {
+      "page": 7,
+      "first_bar": 73,
+      "last_bar": 84
+    },
+    {
+      "page": 8,
+      "first_bar": 85,
+      "last_bar": 96
+    },
+    {
+      "page": 9,
+      "first_bar": 97,
+      "last_bar": 108
+    },
+    {
+      "page": 10,
+      "first_bar": 109,
+      "last_bar": 120
+    },
+    {
+      "page": 11,
+      "first_bar": 121,
+      "last_bar": 132
+    },
+    {
+      "page": 12,
+      "first_bar": 133,
+      "last_bar": 144
+    },
+    {
+      "page": 13,
+      "first_bar": 145,
+      "last_bar": 150
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+.build/
+__pycache__/
+*.log
+output/*.mp3
+output/*.mp4
+output/*.wav
+output/*.flac

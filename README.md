@@ -1,3 +1,12 @@
+# Sonata experiment — scores and rendering tools
+
+The repository now contains two separate works:
+
+- **[The Two Springs: 150-bar double fugue in G major for string quartet](quartet/README.md)** — the new commission, with a complete LilyPond source, PDF, MIDI, score pages, and a program for exactly synchronized score video. MP3 and MP4 are provided locally.
+- **The Second Spring: 200-bar piano sonata**, documented below and preserved unchanged.
+
+---
+
 # The Second Spring
 
 **Sonata in G major, first movement, for solo piano. Exactly 200 bars.**

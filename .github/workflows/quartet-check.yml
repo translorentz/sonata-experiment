@@ -1,0 +1,27 @@
+name: Check quartet score
+on:
+  push:
+    paths: ['quartet/**', '.github/workflows/quartet-check.yml']
+  pull_request:
+    paths: ['quartet/**', '.github/workflows/quartet-check.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  engrave:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install engraving dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y lilypond
+          python -m pip install -r quartet/requirements.txt
+      - name: Verify reproducible note source and counterpoint diagnostics
+        run: |
+          python quartet/scripts/compose.py
+          git diff --exit-code -- quartet/score/
+          python quartet/scripts/audit.py --check
+          python -m unittest discover -s quartet/tests
+      - name: Compile score and check every MIDI pitch and duration
+        run: python quartet/scripts/build.py --engrave-only

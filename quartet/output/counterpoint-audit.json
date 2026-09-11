@@ -1,0 +1,175 @@
+{
+  "bars": 150,
+  "range_midi": [
+    [
+      59,
+      88
+    ],
+    [
+      55,
+      81
+    ],
+    [
+      50,
+      71
+    ],
+    [
+      36,
+      66
+    ]
+  ],
+  "parallel_perfect_intervals": [],
+  "leaps_over_major_sixth": [
+    {
+      "voice": 0,
+      "bar": 97,
+      "beat": 1.0,
+      "interval": -12
+    },
+    {
+      "voice": 2,
+      "bar": 100,
+      "beat": 1.0,
+      "interval": 12
+    }
+  ],
+  "accented_dissonances_above_bass": [
+    {
+      "voice": 0,
+      "bar": 121,
+      "beat": 1.0,
+      "midi": 76,
+      "bass": 50,
+      "interval": 2
+    },
+    {
+      "voice": 0,
+      "bar": 121,
+      "beat": 2.0,
+      "midi": 76,
+      "bass": 50,
+      "interval": 2
+    },
+    {
+      "voice": 0,
+      "bar": 121,
+      "beat": 3.0,
+      "midi": 76,
+      "bass": 50,
+      "interval": 2
+    },
+    {
+      "voice": 0,
+      "bar": 121,
+      "beat": 4.0,
+      "midi": 76,
+      "bass": 50,
+      "interval": 2
+    },
+    {
+      "voice": 0,
+      "bar": 122,
+      "beat": 2.0,
+      "midi": 76,
+      "bass": 50,
+      "interval": 2
+    },
+    {
+      "voice": 0,
+      "bar": 122,
+      "beat": 3.0,
+      "midi": 72,
+      "bass": 50,
+      "interval": 10
+    },
+    {
+      "voice": 0,
+      "bar": 124,
+      "beat": 3.0,
+      "midi": 67,
+      "bass": 50,
+      "interval": 5
+    },
+    {
+      "voice": 0,
+      "bar": 124,
+      "beat": 4.0,
+      "midi": 67,
+      "bass": 50,
+      "interval": 5
+    },
+    {
+      "voice": 0,
+      "bar": 126,
+      "beat": 1.0,
+      "midi": 76,
+      "bass": 50,
+      "interval": 2
+    },
+    {
+      "voice": 0,
+      "bar": 126,
+      "beat": 3.0,
+      "midi": 76,
+      "bass": 50,
+      "interval": 2
+    },
+    {
+      "voice": 0,
+      "bar": 126,
+      "beat": 4.0,
+      "midi": 76,
+      "bass": 50,
+      "interval": 2
+    },
+    {
+      "voice": 0,
+      "bar": 128,
+      "beat": 2.0,
+      "midi": 76,
+      "bass": 50,
+      "interval": 2
+    },
+    {
+      "voice": 0,
+      "bar": 128,
+      "beat": 4.0,
+      "midi": 79,
+      "bass": 50,
+      "interval": 5
+    },
+    {
+      "voice": 0,
+      "bar": 147,
+      "beat": 3.0,
+      "midi": 67,
+      "bass": 50,
+      "interval": 5
+    },
+    {
+      "voice": 2,
+      "bar": 148,
+      "beat": 1.0,
+      "midi": 60,
+      "bass": 50,
+      "interval": 10
+    },
+    {
+      "voice": 2,
+      "bar": 148,
+      "beat": 2.0,
+      "midi": 60,
+      "bass": 50,
+      "interval": 10
+    },
+    {
+      "voice": 2,
+      "bar": 148,
+      "beat": 4.0,
+      "midi": 60,
+      "bass": 50,
+      "interval": 10
+    }
+  ],
+  "structural_voice_crossings": []
+}
