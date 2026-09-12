@@ -36,6 +36,9 @@ rendering, rather than cascading MP3 and AAC compression.
 
 ## Verification gates
 
+0. The expanded counterpoint audit must pass before compilation. The full
+   note surface and eighth/quarter reductions are checked; intentional
+   dissonances remain individually documented.
 1. LilyPond must compile without musical or engraving warnings, including
    all 600 per-staff bar-number assertions.
 2. Every compiled MIDI pitch and duration is compared with the complete
@@ -59,7 +62,9 @@ rendering, rather than cascading MP3 and AAC compression.
    The measured lags are included in `validation.json`.
 9. The floating-point synthesis is checked for finite, non-silent output;
    it is normalized to -1.2 dBFS before encoding. File and soundfont hashes
-   are recorded in the validation report.
+   are recorded in the validation report. Only files produced by that build
+   are hashed: an engraving-only run does not certify pre-existing audio,
+   video or page images.
 
 The PDF pages also receive visual inspection. `counterpoint-audit.json`
 contains musical diagnostics and `docs/FORM.md` explains intentional pedal

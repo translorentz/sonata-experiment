@@ -2,9 +2,9 @@
 """Rebuild the fully specified quartet edition and its analytical ledger.
 
 The two subjects, entry order, tonal itinerary, episode themes and cadences
-are authored below. A deterministic voice-leading search realizes the free
-quarter-note skeleton; restrained passing/neighbor notes elaborate it. The
-result is frozen in score/events.json and the standalone .ly for editing.
+are authored below. A constrained beam search realizes the free
+quarter-note skeleton; restrained passing notes elaborate it. The result
+is frozen in score/events.json and the standalone .ly for editing.
 No random generation and no external music files are used.
 """
 from __future__ import annotations
@@ -52,7 +52,9 @@ def parse(text):
 # principal pitches/rhythms are retained. Register here begins at E4.
 A = parse("e'2 d'8 e'8 c'8 b8 | a2 a8. b16 g8 g16 a16 | b4. d'8 e'8 d'8 e'16 d'16 e'16 g'16 | d'8. b16 d'8 d'16 b16 a8 e'8 d'16 e'16 g'16 a'16")
 # A distinct four-bar subject, designed against the first in both registers.
-B = parse("g'4 c''8 g'8 fis'4 a'4 | c''8 b'8 c''8 a'8 c''4 e'8 fis'8 | g'8 fis'8 g'8 b'8 c''4 g'4 | b'8 a'8 b'8 g'8 fis'4 b'4")
+# Its final rising fourth echoes the opening and supports I's final E-G-A
+# ornament when II is the bass. Both expositions use this revised form.
+B = parse("g'4 c''8 g'8 fis'4 a'4 | c''8 b'8 c''8 a'8 c''4 e'8 fis'8 | g'8 fis'8 g'8 b'8 c''4 g'4 | b'8 a'8 b'8 g'8 fis'4 b'16 e''8.")
 assert sum(d for _,d in A)==sum(d for _,d in B)==64
 
 # Scale transform: original G major -> requested major or relative minor.
@@ -119,6 +121,12 @@ install(2,113,[(-1,4)])
 for bar,av,ao,bv,bo in [(129,0,1,3,-2),(133,2,0,1,0),(137,1,0,0,1),(141,3,-1,2,-1)]:
     entry(av,bar,'I',octave=ao);entry(bv,bar,'II',octave=bo)
 
+# The cadential bass moves within beat 3 to support the sigh's upward
+# appoggiatura. These written eighths avoid both a hidden fifth and the
+# disjunct seventh that a quarter-note-only bass would otherwise require.
+install(3,96,parse("g,2 a,8 d8 g,4"))
+install(3,116,parse("c2 d8 g8 c4"))
+
 # Episodes: authored thematic lines over descending-fifth harmonic spans.
 episode_melodies=[
  "e''8 d''8 e''8 c''8 b'4 a'4",
@@ -158,8 +166,8 @@ for b in range(121,129):
 coda=[
  ["e''2 d''8 e''8 c''8 b'8", "a'4 b'4 c''4 a'4", "g'2 g'4 fis'4", "a'2 fis'2", "g'1", "g'1"],
  ["g'2 fis'4 e'4", "fis'4 g'4 g'4 fis'4", "d'1", "fis'2 d'2", "d'1", "d'1"],
- ["e'2 a4 a4", "d'4 d'4 e'4 a4", "b2 a2", "c'2 a4 c'4", "b1", "b1"],
- ["c2 d4 c4", "d4 g,4 e4 d4", "g,2 d2", "d1", "g,1", "g,1"]
+ ["e'2 a4 c'4", "d'4 d'4 e'4 a4", "b2 a2", "c'2 a4 c'4", "b1", "b1"],
+ ["c2 d4 a,4", "d4 g,4 c4 d4", "g,2 d2", "d1", "g,1", "g,1"]
 ]
 for v in range(4):
     for i,s in enumerate(coda[v]):install(v,145+i,parse(s))
@@ -177,103 +185,16 @@ def parallel(a,b):
         if a[i]<0 or a[j]<0:continue
         active=(b[:,i]>=0)&(b[:,j]>=0)
         old=abs(a[i]-a[j])%12; new=np.abs(b[:,i]-b[:,j])%12
-        similar=(b[:,i]-a[i])*(b[:,j]-a[j])>0
-        if old in (0,7):total+=active*similar*(new==old)*240
+        motion=(b[:,i]-a[i])*(b[:,j]-a[j])
+        similar=motion>0
+        if old in (0,7):total+=active*(motion!=0)*(new==old)*240
         # Direct outer perfects with a leaping upper line.
         if (i,j)==(0,3):total+=active*similar*np.isin(new,[0,7])*(np.abs(b[:,i]-a[i])>2)*35
     return total
 
-def realize():
-    out=np.full((N*4,4),-1,dtype=int)
-    previous=np.array([-1,-1,64,-1])
-    for q in range(N*4):
-        t=q*4;b=q//4;k,m=KEYS[b];pcs=chord(k,m,HARM[b][q%4])
-        fixed=[FIXED[v][t] for v in range(4)]
-        if t:
-            for v in range(4):
-                if FIXED[v][t-1] is not None:previous[v]=FIXED[v][t-1]
-        candidates=[]
-        for v,p in enumerate(fixed):
-            if p is not None:candidates.append([p]);continue
-            lo,hi=RANGES[v]
-            sc=[0,2,3,5,7,8,10,11] if m else SCALE
-            allowed={(k+x)%12 for x in sc}
-            opts=[p for p in range(lo,hi+1) if p%12 in allowed]
-            candidates.append(opts)
-        arr=np.array(list(itertools.product(*candidates)),dtype=int)
-        score=np.zeros(len(arr),dtype=float)
-        active=arr>=0
-        # Reject crossed voices unless two specified thematic lines require it.
-        for i,j in itertools.combinations(range(4),2):
-            mask=active[:,i]&active[:,j]
-            diff=arr[:,i]-arr[:,j]
-            score+=mask*np.maximum(0,-diff)*10000
-            score+=mask*(diff==0)*4
-            iv=np.abs(diff)%12
-            dis=np.isin(iv,[1,2,6,10,11])
-            # A fourth is consonant between upper parts, dissonant above bass.
-            is_lowest=np.all((arr[:,j,None]<=arr)|~active,axis=1)
-            dis|=(iv==5)&is_lowest
-            score+=mask*dis*1500
-        for v in range(4):
-            if fixed[v] is None:
-                score+=np.abs(arr[:,v]-CENTERS[v])*0.12
-                if previous[v]>=0:
-                    distance=np.abs(arr[:,v]-previous[v])
-                    score+=distance*0.55+np.maximum(0,distance-4)**2*1.2
-                    score+=(distance>9)*30000
-                    score+=(distance==0)*1.8
-                    if q>1:
-                        oldmotion=previous[v]-out[q-2,v]
-                        score+=((arr[:,v]-previous[v])*oldmotion>0)*(abs(oldmotion)>4)*5
-        before=previous.copy()
-        if t:
-            for v in range(4):
-                if FIXED[v][t-1] is not None:before[v]=FIXED[v][t-1]
-        score+=parallel(before,arr)*100
-        if t+4<N*16:
-            for i,j in itertools.combinations(range(4),2):
-                ni,nj=FIXED[i][t+4],FIXED[j][t+4]
-                if ni is None or nj is None or min(ni,nj)<0:continue
-                new=abs(ni-nj)%12
-                if new in (0,7):
-                    old=np.abs(arr[:,i]-arr[:,j])%12
-                    similar=(ni-arr[:,i])*(nj-arr[:,j])>0
-                    score+=(arr[:,i]>=0)*(arr[:,j]>=0)*(old==new)*similar*30000
-        for v in range(4):
-            if fixed[v] is None:
-                score+=(~np.isin(arr[:,v]%12,list(pcs)))*6
-                # Anticipate the next authored entrance; never jump blindly
-                # from the supporting line into its thematic register.
-                for ahead in range(1,9):
-                    nt=t+4*ahead
-                    if nt>=N*16:break
-                    target=FIXED[v][nt]
-                    if target is not None and target>=0:
-                        score+=np.maximum(0,np.abs(arr[:,v]-target)-2*ahead)**2 * (1.8/ahead)
-                        break
-        # Encourage complete triads, particularly thirds, without fixed doublings.
-        for pc in pcs:score+=~np.any((arr%12==pc)&active,axis=1)*3
-        # Prefer root-position bass at an episode's harmonic arrival.
-        if fixed[3] is None and q%4==0:
-            sc=[0,2,3,5,7,8,10] if m else SCALE
-            root=(k+sc[HARM[b][0]])%12
-            score+=(arr[:,3]%12!=root)*3
-        # Evaluate the authored ornamentation between structural beats too.
-        for offset in (1,2,3):
-            future=arr.copy()
-            for v in range(4):
-                if FIXED[v][t+offset] is not None:future[:,v]=FIXED[v][t+offset]
-            for i,j in itertools.combinations(range(4),2):
-                valid=(future[:,i]>=0)&(future[:,j]>=0)
-                iv=np.abs(future[:,i]-future[:,j])%12
-                score+=valid*np.isin(iv,[1,2,6,10,11])*[0,1.2,3.5,1.2][offset]
-        out[q]=arr[int(np.argmin(score))];previous=out[q]
-    return out
-
-# A conservative embellisher: passing notes only between structural thirds;
-# neighbors only where all sounding intervals are consonant. Repeated notes
-# are merged selectively, so the supporting lines have different rhythms.
+# A conservative embellisher: passing notes only between structural thirds.
+# Repeated notes are merged selectively, so supporting lines have different
+# rhythms. The independent audit checks the final elaborated music again.
 def elaborate(skeleton):
     events=[list(a) for a in AUTHOR]
     for v in range(4):
@@ -400,4 +321,6 @@ layoutMarks = {
     (ROOT/'score/events.json').write_text(json.dumps(dict(unit='sixteenth note',bars=N,voices=events),indent=2)+'\n')
     print(f'Wrote {N} bars, {sum(map(len,events))} notes/rests, {len(ENTRIES)} complete subject entries.')
 
-if __name__=='__main__':emit(elaborate(realize()))
+if __name__=='__main__':
+    from realization import realize as constrained_realize
+    emit(elaborate(constrained_realize(FIXED,KEYS,HARM,RANGES,CENTERS,SCALE,chord,AUTHOR)))

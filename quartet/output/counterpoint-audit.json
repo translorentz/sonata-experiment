@@ -3,22 +3,3007 @@
   "range_midi": [
     [
       59,
-      88
+      89
     ],
     [
       55,
-      81
+      79
     ],
     [
-      50,
+      48,
       71
     ],
     [
-      36,
-      66
+      38,
+      64
     ]
   ],
   "parallel_perfect_intervals": [],
+  "eighth_note_parallel_perfects": [],
+  "quarter_note_parallel_perfects": [],
+  "contrary_perfect_consecutives": [],
+  "eighth_note_contrary_perfects": [],
+  "quarter_note_contrary_perfects": [],
+  "direct_outer_perfects": [],
+  "quarter_note_direct_outer_perfects": [],
+  "longer_reduction_candidates": [
+    {
+      "voices": [
+        1,
+        3
+      ],
+      "from": {
+        "bar": 13,
+        "beat": 1.0
+      },
+      "to": {
+        "bar": 13,
+        "beat": 3.0
+      },
+      "interval": "octave/unison",
+      "from_midi": [
+        71,
+        59
+      ],
+      "to_midi": [
+        69,
+        57
+      ],
+      "intermediate": [
+        {
+          "bar": 13,
+          "beat": 1.5,
+          "midi": [
+            69,
+            59
+          ]
+        },
+        {
+          "bar": 13,
+          "beat": 2.0,
+          "midi": [
+            67,
+            59
+          ]
+        }
+      ],
+      "intervening_quarter_sonority": [
+        "G5",
+        "G4",
+        "D4",
+        "B3"
+      ],
+      "review": "intervening quarter-note harmony/chordal movement; not consecutive beat-to-beat parallels"
+    },
+    {
+      "voices": [
+        2,
+        3
+      ],
+      "from": {
+        "bar": 18,
+        "beat": 3.0
+      },
+      "to": {
+        "bar": 19,
+        "beat": 1.0
+      },
+      "interval": "octave/unison",
+      "from_midi": [
+        66,
+        54
+      ],
+      "to_midi": [
+        64,
+        52
+      ],
+      "intermediate": [
+        {
+          "bar": 18,
+          "beat": 4.0,
+          "midi": [
+            62,
+            55
+          ]
+        },
+        {
+          "bar": 18,
+          "beat": 4.5,
+          "midi": [
+            62,
+            54
+          ]
+        }
+      ],
+      "intervening_quarter_sonority": [
+        "D5",
+        "G4",
+        "D4",
+        "G3"
+      ],
+      "review": "intervening quarter-note harmony/chordal movement; not consecutive beat-to-beat parallels"
+    },
+    {
+      "voices": [
+        1,
+        3
+      ],
+      "from": {
+        "bar": 20,
+        "beat": 1.0
+      },
+      "to": {
+        "bar": 20,
+        "beat": 3.0
+      },
+      "interval": "fifth",
+      "from_midi": [
+        66,
+        47
+      ],
+      "to_midi": [
+        69,
+        50
+      ],
+      "intermediate": [
+        {
+          "bar": 20,
+          "beat": 2.0,
+          "midi": [
+            69,
+            48
+          ]
+        }
+      ],
+      "intervening_quarter_sonority": [
+        "E5",
+        "A4",
+        "A3",
+        "C3"
+      ],
+      "review": "intervening quarter-note harmony/chordal movement; not consecutive beat-to-beat parallels"
+    },
+    {
+      "voices": [
+        0,
+        3
+      ],
+      "from": {
+        "bar": 23,
+        "beat": 1.0
+      },
+      "to": {
+        "bar": 23,
+        "beat": 3.0
+      },
+      "interval": "octave/unison",
+      "from_midi": [
+        74,
+        50
+      ],
+      "to_midi": [
+        72,
+        48
+      ],
+      "intermediate": [
+        {
+          "bar": 23,
+          "beat": 2.0,
+          "midi": [
+            74,
+            47
+          ]
+        }
+      ],
+      "intervening_quarter_sonority": [
+        "D5",
+        "B4",
+        "G3",
+        "B2"
+      ],
+      "review": "intervening quarter-note harmony/chordal movement; not consecutive beat-to-beat parallels"
+    },
+    {
+      "voices": [
+        0,
+        3
+      ],
+      "from": {
+        "bar": 25,
+        "beat": 1.0
+      },
+      "to": {
+        "bar": 25,
+        "beat": 3.0
+      },
+      "interval": "octave/unison",
+      "from_midi": [
+        72,
+        48
+      ],
+      "to_midi": [
+        71,
+        47
+      ],
+      "intermediate": [
+        {
+          "bar": 25,
+          "beat": 1.5,
+          "midi": [
+            72,
+            47
+          ]
+        },
+        {
+          "bar": 25,
+          "beat": 2.0,
+          "midi": [
+            72,
+            45
+          ]
+        }
+      ],
+      "intervening_quarter_sonority": [
+        "C5",
+        "E4",
+        "A3",
+        "A2"
+      ],
+      "review": "intervening quarter-note harmony/chordal movement; not consecutive beat-to-beat parallels"
+    },
+    {
+      "voices": [
+        2,
+        3
+      ],
+      "from": {
+        "bar": 25,
+        "beat": 1.0
+      },
+      "to": {
+        "bar": 25,
+        "beat": 3.0
+      },
+      "interval": "fifth",
+      "from_midi": [
+        55,
+        48
+      ],
+      "to_midi": [
+        54,
+        47
+      ],
+      "intermediate": [
+        {
+          "bar": 25,
+          "beat": 1.5,
+          "midi": [
+            55,
+            47
+          ]
+        },
+        {
+          "bar": 25,
+          "beat": 2.0,
+          "midi": [
+            57,
+            45
+          ]
+        }
+      ],
+      "intervening_quarter_sonority": [
+        "C5",
+        "E4",
+        "A3",
+        "A2"
+      ],
+      "review": "intervening quarter-note harmony/chordal movement; not consecutive beat-to-beat parallels"
+    },
+    {
+      "voices": [
+        0,
+        2
+      ],
+      "from": {
+        "bar": 29,
+        "beat": 1.0
+      },
+      "to": {
+        "bar": 29,
+        "beat": 3.0
+      },
+      "interval": "octave/unison",
+      "from_midi": [
+        77,
+        65
+      ],
+      "to_midi": [
+        76,
+        64
+      ],
+      "intermediate": [
+        {
+          "bar": 29,
+          "beat": 1.5,
+          "midi": [
+            76,
+            65
+          ]
+        },
+        {
+          "bar": 29,
+          "beat": 2.0,
+          "midi": [
+            74,
+            65
+          ]
+        }
+      ],
+      "intervening_quarter_sonority": [
+        "D5",
+        "A4",
+        "F4",
+        "D3"
+      ],
+      "review": "intervening quarter-note harmony/chordal movement; not consecutive beat-to-beat parallels"
+    },
+    {
+      "voices": [
+        0,
+        1
+      ],
+      "from": {
+        "bar": 33,
+        "beat": 1.0
+      },
+      "to": {
+        "bar": 33,
+        "beat": 3.0
+      },
+      "interval": "fifth",
+      "from_midi": [
+        76,
+        69
+      ],
+      "to_midi": [
+        74,
+        67
+      ],
+      "intermediate": [
+        {
+          "bar": 33,
+          "beat": 2.0,
+          "midi": [
+            77,
+            69
+          ]
+        }
+      ],
+      "intervening_quarter_sonority": [
+        "F5",
+        "A4",
+        "C4",
+        "A2"
+      ],
+      "review": "intervening quarter-note harmony/chordal movement; not consecutive beat-to-beat parallels"
+    },
+    {
+      "voices": [
+        1,
+        3
+      ],
+      "from": {
+        "bar": 34,
+        "beat": 3.0
+      },
+      "to": {
+        "bar": 35,
+        "beat": 1.0
+      },
+      "interval": "octave/unison",
+      "from_midi": [
+        62,
+        50
+      ],
+      "to_midi": [
+        64,
+        52
+      ],
+      "intermediate": [
+        {
+          "bar": 34,
+          "beat": 3.5,
+          "midi": [
+            62,
+            52
+          ]
+        },
+        {
+          "bar": 34,
+          "beat": 3.75,
+          "midi": [
+            64,
+            52
+          ]
+        },
+        {
+          "bar": 34,
+          "beat": 4.0,
+          "midi": [
+            60,
+            53
+          ]
+        },
+        {
+          "bar": 34,
+          "beat": 4.75,
+          "midi": [
+            62,
+            53
+          ]
+        }
+      ],
+      "intervening_quarter_sonority": [
+        "F5",
+        "C4",
+        "A3",
+        "F3"
+      ],
+      "review": "intervening quarter-note harmony/chordal movement; not consecutive beat-to-beat parallels"
+    },
+    {
+      "voices": [
+        1,
+        2
+      ],
+      "from": {
+        "bar": 36,
+        "beat": 1.0
+      },
+      "to": {
+        "bar": 36,
+        "beat": 3.0
+      },
+      "interval": "fifth",
+      "from_midi": [
+        67,
+        60
+      ],
+      "to_midi": [
+        62,
+        55
+      ],
+      "intermediate": [
+        {
+          "bar": 36,
+          "beat": 1.75,
+          "midi": [
+            64,
+            60
+          ]
+        },
+        {
+          "bar": 36,
+          "beat": 2.0,
+          "midi": [
+            67,
+            55
+          ]
+        },
+        {
+          "bar": 36,
+          "beat": 2.75,
+          "midi": [
+            64,
+            55
+          ]
+        }
+      ],
+      "intervening_quarter_sonority": [
+        "E5",
+        "G4",
+        "G3",
+        "C3"
+      ],
+      "review": "intervening quarter-note harmony/chordal movement; not consecutive beat-to-beat parallels"
+    },
+    {
+      "voices": [
+        1,
+        3
+      ],
+      "from": {
+        "bar": 38,
+        "beat": 3.0
+      },
+      "to": {
+        "bar": 39,
+        "beat": 1.0
+      },
+      "interval": "octave/unison",
+      "from_midi": [
+        69,
+        45
+      ],
+      "to_midi": [
+        71,
+        47
+      ],
+      "intermediate": [
+        {
+          "bar": 38,
+          "beat": 3.75,
+          "midi": [
+            69,
+            47
+          ]
+        },
+        {
+          "bar": 38,
+          "beat": 4.0,
+          "midi": [
+            71,
+            43
+          ]
+        },
+        {
+          "bar": 38,
+          "beat": 4.75,
+          "midi": [
+            71,
+            45
+          ]
+        }
+      ],
+      "intervening_quarter_sonority": [
+        "E5",
+        "B4",
+        "E4",
+        "G2"
+      ],
+      "review": "intervening quarter-note harmony/chordal movement; not consecutive beat-to-beat parallels"
+    },
+    {
+      "voices": [
+        0,
+        1
+      ],
+      "from": {
+        "bar": 39,
+        "beat": 3.0
+      },
+      "to": {
+        "bar": 40,
+        "beat": 1.0
+      },
+      "interval": "octave/unison",
+      "from_midi": [
+        79,
+        67
+      ],
+      "to_midi": [
+        78,
+        66
+      ],
+      "intermediate": [
+        {
+          "bar": 39,
+          "beat": 4.0,
+          "midi": [
+            76,
+            67
+          ]
+        }
+      ],
+      "intervening_quarter_sonority": [
+        "E5",
+        "G4",
+        "B3",
+        "E3"
+      ],
+      "review": "intervening quarter-note harmony/chordal movement; not consecutive beat-to-beat parallels"
+    },
+    {
+      "voices": [
+        0,
+        2
+      ],
+      "from": {
+        "bar": 39,
+        "beat": 3.0
+      },
+      "to": {
+        "bar": 40,
+        "beat": 1.0
+      },
+      "interval": "fifth",
+      "from_midi": [
+        79,
+        60
+      ],
+      "to_midi": [
+        78,
+        59
+      ],
+      "intermediate": [
+        {
+          "bar": 39,
+          "beat": 4.0,
+          "midi": [
+            76,
+            59
+          ]
+        }
+      ],
+      "intervening_quarter_sonority": [
+        "E5",
+        "G4",
+        "B3",
+        "E3"
+      ],
+      "review": "intervening quarter-note harmony/chordal movement; not consecutive beat-to-beat parallels"
+    },
+    {
+      "voices": [
+        1,
+        2
+      ],
+      "from": {
+        "bar": 39,
+        "beat": 3.0
+      },
+      "to": {
+        "bar": 40,
+        "beat": 1.0
+      },
+      "interval": "fifth",
+      "from_midi": [
+        67,
+        60
+      ],
+      "to_midi": [
+        66,
+        59
+      ],
+      "intermediate": [
+        {
+          "bar": 39,
+          "beat": 4.0,
+          "midi": [
+            67,
+            59
+          ]
+        }
+      ],
+      "intervening_quarter_sonority": [
+        "E5",
+        "G4",
+        "B3",
+        "E3"
+      ],
+      "review": "intervening quarter-note harmony/chordal movement; not consecutive beat-to-beat parallels"
+    },
+    {
+      "voices": [
+        2,
+        3
+      ],
+      "from": {
+        "bar": 41,
+        "beat": 3.0
+      },
+      "to": {
+        "bar": 42,
+        "beat": 1.0
+      },
+      "interval": "fifth",
+      "from_midi": [
+        59,
+        52
+      ],
+      "to_midi": [
+        57,
+        50
+      ],
+      "intermediate": [
+        {
+          "bar": 41,
+          "beat": 4.0,
+          "midi": [
+            60,
+            48
+          ]
+        },
+        {
+          "bar": 41,
+          "beat": 4.5,
+          "midi": [
+            59,
+            48
+          ]
+        }
+      ],
+      "intervening_quarter_sonority": [
+        "A4",
+        "A4",
+        "C4",
+        "C3"
+      ],
+      "review": "intervening quarter-note harmony/chordal movement; not consecutive beat-to-beat parallels"
+    },
+    {
+      "voices": [
+        0,
+        3
+      ],
+      "from": {
+        "bar": 42,
+        "beat": 3.0
+      },
+      "to": {
+        "bar": 43,
+        "beat": 1.0
+      },
+      "interval": "octave/unison",
+      "from_midi": [
+        74,
+        50
+      ],
+      "to_midi": [
+        72,
+        48
+      ],
+      "intermediate": [
+        {
+          "bar": 42,
+          "beat": 3.5,
+          "midi": [
+            74,
+            48
+          ]
+        },
+        {
+          "bar": 42,
+          "beat": 4.0,
+          "midi": [
+            74,
+            47
+          ]
+        }
+      ],
+      "intervening_quarter_sonority": [
+        "D5",
+        "G4",
+        "G3",
+        "B2"
+      ],
+      "review": "intervening quarter-note harmony/chordal movement; not consecutive beat-to-beat parallels"
+    },
+    {
+      "voices": [
+        1,
+        3
+      ],
+      "from": {
+        "bar": 42,
+        "beat": 3.0
+      },
+      "to": {
+        "bar": 43,
+        "beat": 1.0
+      },
+      "interval": "fifth",
+      "from_midi": [
+        69,
+        50
+      ],
+      "to_midi": [
+        67,
+        48
+      ],
+      "intermediate": [
+        {
+          "bar": 42,
+          "beat": 3.5,
+          "midi": [
+            69,
+            48
+          ]
+        },
+        {
+          "bar": 42,
+          "beat": 4.0,
+          "midi": [
+            67,
+            47
+          ]
+        }
+      ],
+      "intervening_quarter_sonority": [
+        "D5",
+        "G4",
+        "G3",
+        "B2"
+      ],
+      "review": "intervening quarter-note harmony/chordal movement; not consecutive beat-to-beat parallels"
+    },
+    {
+      "voices": [
+        1,
+        3
+      ],
+      "from": {
+        "bar": 44,
+        "beat": 1.0
+      },
+      "to": {
+        "bar": 44,
+        "beat": 3.0
+      },
+      "interval": "fifth",
+      "from_midi": [
+        66,
+        47
+      ],
+      "to_midi": [
+        69,
+        50
+      ],
+      "intermediate": [
+        {
+          "bar": 44,
+          "beat": 2.0,
+          "midi": [
+            69,
+            48
+          ]
+        }
+      ],
+      "intervening_quarter_sonority": [
+        "E5",
+        "A4",
+        "A3",
+        "C3"
+      ],
+      "review": "intervening quarter-note harmony/chordal movement; not consecutive beat-to-beat parallels"
+    },
+    {
+      "voices": [
+        1,
+        3
+      ],
+      "from": {
+        "bar": 46,
+        "beat": 3.0
+      },
+      "to": {
+        "bar": 47,
+        "beat": 1.0
+      },
+      "interval": "octave/unison",
+      "from_midi": [
+        69,
+        45
+      ],
+      "to_midi": [
+        74,
+        50
+      ],
+      "intermediate": [
+        {
+          "bar": 46,
+          "beat": 4.0,
+          "midi": [
+            72,
+            45
+          ]
+        }
+      ],
+      "intervening_quarter_sonority": [
+        "E5",
+        "C5",
+        "C4",
+        "A2"
+      ],
+      "review": "intervening quarter-note harmony/chordal movement; not consecutive beat-to-beat parallels"
+    },
+    {
+      "voices": [
+        1,
+        2
+      ],
+      "from": {
+        "bar": 62,
+        "beat": 3.0
+      },
+      "to": {
+        "bar": 63,
+        "beat": 1.0
+      },
+      "interval": "fifth",
+      "from_midi": [
+        71,
+        64
+      ],
+      "to_midi": [
+        69,
+        62
+      ],
+      "intermediate": [
+        {
+          "bar": 62,
+          "beat": 4.0,
+          "midi": [
+            67,
+            62
+          ]
+        }
+      ],
+      "intervening_quarter_sonority": [
+        "B4",
+        "G4",
+        "D4",
+        "G2"
+      ],
+      "review": "intervening quarter-note harmony/chordal movement; not consecutive beat-to-beat parallels"
+    },
+    {
+      "voices": [
+        2,
+        3
+      ],
+      "from": {
+        "bar": 65,
+        "beat": 3.0
+      },
+      "to": {
+        "bar": 66,
+        "beat": 1.0
+      },
+      "interval": "fifth",
+      "from_midi": [
+        59,
+        52
+      ],
+      "to_midi": [
+        57,
+        50
+      ],
+      "intermediate": [
+        {
+          "bar": 65,
+          "beat": 4.0,
+          "midi": [
+            60,
+            48
+          ]
+        }
+      ],
+      "intervening_quarter_sonority": [
+        "A4",
+        "A4",
+        "C4",
+        "C3"
+      ],
+      "review": "intervening quarter-note harmony/chordal movement; not consecutive beat-to-beat parallels"
+    },
+    {
+      "voices": [
+        0,
+        3
+      ],
+      "from": {
+        "bar": 66,
+        "beat": 3.0
+      },
+      "to": {
+        "bar": 67,
+        "beat": 1.0
+      },
+      "interval": "octave/unison",
+      "from_midi": [
+        74,
+        50
+      ],
+      "to_midi": [
+        72,
+        48
+      ],
+      "intermediate": [
+        {
+          "bar": 66,
+          "beat": 4.0,
+          "midi": [
+            74,
+            47
+          ]
+        }
+      ],
+      "intervening_quarter_sonority": [
+        "D5",
+        "G4",
+        "G3",
+        "B2"
+      ],
+      "review": "intervening quarter-note harmony/chordal movement; not consecutive beat-to-beat parallels"
+    },
+    {
+      "voices": [
+        1,
+        3
+      ],
+      "from": {
+        "bar": 66,
+        "beat": 3.0
+      },
+      "to": {
+        "bar": 67,
+        "beat": 1.0
+      },
+      "interval": "fifth",
+      "from_midi": [
+        69,
+        50
+      ],
+      "to_midi": [
+        67,
+        48
+      ],
+      "intermediate": [
+        {
+          "bar": 66,
+          "beat": 4.0,
+          "midi": [
+            67,
+            47
+          ]
+        }
+      ],
+      "intervening_quarter_sonority": [
+        "D5",
+        "G4",
+        "G3",
+        "B2"
+      ],
+      "review": "intervening quarter-note harmony/chordal movement; not consecutive beat-to-beat parallels"
+    },
+    {
+      "voices": [
+        1,
+        3
+      ],
+      "from": {
+        "bar": 68,
+        "beat": 1.0
+      },
+      "to": {
+        "bar": 68,
+        "beat": 3.0
+      },
+      "interval": "fifth",
+      "from_midi": [
+        66,
+        47
+      ],
+      "to_midi": [
+        69,
+        50
+      ],
+      "intermediate": [
+        {
+          "bar": 68,
+          "beat": 1.5,
+          "midi": [
+            67,
+            47
+          ]
+        },
+        {
+          "bar": 68,
+          "beat": 2.0,
+          "midi": [
+            69,
+            48
+          ]
+        }
+      ],
+      "intervening_quarter_sonority": [
+        "E5",
+        "A4",
+        "A3",
+        "C3"
+      ],
+      "review": "intervening quarter-note harmony/chordal movement; not consecutive beat-to-beat parallels"
+    },
+    {
+      "voices": [
+        0,
+        3
+      ],
+      "from": {
+        "bar": 71,
+        "beat": 1.0
+      },
+      "to": {
+        "bar": 71,
+        "beat": 3.0
+      },
+      "interval": "octave/unison",
+      "from_midi": [
+        74,
+        50
+      ],
+      "to_midi": [
+        72,
+        48
+      ],
+      "intermediate": [
+        {
+          "bar": 71,
+          "beat": 2.0,
+          "midi": [
+            74,
+            47
+          ]
+        }
+      ],
+      "intervening_quarter_sonority": [
+        "D5",
+        "B4",
+        "G3",
+        "B2"
+      ],
+      "review": "intervening quarter-note harmony/chordal movement; not consecutive beat-to-beat parallels"
+    },
+    {
+      "voices": [
+        0,
+        1
+      ],
+      "from": {
+        "bar": 72,
+        "beat": 3.0
+      },
+      "to": {
+        "bar": 73,
+        "beat": 1.0
+      },
+      "interval": "fifth",
+      "from_midi": [
+        69,
+        62
+      ],
+      "to_midi": [
+        71,
+        64
+      ],
+      "intermediate": [
+        {
+          "bar": 72,
+          "beat": 4.0,
+          "midi": [
+            66,
+            62
+          ]
+        }
+      ],
+      "intervening_quarter_sonority": [
+        "F#4",
+        "D4",
+        "A3",
+        "F#3"
+      ],
+      "review": "intervening quarter-note harmony/chordal movement; not consecutive beat-to-beat parallels"
+    },
+    {
+      "voices": [
+        0,
+        3
+      ],
+      "from": {
+        "bar": 72,
+        "beat": 3.0
+      },
+      "to": {
+        "bar": 73,
+        "beat": 1.0
+      },
+      "interval": "fifth",
+      "from_midi": [
+        69,
+        50
+      ],
+      "to_midi": [
+        71,
+        52
+      ],
+      "intermediate": [
+        {
+          "bar": 72,
+          "beat": 3.5,
+          "midi": [
+            69,
+            52
+          ]
+        },
+        {
+          "bar": 72,
+          "beat": 4.0,
+          "midi": [
+            66,
+            54
+          ]
+        }
+      ],
+      "intervening_quarter_sonority": [
+        "F#4",
+        "D4",
+        "A3",
+        "F#3"
+      ],
+      "review": "intervening quarter-note harmony/chordal movement; not consecutive beat-to-beat parallels"
+    },
+    {
+      "voices": [
+        1,
+        3
+      ],
+      "from": {
+        "bar": 72,
+        "beat": 3.0
+      },
+      "to": {
+        "bar": 73,
+        "beat": 1.0
+      },
+      "interval": "octave/unison",
+      "from_midi": [
+        62,
+        50
+      ],
+      "to_midi": [
+        64,
+        52
+      ],
+      "intermediate": [
+        {
+          "bar": 72,
+          "beat": 3.5,
+          "midi": [
+            62,
+            52
+          ]
+        },
+        {
+          "bar": 72,
+          "beat": 4.0,
+          "midi": [
+            62,
+            54
+          ]
+        }
+      ],
+      "intervening_quarter_sonority": [
+        "F#4",
+        "D4",
+        "A3",
+        "F#3"
+      ],
+      "review": "intervening quarter-note harmony/chordal movement; not consecutive beat-to-beat parallels"
+    },
+    {
+      "voices": [
+        0,
+        1
+      ],
+      "from": {
+        "bar": 74,
+        "beat": 3.0
+      },
+      "to": {
+        "bar": 75,
+        "beat": 1.0
+      },
+      "interval": "fifth",
+      "from_midi": [
+        76,
+        69
+      ],
+      "to_midi": [
+        74,
+        67
+      ],
+      "intermediate": [
+        {
+          "bar": 74,
+          "beat": 4.0,
+          "midi": [
+            76,
+            67
+          ]
+        }
+      ],
+      "intervening_quarter_sonority": [
+        "E5",
+        "G4",
+        "E3",
+        "C3"
+      ],
+      "review": "intervening quarter-note harmony/chordal movement; not consecutive beat-to-beat parallels"
+    },
+    {
+      "voices": [
+        1,
+        2
+      ],
+      "from": {
+        "bar": 75,
+        "beat": 3.0
+      },
+      "to": {
+        "bar": 76,
+        "beat": 1.0
+      },
+      "interval": "fifth",
+      "from_midi": [
+        67,
+        60
+      ],
+      "to_midi": [
+        66,
+        59
+      ],
+      "intermediate": [
+        {
+          "bar": 75,
+          "beat": 4.0,
+          "midi": [
+            67,
+            55
+          ]
+        }
+      ],
+      "intervening_quarter_sonority": [
+        "B4",
+        "G4",
+        "G3",
+        "E3"
+      ],
+      "review": "intervening quarter-note harmony/chordal movement; not consecutive beat-to-beat parallels"
+    },
+    {
+      "voices": [
+        0,
+        2
+      ],
+      "from": {
+        "bar": 77,
+        "beat": 1.0
+      },
+      "to": {
+        "bar": 77,
+        "beat": 3.0
+      },
+      "interval": "fifth",
+      "from_midi": [
+        78,
+        59
+      ],
+      "to_midi": [
+        76,
+        57
+      ],
+      "intermediate": [
+        {
+          "bar": 77,
+          "beat": 2.0,
+          "midi": [
+            79,
+            59
+          ]
+        }
+      ],
+      "intervening_quarter_sonority": [
+        "G5",
+        "G4",
+        "B3",
+        "G2"
+      ],
+      "review": "intervening quarter-note harmony/chordal movement; not consecutive beat-to-beat parallels"
+    },
+    {
+      "voices": [
+        0,
+        3
+      ],
+      "from": {
+        "bar": 77,
+        "beat": 1.0
+      },
+      "to": {
+        "bar": 77,
+        "beat": 3.0
+      },
+      "interval": "fifth",
+      "from_midi": [
+        78,
+        47
+      ],
+      "to_midi": [
+        76,
+        45
+      ],
+      "intermediate": [
+        {
+          "bar": 77,
+          "beat": 1.5,
+          "midi": [
+            78,
+            45
+          ]
+        },
+        {
+          "bar": 77,
+          "beat": 2.0,
+          "midi": [
+            79,
+            43
+          ]
+        }
+      ],
+      "intervening_quarter_sonority": [
+        "G5",
+        "G4",
+        "B3",
+        "G2"
+      ],
+      "review": "intervening quarter-note harmony/chordal movement; not consecutive beat-to-beat parallels"
+    },
+    {
+      "voices": [
+        2,
+        3
+      ],
+      "from": {
+        "bar": 77,
+        "beat": 1.0
+      },
+      "to": {
+        "bar": 77,
+        "beat": 3.0
+      },
+      "interval": "octave/unison",
+      "from_midi": [
+        59,
+        47
+      ],
+      "to_midi": [
+        57,
+        45
+      ],
+      "intermediate": [
+        {
+          "bar": 77,
+          "beat": 1.5,
+          "midi": [
+            59,
+            45
+          ]
+        },
+        {
+          "bar": 77,
+          "beat": 2.0,
+          "midi": [
+            59,
+            43
+          ]
+        }
+      ],
+      "intervening_quarter_sonority": [
+        "G5",
+        "G4",
+        "B3",
+        "G2"
+      ],
+      "review": "intervening quarter-note harmony/chordal movement; not consecutive beat-to-beat parallels"
+    },
+    {
+      "voices": [
+        0,
+        1
+      ],
+      "from": {
+        "bar": 83,
+        "beat": 3.0
+      },
+      "to": {
+        "bar": 84,
+        "beat": 1.0
+      },
+      "interval": "fifth",
+      "from_midi": [
+        79,
+        72
+      ],
+      "to_midi": [
+        78,
+        71
+      ],
+      "intermediate": [
+        {
+          "bar": 83,
+          "beat": 4.0,
+          "midi": [
+            79,
+            67
+          ]
+        }
+      ],
+      "intervening_quarter_sonority": [
+        "G5",
+        "G4",
+        "B3",
+        "E3"
+      ],
+      "review": "intervening quarter-note harmony/chordal movement; not consecutive beat-to-beat parallels"
+    },
+    {
+      "voices": [
+        1,
+        2
+      ],
+      "from": {
+        "bar": 85,
+        "beat": 1.0
+      },
+      "to": {
+        "bar": 85,
+        "beat": 3.0
+      },
+      "interval": "octave/unison",
+      "from_midi": [
+        76,
+        64
+      ],
+      "to_midi": [
+        74,
+        62
+      ],
+      "intermediate": [
+        {
+          "bar": 85,
+          "beat": 2.0,
+          "midi": [
+            79,
+            64
+          ]
+        }
+      ],
+      "intervening_quarter_sonority": [
+        "C6",
+        "G5",
+        "E4",
+        "C3"
+      ],
+      "review": "intervening quarter-note harmony/chordal movement; not consecutive beat-to-beat parallels"
+    },
+    {
+      "voices": [
+        1,
+        3
+      ],
+      "from": {
+        "bar": 85,
+        "beat": 1.0
+      },
+      "to": {
+        "bar": 85,
+        "beat": 3.0
+      },
+      "interval": "octave/unison",
+      "from_midi": [
+        76,
+        52
+      ],
+      "to_midi": [
+        74,
+        50
+      ],
+      "intermediate": [
+        {
+          "bar": 85,
+          "beat": 1.5,
+          "midi": [
+            76,
+            50
+          ]
+        },
+        {
+          "bar": 85,
+          "beat": 2.0,
+          "midi": [
+            79,
+            48
+          ]
+        }
+      ],
+      "intervening_quarter_sonority": [
+        "C6",
+        "G5",
+        "E4",
+        "C3"
+      ],
+      "review": "intervening quarter-note harmony/chordal movement; not consecutive beat-to-beat parallels"
+    },
+    {
+      "voices": [
+        2,
+        3
+      ],
+      "from": {
+        "bar": 85,
+        "beat": 1.0
+      },
+      "to": {
+        "bar": 85,
+        "beat": 3.0
+      },
+      "interval": "octave/unison",
+      "from_midi": [
+        64,
+        52
+      ],
+      "to_midi": [
+        62,
+        50
+      ],
+      "intermediate": [
+        {
+          "bar": 85,
+          "beat": 1.5,
+          "midi": [
+            64,
+            50
+          ]
+        },
+        {
+          "bar": 85,
+          "beat": 2.0,
+          "midi": [
+            64,
+            48
+          ]
+        }
+      ],
+      "intervening_quarter_sonority": [
+        "C6",
+        "G5",
+        "E4",
+        "C3"
+      ],
+      "review": "intervening quarter-note harmony/chordal movement; not consecutive beat-to-beat parallels"
+    },
+    {
+      "voices": [
+        2,
+        3
+      ],
+      "from": {
+        "bar": 85,
+        "beat": 3.0
+      },
+      "to": {
+        "bar": 86,
+        "beat": 1.0
+      },
+      "interval": "octave/unison",
+      "from_midi": [
+        62,
+        50
+      ],
+      "to_midi": [
+        57,
+        45
+      ],
+      "intermediate": [
+        {
+          "bar": 85,
+          "beat": 3.5,
+          "midi": [
+            64,
+            50
+          ]
+        },
+        {
+          "bar": 85,
+          "beat": 4.0,
+          "midi": [
+            60,
+            45
+          ]
+        },
+        {
+          "bar": 85,
+          "beat": 4.5,
+          "midi": [
+            59,
+            45
+          ]
+        }
+      ],
+      "intervening_quarter_sonority": [
+        "A5",
+        "E5",
+        "C4",
+        "A2"
+      ],
+      "review": "intervening quarter-note harmony/chordal movement; not consecutive beat-to-beat parallels"
+    },
+    {
+      "voices": [
+        0,
+        1
+      ],
+      "from": {
+        "bar": 87,
+        "beat": 3.0
+      },
+      "to": {
+        "bar": 88,
+        "beat": 1.0
+      },
+      "interval": "octave/unison",
+      "from_midi": [
+        84,
+        72
+      ],
+      "to_midi": [
+        83,
+        71
+      ],
+      "intermediate": [
+        {
+          "bar": 87,
+          "beat": 4.0,
+          "midi": [
+            79,
+            72
+          ]
+        }
+      ],
+      "intervening_quarter_sonority": [
+        "G5",
+        "C5",
+        "E4",
+        "C3"
+      ],
+      "review": "intervening quarter-note harmony/chordal movement; not consecutive beat-to-beat parallels"
+    },
+    {
+      "voices": [
+        0,
+        3
+      ],
+      "from": {
+        "bar": 89,
+        "beat": 1.0
+      },
+      "to": {
+        "bar": 89,
+        "beat": 3.0
+      },
+      "interval": "octave/unison",
+      "from_midi": [
+        86,
+        50
+      ],
+      "to_midi": [
+        85,
+        49
+      ],
+      "intermediate": [
+        {
+          "bar": 89,
+          "beat": 1.5,
+          "midi": [
+            85,
+            50
+          ]
+        },
+        {
+          "bar": 89,
+          "beat": 2.0,
+          "midi": [
+            83,
+            55
+          ]
+        },
+        {
+          "bar": 89,
+          "beat": 2.5,
+          "midi": [
+            83,
+            50
+          ]
+        }
+      ],
+      "intervening_quarter_sonority": [
+        "B5",
+        "B4",
+        "D4",
+        "G3"
+      ],
+      "review": "intervening quarter-note harmony/chordal movement; not consecutive beat-to-beat parallels"
+    },
+    {
+      "voices": [
+        2,
+        3
+      ],
+      "from": {
+        "bar": 91,
+        "beat": 1.0
+      },
+      "to": {
+        "bar": 91,
+        "beat": 3.0
+      },
+      "interval": "fifth",
+      "from_midi": [
+        57,
+        50
+      ],
+      "to_midi": [
+        62,
+        55
+      ],
+      "intermediate": [
+        {
+          "bar": 91,
+          "beat": 1.5,
+          "midi": [
+            57,
+            49
+          ]
+        },
+        {
+          "bar": 91,
+          "beat": 2.0,
+          "midi": [
+            62,
+            50
+          ]
+        },
+        {
+          "bar": 91,
+          "beat": 2.5,
+          "midi": [
+            62,
+            54
+          ]
+        }
+      ],
+      "intervening_quarter_sonority": [
+        "A5",
+        "F#4",
+        "D4",
+        "D3"
+      ],
+      "review": "intervening quarter-note harmony/chordal movement; not consecutive beat-to-beat parallels"
+    },
+    {
+      "voices": [
+        1,
+        2
+      ],
+      "from": {
+        "bar": 95,
+        "beat": 1.0
+      },
+      "to": {
+        "bar": 95,
+        "beat": 3.0
+      },
+      "interval": "fifth",
+      "from_midi": [
+        62,
+        55
+      ],
+      "to_midi": [
+        67,
+        60
+      ],
+      "intermediate": [
+        {
+          "bar": 95,
+          "beat": 1.5,
+          "midi": [
+            62,
+            54
+          ]
+        },
+        {
+          "bar": 95,
+          "beat": 2.0,
+          "midi": [
+            67,
+            55
+          ]
+        },
+        {
+          "bar": 95,
+          "beat": 2.5,
+          "midi": [
+            67,
+            59
+          ]
+        }
+      ],
+      "intervening_quarter_sonority": [
+        "B4",
+        "G4",
+        "G3",
+        "G2"
+      ],
+      "review": "intervening quarter-note harmony/chordal movement; not consecutive beat-to-beat parallels"
+    },
+    {
+      "voices": [
+        2,
+        3
+      ],
+      "from": {
+        "bar": 98,
+        "beat": 3.0
+      },
+      "to": {
+        "bar": 99,
+        "beat": 1.0
+      },
+      "interval": "octave/unison",
+      "from_midi": [
+        59,
+        47
+      ],
+      "to_midi": [
+        57,
+        45
+      ],
+      "intermediate": [
+        {
+          "bar": 98,
+          "beat": 4.0,
+          "midi": [
+            55,
+            48
+          ]
+        },
+        {
+          "bar": 98,
+          "beat": 4.5,
+          "midi": [
+            55,
+            47
+          ]
+        }
+      ],
+      "intervening_quarter_sonority": [
+        "G4",
+        "C4",
+        "G3",
+        "C3"
+      ],
+      "review": "intervening quarter-note harmony/chordal movement; not consecutive beat-to-beat parallels"
+    },
+    {
+      "voices": [
+        1,
+        2
+      ],
+      "from": {
+        "bar": 99,
+        "beat": 3.0
+      },
+      "to": {
+        "bar": 100,
+        "beat": 1.0
+      },
+      "interval": "octave/unison",
+      "from_midi": [
+        57,
+        57
+      ],
+      "to_midi": [
+        64,
+        64
+      ],
+      "intermediate": [
+        {
+          "bar": 99,
+          "beat": 4.0,
+          "midi": [
+            59,
+            55
+          ]
+        }
+      ],
+      "intervening_quarter_sonority": [
+        "B3",
+        "B3",
+        "G3",
+        "G2"
+      ],
+      "review": "intervening quarter-note harmony/chordal movement; not consecutive beat-to-beat parallels"
+    },
+    {
+      "voices": [
+        0,
+        2
+      ],
+      "from": {
+        "bar": 100,
+        "beat": 3.0
+      },
+      "to": {
+        "bar": 101,
+        "beat": 1.0
+      },
+      "interval": "octave/unison",
+      "from_midi": [
+        71,
+        59
+      ],
+      "to_midi": [
+        72,
+        60
+      ],
+      "intermediate": [
+        {
+          "bar": 100,
+          "beat": 4.0,
+          "midi": [
+            71,
+            62
+          ]
+        }
+      ],
+      "intervening_quarter_sonority": [
+        "B4",
+        "G4",
+        "D4",
+        "G2"
+      ],
+      "review": "intervening quarter-note harmony/chordal movement; not consecutive beat-to-beat parallels"
+    },
+    {
+      "voices": [
+        1,
+        3
+      ],
+      "from": {
+        "bar": 102,
+        "beat": 3.0
+      },
+      "to": {
+        "bar": 103,
+        "beat": 1.0
+      },
+      "interval": "octave/unison",
+      "from_midi": [
+        62,
+        50
+      ],
+      "to_midi": [
+        67,
+        55
+      ],
+      "intermediate": [
+        {
+          "bar": 102,
+          "beat": 4.0,
+          "midi": [
+            65,
+            50
+          ]
+        }
+      ],
+      "intervening_quarter_sonority": [
+        "A5",
+        "F4",
+        "D4",
+        "D3"
+      ],
+      "review": "intervening quarter-note harmony/chordal movement; not consecutive beat-to-beat parallels"
+    },
+    {
+      "voices": [
+        0,
+        2
+      ],
+      "from": {
+        "bar": 104,
+        "beat": 1.0
+      },
+      "to": {
+        "bar": 104,
+        "beat": 3.0
+      },
+      "interval": "octave/unison",
+      "from_midi": [
+        72,
+        60
+      ],
+      "to_midi": [
+        74,
+        62
+      ],
+      "intermediate": [
+        {
+          "bar": 104,
+          "beat": 2.0,
+          "midi": [
+            76,
+            60
+          ]
+        }
+      ],
+      "intervening_quarter_sonority": [
+        "E5",
+        "G4",
+        "C4",
+        "E3"
+      ],
+      "review": "intervening quarter-note harmony/chordal movement; not consecutive beat-to-beat parallels"
+    },
+    {
+      "voices": [
+        0,
+        3
+      ],
+      "from": {
+        "bar": 109,
+        "beat": 1.0
+      },
+      "to": {
+        "bar": 109,
+        "beat": 3.0
+      },
+      "interval": "octave/unison",
+      "from_midi": [
+        81,
+        57
+      ],
+      "to_midi": [
+        79,
+        55
+      ],
+      "intermediate": [
+        {
+          "bar": 109,
+          "beat": 2.0,
+          "midi": [
+            86,
+            53
+          ]
+        },
+        {
+          "bar": 109,
+          "beat": 2.5,
+          "midi": [
+            81,
+            53
+          ]
+        }
+      ],
+      "intervening_quarter_sonority": [
+        "D6",
+        "D5",
+        "F4",
+        "F3"
+      ],
+      "review": "intervening quarter-note harmony/chordal movement; not consecutive beat-to-beat parallels"
+    },
+    {
+      "voices": [
+        0,
+        3
+      ],
+      "from": {
+        "bar": 114,
+        "beat": 3.0
+      },
+      "to": {
+        "bar": 115,
+        "beat": 1.0
+      },
+      "interval": "octave/unison",
+      "from_midi": [
+        74,
+        50
+      ],
+      "to_midi": [
+        76,
+        52
+      ],
+      "intermediate": [
+        {
+          "bar": 114,
+          "beat": 3.5,
+          "midi": [
+            74,
+            52
+          ]
+        },
+        {
+          "bar": 114,
+          "beat": 3.75,
+          "midi": [
+            76,
+            52
+          ]
+        },
+        {
+          "bar": 114,
+          "beat": 4.0,
+          "midi": [
+            72,
+            53
+          ]
+        },
+        {
+          "bar": 114,
+          "beat": 4.75,
+          "midi": [
+            74,
+            53
+          ]
+        }
+      ],
+      "intervening_quarter_sonority": [
+        "C5",
+        "A3",
+        "A3",
+        "F3"
+      ],
+      "review": "intervening quarter-note harmony/chordal movement; not consecutive beat-to-beat parallels"
+    },
+    {
+      "voices": [
+        0,
+        3
+      ],
+      "from": {
+        "bar": 115,
+        "beat": 3.0
+      },
+      "to": {
+        "bar": 116,
+        "beat": 1.0
+      },
+      "interval": "fifth",
+      "from_midi": [
+        81,
+        50
+      ],
+      "to_midi": [
+        79,
+        48
+      ],
+      "intermediate": [
+        {
+          "bar": 115,
+          "beat": 3.5,
+          "midi": [
+            79,
+            50
+          ]
+        },
+        {
+          "bar": 115,
+          "beat": 4.0,
+          "midi": [
+            81,
+            48
+          ]
+        },
+        {
+          "bar": 115,
+          "beat": 4.25,
+          "midi": [
+            79,
+            48
+          ]
+        },
+        {
+          "bar": 115,
+          "beat": 4.5,
+          "midi": [
+            81,
+            48
+          ]
+        },
+        {
+          "bar": 115,
+          "beat": 4.75,
+          "midi": [
+            84,
+            48
+          ]
+        }
+      ],
+      "intervening_quarter_sonority": [
+        "A5",
+        "C4",
+        "E3",
+        "C3"
+      ],
+      "review": "intervening quarter-note harmony/chordal movement; not consecutive beat-to-beat parallels"
+    },
+    {
+      "voices": [
+        2,
+        3
+      ],
+      "from": {
+        "bar": 117,
+        "beat": 1.0
+      },
+      "to": {
+        "bar": 117,
+        "beat": 3.0
+      },
+      "interval": "octave/unison",
+      "from_midi": [
+        59,
+        47
+      ],
+      "to_midi": [
+        57,
+        45
+      ],
+      "intermediate": [
+        {
+          "bar": 117,
+          "beat": 2.0,
+          "midi": [
+            62,
+            47
+          ]
+        }
+      ],
+      "intervening_quarter_sonority": [
+        "D6",
+        "G4",
+        "D4",
+        "B2"
+      ],
+      "review": "intervening quarter-note harmony/chordal movement; not consecutive beat-to-beat parallels"
+    },
+    {
+      "voices": [
+        0,
+        3
+      ],
+      "from": {
+        "bar": 117,
+        "beat": 3.0
+      },
+      "to": {
+        "bar": 118,
+        "beat": 1.0
+      },
+      "interval": "fifth",
+      "from_midi": [
+        88,
+        45
+      ],
+      "to_midi": [
+        83,
+        40
+      ],
+      "intermediate": [
+        {
+          "bar": 117,
+          "beat": 3.5,
+          "midi": [
+            88,
+            47
+          ]
+        },
+        {
+          "bar": 117,
+          "beat": 4.0,
+          "midi": [
+            83,
+            43
+          ]
+        },
+        {
+          "bar": 117,
+          "beat": 4.5,
+          "midi": [
+            83,
+            42
+          ]
+        }
+      ],
+      "intervening_quarter_sonority": [
+        "B5",
+        "E4",
+        "B3",
+        "G2"
+      ],
+      "review": "intervening quarter-note harmony/chordal movement; not consecutive beat-to-beat parallels"
+    },
+    {
+      "voices": [
+        0,
+        1
+      ],
+      "from": {
+        "bar": 119,
+        "beat": 3.0
+      },
+      "to": {
+        "bar": 120,
+        "beat": 1.0
+      },
+      "interval": "fifth",
+      "from_midi": [
+        74,
+        67
+      ],
+      "to_midi": [
+        73,
+        66
+      ],
+      "intermediate": [
+        {
+          "bar": 119,
+          "beat": 4.0,
+          "midi": [
+            74,
+            62
+          ]
+        }
+      ],
+      "intervening_quarter_sonority": [
+        "D5",
+        "D4",
+        "F#3",
+        "B2"
+      ],
+      "review": "intervening quarter-note harmony/chordal movement; not consecutive beat-to-beat parallels"
+    },
+    {
+      "voices": [
+        1,
+        3
+      ],
+      "from": {
+        "bar": 131,
+        "beat": 1.0
+      },
+      "to": {
+        "bar": 131,
+        "beat": 3.0
+      },
+      "interval": "fifth",
+      "from_midi": [
+        62,
+        43
+      ],
+      "to_midi": [
+        67,
+        48
+      ],
+      "intermediate": [
+        {
+          "bar": 131,
+          "beat": 1.5,
+          "midi": [
+            62,
+            42
+          ]
+        },
+        {
+          "bar": 131,
+          "beat": 2.0,
+          "midi": [
+            67,
+            43
+          ]
+        },
+        {
+          "bar": 131,
+          "beat": 2.5,
+          "midi": [
+            67,
+            47
+          ]
+        }
+      ],
+      "intervening_quarter_sonority": [
+        "B4",
+        "G4",
+        "D4",
+        "G2"
+      ],
+      "review": "intervening quarter-note harmony/chordal movement; not consecutive beat-to-beat parallels"
+    },
+    {
+      "voices": [
+        0,
+        1
+      ],
+      "from": {
+        "bar": 133,
+        "beat": 1.0
+      },
+      "to": {
+        "bar": 133,
+        "beat": 3.0
+      },
+      "interval": "octave/unison",
+      "from_midi": [
+        79,
+        67
+      ],
+      "to_midi": [
+        78,
+        66
+      ],
+      "intermediate": [
+        {
+          "bar": 133,
+          "beat": 2.0,
+          "midi": [
+            76,
+            72
+          ]
+        },
+        {
+          "bar": 133,
+          "beat": 2.5,
+          "midi": [
+            76,
+            67
+          ]
+        }
+      ],
+      "intervening_quarter_sonority": [
+        "E5",
+        "C5",
+        "E4",
+        "E3"
+      ],
+      "review": "intervening quarter-note harmony/chordal movement; not consecutive beat-to-beat parallels"
+    },
+    {
+      "voices": [
+        0,
+        1
+      ],
+      "from": {
+        "bar": 135,
+        "beat": 1.0
+      },
+      "to": {
+        "bar": 135,
+        "beat": 3.0
+      },
+      "interval": "fifth",
+      "from_midi": [
+        74,
+        67
+      ],
+      "to_midi": [
+        79,
+        72
+      ],
+      "intermediate": [
+        {
+          "bar": 135,
+          "beat": 1.5,
+          "midi": [
+            74,
+            66
+          ]
+        },
+        {
+          "bar": 135,
+          "beat": 2.0,
+          "midi": [
+            79,
+            67
+          ]
+        },
+        {
+          "bar": 135,
+          "beat": 2.5,
+          "midi": [
+            79,
+            71
+          ]
+        }
+      ],
+      "intervening_quarter_sonority": [
+        "G5",
+        "G4",
+        "B3",
+        "G2"
+      ],
+      "review": "intervening quarter-note harmony/chordal movement; not consecutive beat-to-beat parallels"
+    },
+    {
+      "voices": [
+        1,
+        3
+      ],
+      "from": {
+        "bar": 137,
+        "beat": 3.0
+      },
+      "to": {
+        "bar": 138,
+        "beat": 1.0
+      },
+      "interval": "octave/unison",
+      "from_midi": [
+        62,
+        50
+      ],
+      "to_midi": [
+        57,
+        45
+      ],
+      "intermediate": [
+        {
+          "bar": 137,
+          "beat": 3.5,
+          "midi": [
+            64,
+            50
+          ]
+        },
+        {
+          "bar": 137,
+          "beat": 4.0,
+          "midi": [
+            60,
+            45
+          ]
+        },
+        {
+          "bar": 137,
+          "beat": 4.5,
+          "midi": [
+            59,
+            45
+          ]
+        }
+      ],
+      "intervening_quarter_sonority": [
+        "A5",
+        "C4",
+        "A3",
+        "A2"
+      ],
+      "review": "intervening quarter-note harmony/chordal movement; not consecutive beat-to-beat parallels"
+    },
+    {
+      "voices": [
+        2,
+        3
+      ],
+      "from": {
+        "bar": 137,
+        "beat": 3.0
+      },
+      "to": {
+        "bar": 138,
+        "beat": 1.0
+      },
+      "interval": "fifth",
+      "from_midi": [
+        57,
+        50
+      ],
+      "to_midi": [
+        52,
+        45
+      ],
+      "intermediate": [
+        {
+          "bar": 137,
+          "beat": 4.0,
+          "midi": [
+            57,
+            45
+          ]
+        }
+      ],
+      "intervening_quarter_sonority": [
+        "A5",
+        "C4",
+        "A3",
+        "A2"
+      ],
+      "review": "intervening quarter-note harmony/chordal movement; not consecutive beat-to-beat parallels"
+    },
+    {
+      "voices": [
+        0,
+        1
+      ],
+      "from": {
+        "bar": 141,
+        "beat": 1.0
+      },
+      "to": {
+        "bar": 141,
+        "beat": 3.0
+      },
+      "interval": "octave/unison",
+      "from_midi": [
+        84,
+        72
+      ],
+      "to_midi": [
+        81,
+        69
+      ],
+      "intermediate": [
+        {
+          "bar": 141,
+          "beat": 2.0,
+          "midi": [
+            79,
+            72
+          ]
+        }
+      ],
+      "intervening_quarter_sonority": [
+        "G5",
+        "C5",
+        "C4",
+        "E3"
+      ],
+      "review": "intervening quarter-note harmony/chordal movement; not consecutive beat-to-beat parallels"
+    },
+    {
+      "voices": [
+        0,
+        3
+      ],
+      "from": {
+        "bar": 141,
+        "beat": 3.0
+      },
+      "to": {
+        "bar": 142,
+        "beat": 1.0
+      },
+      "interval": "fifth",
+      "from_midi": [
+        81,
+        50
+      ],
+      "to_midi": [
+        76,
+        45
+      ],
+      "intermediate": [
+        {
+          "bar": 141,
+          "beat": 3.5,
+          "midi": [
+            81,
+            52
+          ]
+        },
+        {
+          "bar": 141,
+          "beat": 4.0,
+          "midi": [
+            76,
+            48
+          ]
+        },
+        {
+          "bar": 141,
+          "beat": 4.5,
+          "midi": [
+            76,
+            47
+          ]
+        }
+      ],
+      "intervening_quarter_sonority": [
+        "E5",
+        "A4",
+        "A3",
+        "C3"
+      ],
+      "review": "intervening quarter-note harmony/chordal movement; not consecutive beat-to-beat parallels"
+    },
+    {
+      "voices": [
+        1,
+        3
+      ],
+      "from": {
+        "bar": 142,
+        "beat": 3.0
+      },
+      "to": {
+        "bar": 143,
+        "beat": 1.0
+      },
+      "interval": "octave/unison",
+      "from_midi": [
+        69,
+        45
+      ],
+      "to_midi": [
+        71,
+        47
+      ],
+      "intermediate": [
+        {
+          "bar": 142,
+          "beat": 3.75,
+          "midi": [
+            69,
+            47
+          ]
+        },
+        {
+          "bar": 142,
+          "beat": 4.0,
+          "midi": [
+            71,
+            43
+          ]
+        },
+        {
+          "bar": 142,
+          "beat": 4.75,
+          "midi": [
+            71,
+            45
+          ]
+        }
+      ],
+      "intervening_quarter_sonority": [
+        "E5",
+        "B4",
+        "E3",
+        "G2"
+      ],
+      "review": "intervening quarter-note harmony/chordal movement; not consecutive beat-to-beat parallels"
+    },
+    {
+      "voices": [
+        1,
+        2
+      ],
+      "from": {
+        "bar": 143,
+        "beat": 3.0
+      },
+      "to": {
+        "bar": 144,
+        "beat": 1.0
+      },
+      "interval": "fifth",
+      "from_midi": [
+        67,
+        60
+      ],
+      "to_midi": [
+        66,
+        59
+      ],
+      "intermediate": [
+        {
+          "bar": 143,
+          "beat": 4.0,
+          "midi": [
+            67,
+            55
+          ]
+        }
+      ],
+      "intervening_quarter_sonority": [
+        "B4",
+        "G4",
+        "G3",
+        "E3"
+      ],
+      "review": "intervening quarter-note harmony/chordal movement; not consecutive beat-to-beat parallels"
+    },
+    {
+      "voices": [
+        0,
+        3
+      ],
+      "from": {
+        "bar": 146,
+        "beat": 3.0
+      },
+      "to": {
+        "bar": 147,
+        "beat": 1.0
+      },
+      "interval": "octave/unison",
+      "from_midi": [
+        72,
+        48
+      ],
+      "to_midi": [
+        67,
+        43
+      ],
+      "intermediate": [
+        {
+          "bar": 146,
+          "beat": 4.0,
+          "midi": [
+            69,
+            50
+          ]
+        }
+      ],
+      "intervening_quarter_sonority": [
+        "A4",
+        "F#4",
+        "A3",
+        "D3"
+      ],
+      "review": "intervening quarter-note harmony/chordal movement; not consecutive beat-to-beat parallels"
+    },
+    {
+      "voices": [
+        1,
+        3
+      ],
+      "from": {
+        "bar": 146,
+        "beat": 3.0
+      },
+      "to": {
+        "bar": 147,
+        "beat": 1.0
+      },
+      "interval": "fifth",
+      "from_midi": [
+        67,
+        48
+      ],
+      "to_midi": [
+        62,
+        43
+      ],
+      "intermediate": [
+        {
+          "bar": 146,
+          "beat": 4.0,
+          "midi": [
+            66,
+            50
+          ]
+        }
+      ],
+      "intervening_quarter_sonority": [
+        "A4",
+        "F#4",
+        "A3",
+        "D3"
+      ],
+      "review": "intervening quarter-note harmony/chordal movement; not consecutive beat-to-beat parallels"
+    }
+  ],
   "leaps_over_major_sixth": [
     {
       "voice": 0,
@@ -27,12 +3012,19 @@
       "interval": -12
     },
     {
-      "voice": 2,
-      "bar": 100,
+      "voice": 1,
+      "bar": 113,
       "beat": 1.0,
-      "interval": 12
+      "interval": -12
+    },
+    {
+      "voice": 1,
+      "bar": 137,
+      "beat": 1.0,
+      "interval": -12
     }
   ],
+  "melodic_augmented_seconds": [],
   "accented_dissonances_above_bass": [
     {
       "voice": 0,
@@ -40,7 +3032,17 @@
       "beat": 1.0,
       "midi": 76,
       "bass": 50,
-      "interval": 2
+      "interval": 2,
+      "treatment": "dominant pedal; upper counterpoint reviewed separately"
+    },
+    {
+      "voice": 1,
+      "bar": 121,
+      "beat": 1.0,
+      "midi": 72,
+      "bass": 50,
+      "interval": 10,
+      "treatment": "dominant pedal; upper counterpoint reviewed separately"
     },
     {
       "voice": 0,
@@ -48,7 +3050,8 @@
       "beat": 2.0,
       "midi": 76,
       "bass": 50,
-      "interval": 2
+      "interval": 2,
+      "treatment": "dominant pedal; upper counterpoint reviewed separately"
     },
     {
       "voice": 0,
@@ -56,7 +3059,8 @@
       "beat": 3.0,
       "midi": 76,
       "bass": 50,
-      "interval": 2
+      "interval": 2,
+      "treatment": "dominant pedal; upper counterpoint reviewed separately"
     },
     {
       "voice": 0,
@@ -64,7 +3068,8 @@
       "beat": 4.0,
       "midi": 76,
       "bass": 50,
-      "interval": 2
+      "interval": 2,
+      "treatment": "dominant pedal; upper counterpoint reviewed separately"
     },
     {
       "voice": 0,
@@ -72,7 +3077,8 @@
       "beat": 2.0,
       "midi": 76,
       "bass": 50,
-      "interval": 2
+      "interval": 2,
+      "treatment": "dominant pedal; upper counterpoint reviewed separately"
     },
     {
       "voice": 0,
@@ -80,7 +3086,8 @@
       "beat": 3.0,
       "midi": 72,
       "bass": 50,
-      "interval": 10
+      "interval": 10,
+      "treatment": "dominant pedal; upper counterpoint reviewed separately"
     },
     {
       "voice": 0,
@@ -88,7 +3095,8 @@
       "beat": 3.0,
       "midi": 67,
       "bass": 50,
-      "interval": 5
+      "interval": 5,
+      "treatment": "dominant pedal; upper counterpoint reviewed separately"
     },
     {
       "voice": 0,
@@ -96,7 +3104,8 @@
       "beat": 4.0,
       "midi": 67,
       "bass": 50,
-      "interval": 5
+      "interval": 5,
+      "treatment": "dominant pedal; upper counterpoint reviewed separately"
     },
     {
       "voice": 0,
@@ -104,7 +3113,8 @@
       "beat": 1.0,
       "midi": 76,
       "bass": 50,
-      "interval": 2
+      "interval": 2,
+      "treatment": "dominant pedal; upper counterpoint reviewed separately"
     },
     {
       "voice": 0,
@@ -112,7 +3122,8 @@
       "beat": 3.0,
       "midi": 76,
       "bass": 50,
-      "interval": 2
+      "interval": 2,
+      "treatment": "dominant pedal; upper counterpoint reviewed separately"
     },
     {
       "voice": 0,
@@ -120,7 +3131,8 @@
       "beat": 4.0,
       "midi": 76,
       "bass": 50,
-      "interval": 2
+      "interval": 2,
+      "treatment": "dominant pedal; upper counterpoint reviewed separately"
     },
     {
       "voice": 0,
@@ -128,7 +3140,8 @@
       "beat": 2.0,
       "midi": 76,
       "bass": 50,
-      "interval": 2
+      "interval": 2,
+      "treatment": "dominant pedal; upper counterpoint reviewed separately"
     },
     {
       "voice": 0,
@@ -136,7 +3149,17 @@
       "beat": 4.0,
       "midi": 79,
       "bass": 50,
-      "interval": 5
+      "interval": 5,
+      "treatment": "dominant pedal; upper counterpoint reviewed separately"
+    },
+    {
+      "voice": 1,
+      "bar": 128,
+      "beat": 4.0,
+      "midi": 67,
+      "bass": 50,
+      "interval": 5,
+      "treatment": "dominant pedal; upper counterpoint reviewed separately"
     },
     {
       "voice": 0,
@@ -144,7 +3167,8 @@
       "beat": 3.0,
       "midi": 67,
       "bass": 50,
-      "interval": 5
+      "interval": 5,
+      "treatment": "prepared 4-3 suspension, resolving at beat 4"
     },
     {
       "voice": 2,
@@ -152,7 +3176,8 @@
       "beat": 1.0,
       "midi": 60,
       "bass": 50,
-      "interval": 10
+      "interval": 10,
+      "treatment": "dominant seventh, resolving to B3 in bar 149"
     },
     {
       "voice": 2,
@@ -160,7 +3185,8 @@
       "beat": 2.0,
       "midi": 60,
       "bass": 50,
-      "interval": 10
+      "interval": 10,
+      "treatment": "dominant seventh, resolving to B3 in bar 149"
     },
     {
       "voice": 2,
@@ -168,8 +3194,1722 @@
       "beat": 4.0,
       "midi": 60,
       "bass": 50,
-      "interval": 10
+      "interval": 10,
+      "treatment": "dominant seventh, resolving to B3 in bar 149"
     }
   ],
+  "unexplained_accented_dissonances": [],
+  "upper_voice_accented_dissonances": [
+    {
+      "voices": [
+        0,
+        2
+      ],
+      "bar": 147,
+      "beat": 3.0,
+      "midi": [
+        67,
+        57
+      ],
+      "treatment": "prepared 4-3 suspension, resolving at beat 4"
+    },
+    {
+      "voices": [
+        1,
+        2
+      ],
+      "bar": 148,
+      "beat": 1.0,
+      "midi": [
+        66,
+        60
+      ],
+      "treatment": "dominant seventh, resolving to B3 in bar 149"
+    },
+    {
+      "voices": [
+        1,
+        2
+      ],
+      "bar": 148,
+      "beat": 2.0,
+      "midi": [
+        66,
+        60
+      ],
+      "treatment": "dominant seventh, resolving to B3 in bar 149"
+    },
+    {
+      "voices": [
+        0,
+        2
+      ],
+      "bar": 148,
+      "beat": 4.0,
+      "midi": [
+        66,
+        60
+      ],
+      "treatment": "dominant seventh, resolving to B3 in bar 149"
+    },
+    {
+      "voices": [
+        1,
+        2
+      ],
+      "bar": 148,
+      "beat": 4.0,
+      "midi": [
+        62,
+        60
+      ],
+      "treatment": "dominant seventh, resolving to B3 in bar 149"
+    }
+  ],
+  "unexplained_upper_dissonances": [],
+  "weak_dissonance_treatments": [
+    {
+      "voice": 0,
+      "bar": 9,
+      "beat": 3.5,
+      "midi": 76,
+      "bass": 66,
+      "treatment": "escape note"
+    },
+    {
+      "voice": 0,
+      "bar": 10,
+      "beat": 3.75,
+      "midi": 71,
+      "bass": 60,
+      "treatment": "escape note"
+    },
+    {
+      "voice": 0,
+      "bar": 11,
+      "beat": 3.5,
+      "midi": 74,
+      "bass": 60,
+      "treatment": "neighbor note"
+    },
+    {
+      "voice": 0,
+      "bar": 11,
+      "beat": 4.25,
+      "midi": 74,
+      "bass": 60,
+      "treatment": "neighbor note"
+    },
+    {
+      "voice": 0,
+      "bar": 12,
+      "beat": 3.5,
+      "midi": 76,
+      "bass": 54,
+      "treatment": "unaccented appoggiatura"
+    },
+    {
+      "voice": 0,
+      "bar": 12,
+      "beat": 4.75,
+      "midi": 81,
+      "bass": 55,
+      "treatment": "escape note"
+    },
+    {
+      "voice": 0,
+      "bar": 17,
+      "beat": 1.5,
+      "midi": 74,
+      "bass": 64,
+      "treatment": "neighbor note"
+    },
+    {
+      "voice": 0,
+      "bar": 19,
+      "beat": 2.5,
+      "midi": 69,
+      "bass": 52,
+      "treatment": "unaccented appoggiatura"
+    },
+    {
+      "voice": 0,
+      "bar": 21,
+      "beat": 1.5,
+      "midi": 78,
+      "bass": 52,
+      "treatment": "passing tone"
+    },
+    {
+      "voice": 0,
+      "bar": 21,
+      "beat": 2.5,
+      "midi": 74,
+      "bass": 48,
+      "treatment": "passing tone"
+    },
+    {
+      "voice": 0,
+      "bar": 23,
+      "beat": 3.5,
+      "midi": 71,
+      "bass": 48,
+      "treatment": "passing tone"
+    },
+    {
+      "voice": 0,
+      "bar": 25,
+      "beat": 3.5,
+      "midi": 72,
+      "bass": 47,
+      "treatment": "escape note"
+    },
+    {
+      "voice": 0,
+      "bar": 26,
+      "beat": 3.75,
+      "midi": 67,
+      "bass": 45,
+      "treatment": "escape note"
+    },
+    {
+      "voice": 0,
+      "bar": 27,
+      "beat": 3.5,
+      "midi": 71,
+      "bass": 45,
+      "treatment": "neighbor note"
+    },
+    {
+      "voice": 0,
+      "bar": 27,
+      "beat": 4.25,
+      "midi": 71,
+      "bass": 48,
+      "treatment": "neighbor note"
+    },
+    {
+      "voice": 0,
+      "bar": 28,
+      "beat": 4.5,
+      "midi": 76,
+      "bass": 51,
+      "treatment": "unaccented appoggiatura"
+    },
+    {
+      "voice": 0,
+      "bar": 29,
+      "beat": 1.5,
+      "midi": 76,
+      "bass": 50,
+      "treatment": "passing tone"
+    },
+    {
+      "voice": 0,
+      "bar": 29,
+      "beat": 4.5,
+      "midi": 76,
+      "bass": 50,
+      "treatment": "passing tone"
+    },
+    {
+      "voice": 0,
+      "bar": 32,
+      "beat": 2.5,
+      "midi": 74,
+      "bass": 45,
+      "treatment": "passing tone"
+    },
+    {
+      "voice": 0,
+      "bar": 35,
+      "beat": 2.5,
+      "midi": 77,
+      "bass": 48,
+      "treatment": "passing tone"
+    },
+    {
+      "voice": 0,
+      "bar": 36,
+      "beat": 3.5,
+      "midi": 77,
+      "bass": 47,
+      "treatment": "passing tone"
+    },
+    {
+      "voice": 0,
+      "bar": 42,
+      "beat": 2.5,
+      "midi": 76,
+      "bass": 50,
+      "treatment": "passing tone"
+    },
+    {
+      "voice": 0,
+      "bar": 43,
+      "beat": 1.5,
+      "midi": 71,
+      "bass": 48,
+      "treatment": "neighbor note"
+    },
+    {
+      "voice": 0,
+      "bar": 45,
+      "beat": 2.5,
+      "midi": 74,
+      "bass": 48,
+      "treatment": "passing tone"
+    },
+    {
+      "voice": 0,
+      "bar": 46,
+      "beat": 1.5,
+      "midi": 78,
+      "bass": 43,
+      "treatment": "passing tone"
+    },
+    {
+      "voice": 0,
+      "bar": 62,
+      "beat": 1.5,
+      "midi": 78,
+      "bass": 43,
+      "treatment": "neighbor note"
+    },
+    {
+      "voice": 0,
+      "bar": 62,
+      "beat": 4.5,
+      "midi": 73,
+      "bass": 43,
+      "treatment": "passing tone"
+    },
+    {
+      "voice": 0,
+      "bar": 65,
+      "beat": 1.5,
+      "midi": 74,
+      "bass": 52,
+      "treatment": "neighbor note"
+    },
+    {
+      "voice": 0,
+      "bar": 67,
+      "beat": 1.5,
+      "midi": 71,
+      "bass": 48,
+      "treatment": "neighbor note"
+    },
+    {
+      "voice": 0,
+      "bar": 69,
+      "beat": 1.5,
+      "midi": 78,
+      "bass": 52,
+      "treatment": "passing tone"
+    },
+    {
+      "voice": 0,
+      "bar": 69,
+      "beat": 2.5,
+      "midi": 74,
+      "bass": 48,
+      "treatment": "passing tone"
+    },
+    {
+      "voice": 0,
+      "bar": 71,
+      "beat": 3.5,
+      "midi": 71,
+      "bass": 48,
+      "treatment": "passing tone"
+    },
+    {
+      "voice": 0,
+      "bar": 86,
+      "beat": 1.5,
+      "midi": 83,
+      "bass": 45,
+      "treatment": "neighbor note"
+    },
+    {
+      "voice": 0,
+      "bar": 86,
+      "beat": 4.5,
+      "midi": 78,
+      "bass": 48,
+      "treatment": "passing tone"
+    },
+    {
+      "voice": 0,
+      "bar": 89,
+      "beat": 1.5,
+      "midi": 85,
+      "bass": 50,
+      "treatment": "passing tone"
+    },
+    {
+      "voice": 0,
+      "bar": 93,
+      "beat": 3.5,
+      "midi": 76,
+      "bass": 47,
+      "treatment": "escape note"
+    },
+    {
+      "voice": 0,
+      "bar": 93,
+      "beat": 4.5,
+      "midi": 71,
+      "bass": 48,
+      "treatment": "passing tone"
+    },
+    {
+      "voice": 0,
+      "bar": 94,
+      "beat": 3.75,
+      "midi": 71,
+      "bass": 48,
+      "treatment": "escape note"
+    },
+    {
+      "voice": 0,
+      "bar": 95,
+      "beat": 3.5,
+      "midi": 74,
+      "bass": 40,
+      "treatment": "neighbor note"
+    },
+    {
+      "voice": 0,
+      "bar": 96,
+      "beat": 3.5,
+      "midi": 76,
+      "bass": 50,
+      "treatment": "unaccented appoggiatura"
+    },
+    {
+      "voice": 0,
+      "bar": 96,
+      "beat": 4.75,
+      "midi": 81,
+      "bass": 43,
+      "treatment": "escape note"
+    },
+    {
+      "voice": 0,
+      "bar": 97,
+      "beat": 2.5,
+      "midi": 65,
+      "bass": 48,
+      "treatment": "unaccented appoggiatura"
+    },
+    {
+      "voice": 0,
+      "bar": 99,
+      "beat": 2.5,
+      "midi": 62,
+      "bass": 45,
+      "treatment": "unaccented appoggiatura"
+    },
+    {
+      "voice": 0,
+      "bar": 101,
+      "beat": 1.5,
+      "midi": 71,
+      "bass": 45,
+      "treatment": "passing tone"
+    },
+    {
+      "voice": 0,
+      "bar": 106,
+      "beat": 3.5,
+      "midi": 79,
+      "bass": 57,
+      "treatment": "passing tone"
+    },
+    {
+      "voice": 0,
+      "bar": 107,
+      "beat": 4.5,
+      "midi": 81,
+      "bass": 52,
+      "treatment": "passing tone"
+    },
+    {
+      "voice": 0,
+      "bar": 110,
+      "beat": 1.5,
+      "midi": 84,
+      "bass": 50,
+      "treatment": "neighbor note"
+    },
+    {
+      "voice": 0,
+      "bar": 110,
+      "beat": 4.5,
+      "midi": 79,
+      "bass": 50,
+      "treatment": "passing tone"
+    },
+    {
+      "voice": 0,
+      "bar": 111,
+      "beat": 2.5,
+      "midi": 84,
+      "bass": 43,
+      "treatment": "upper chord tone against bass passing/neighbor note"
+    },
+    {
+      "voice": 0,
+      "bar": 112,
+      "beat": 1.5,
+      "midi": 83,
+      "bass": 45,
+      "treatment": "neighbor note"
+    },
+    {
+      "voice": 0,
+      "bar": 113,
+      "beat": 3.5,
+      "midi": 81,
+      "bass": 52,
+      "treatment": "escape note"
+    },
+    {
+      "voice": 0,
+      "bar": 113,
+      "beat": 4.5,
+      "midi": 76,
+      "bass": 50,
+      "treatment": "passing tone"
+    },
+    {
+      "voice": 0,
+      "bar": 115,
+      "beat": 3.5,
+      "midi": 79,
+      "bass": 50,
+      "treatment": "neighbor note"
+    },
+    {
+      "voice": 0,
+      "bar": 116,
+      "beat": 3.5,
+      "midi": 81,
+      "bass": 55,
+      "treatment": "unaccented appoggiatura"
+    },
+    {
+      "voice": 0,
+      "bar": 116,
+      "beat": 4.75,
+      "midi": 86,
+      "bass": 48,
+      "treatment": "passing tone"
+    },
+    {
+      "voice": 0,
+      "bar": 120,
+      "beat": 2.5,
+      "midi": 74,
+      "bass": 45,
+      "treatment": "passing tone"
+    },
+    {
+      "voice": 0,
+      "bar": 126,
+      "beat": 4.5,
+      "midi": 79,
+      "bass": 50,
+      "treatment": "figuration above the dominant pedal"
+    },
+    {
+      "voice": 0,
+      "bar": 128,
+      "beat": 3.5,
+      "midi": 76,
+      "bass": 50,
+      "treatment": "figuration above the dominant pedal"
+    },
+    {
+      "voice": 0,
+      "bar": 129,
+      "beat": 3.5,
+      "midi": 76,
+      "bass": 42,
+      "treatment": "escape note"
+    },
+    {
+      "voice": 0,
+      "bar": 129,
+      "beat": 4.5,
+      "midi": 71,
+      "bass": 45,
+      "treatment": "passing tone"
+    },
+    {
+      "voice": 0,
+      "bar": 130,
+      "beat": 3.75,
+      "midi": 71,
+      "bass": 48,
+      "treatment": "escape note"
+    },
+    {
+      "voice": 0,
+      "bar": 130,
+      "beat": 4.5,
+      "midi": 67,
+      "bass": 42,
+      "treatment": "upper chord tone against bass passing/neighbor note"
+    },
+    {
+      "voice": 0,
+      "bar": 131,
+      "beat": 3.5,
+      "midi": 74,
+      "bass": 48,
+      "treatment": "neighbor note"
+    },
+    {
+      "voice": 0,
+      "bar": 132,
+      "beat": 1.75,
+      "midi": 71,
+      "bass": 45,
+      "treatment": "upper chord tone against bass passing/neighbor note"
+    },
+    {
+      "voice": 0,
+      "bar": 132,
+      "beat": 3.5,
+      "midi": 76,
+      "bass": 42,
+      "treatment": "unaccented appoggiatura"
+    },
+    {
+      "voice": 0,
+      "bar": 132,
+      "beat": 4.75,
+      "midi": 81,
+      "bass": 52,
+      "treatment": "neighbor note"
+    },
+    {
+      "voice": 0,
+      "bar": 138,
+      "beat": 1.5,
+      "midi": 83,
+      "bass": 45,
+      "treatment": "neighbor note"
+    },
+    {
+      "voice": 0,
+      "bar": 138,
+      "beat": 4.5,
+      "midi": 78,
+      "bass": 48,
+      "treatment": "passing tone"
+    },
+    {
+      "voice": 0,
+      "bar": 140,
+      "beat": 2.5,
+      "midi": 79,
+      "bass": 50,
+      "treatment": "unaccented appoggiatura"
+    },
+    {
+      "voice": 0,
+      "bar": 145,
+      "beat": 3.5,
+      "midi": 76,
+      "bass": 50,
+      "treatment": "escape note"
+    },
+    {
+      "voice": 0,
+      "bar": 145,
+      "beat": 4.5,
+      "midi": 71,
+      "bass": 45,
+      "treatment": "passing tone"
+    },
+    {
+      "voice": 1,
+      "bar": 5,
+      "beat": 3.5,
+      "midi": 71,
+      "bass": 61,
+      "treatment": "escape note"
+    },
+    {
+      "voice": 1,
+      "bar": 6,
+      "beat": 3.75,
+      "midi": 66,
+      "bass": 55,
+      "treatment": "escape note"
+    },
+    {
+      "voice": 1,
+      "bar": 6,
+      "beat": 4.5,
+      "midi": 62,
+      "bass": 61,
+      "treatment": "upper chord tone against bass passing/neighbor note"
+    },
+    {
+      "voice": 1,
+      "bar": 8,
+      "beat": 3.5,
+      "midi": 71,
+      "bass": 61,
+      "treatment": "unaccented appoggiatura"
+    },
+    {
+      "voice": 1,
+      "bar": 8,
+      "beat": 4.75,
+      "midi": 76,
+      "bass": 62,
+      "treatment": "escape note"
+    },
+    {
+      "voice": 1,
+      "bar": 9,
+      "beat": 4.5,
+      "midi": 66,
+      "bass": 64,
+      "treatment": "passing tone"
+    },
+    {
+      "voice": 1,
+      "bar": 13,
+      "beat": 1.5,
+      "midi": 69,
+      "bass": 59,
+      "treatment": "passing tone"
+    },
+    {
+      "voice": 1,
+      "bar": 18,
+      "beat": 1.5,
+      "midi": 72,
+      "bass": 54,
+      "treatment": "neighbor note"
+    },
+    {
+      "voice": 1,
+      "bar": 18,
+      "beat": 2.5,
+      "midi": 71,
+      "bass": 54,
+      "treatment": "unaccented appoggiatura"
+    },
+    {
+      "voice": 1,
+      "bar": 19,
+      "beat": 2.5,
+      "midi": 66,
+      "bass": 52,
+      "treatment": "passing tone"
+    },
+    {
+      "voice": 1,
+      "bar": 19,
+      "beat": 4.5,
+      "midi": 64,
+      "bass": 47,
+      "treatment": "passing tone"
+    },
+    {
+      "voice": 1,
+      "bar": 22,
+      "beat": 1.5,
+      "midi": 74,
+      "bass": 48,
+      "treatment": "passing tone"
+    },
+    {
+      "voice": 1,
+      "bar": 22,
+      "beat": 2.5,
+      "midi": 71,
+      "bass": 48,
+      "treatment": "passing tone"
+    },
+    {
+      "voice": 1,
+      "bar": 26,
+      "beat": 4.5,
+      "midi": 62,
+      "bass": 45,
+      "treatment": "passing tone"
+    },
+    {
+      "voice": 1,
+      "bar": 30,
+      "beat": 3.5,
+      "midi": 72,
+      "bass": 50,
+      "treatment": "passing tone"
+    },
+    {
+      "voice": 1,
+      "bar": 33,
+      "beat": 3.5,
+      "midi": 69,
+      "bass": 47,
+      "treatment": "escape note"
+    },
+    {
+      "voice": 1,
+      "bar": 33,
+      "beat": 4.5,
+      "midi": 64,
+      "bass": 50,
+      "treatment": "passing tone"
+    },
+    {
+      "voice": 1,
+      "bar": 36,
+      "beat": 3.5,
+      "midi": 69,
+      "bass": 47,
+      "treatment": "unaccented appoggiatura"
+    },
+    {
+      "voice": 1,
+      "bar": 36,
+      "beat": 4.75,
+      "midi": 74,
+      "bass": 48,
+      "treatment": "neighbor note"
+    },
+    {
+      "voice": 1,
+      "bar": 41,
+      "beat": 1.5,
+      "midi": 69,
+      "bass": 55,
+      "treatment": "passing tone"
+    },
+    {
+      "voice": 1,
+      "bar": 42,
+      "beat": 1.5,
+      "midi": 72,
+      "bass": 50,
+      "treatment": "neighbor note"
+    },
+    {
+      "voice": 1,
+      "bar": 43,
+      "beat": 1.5,
+      "midi": 66,
+      "bass": 48,
+      "treatment": "passing tone"
+    },
+    {
+      "voice": 1,
+      "bar": 46,
+      "beat": 2.5,
+      "midi": 71,
+      "bass": 45,
+      "treatment": "passing tone"
+    },
+    {
+      "voice": 1,
+      "bar": 56,
+      "beat": 4.5,
+      "midi": 73,
+      "bass": 71,
+      "treatment": "passing tone"
+    },
+    {
+      "voice": 1,
+      "bar": 58,
+      "beat": 3.5,
+      "midi": 71,
+      "bass": 48,
+      "treatment": "passing tone"
+    },
+    {
+      "voice": 1,
+      "bar": 59,
+      "beat": 2.5,
+      "midi": 69,
+      "bass": 47,
+      "treatment": "passing tone"
+    },
+    {
+      "voice": 1,
+      "bar": 66,
+      "beat": 1.5,
+      "midi": 72,
+      "bass": 50,
+      "treatment": "neighbor note"
+    },
+    {
+      "voice": 1,
+      "bar": 70,
+      "beat": 1.5,
+      "midi": 74,
+      "bass": 48,
+      "treatment": "passing tone"
+    },
+    {
+      "voice": 1,
+      "bar": 70,
+      "beat": 2.5,
+      "midi": 71,
+      "bass": 48,
+      "treatment": "passing tone"
+    },
+    {
+      "voice": 1,
+      "bar": 71,
+      "beat": 4.5,
+      "midi": 64,
+      "bass": 50,
+      "treatment": "passing tone"
+    },
+    {
+      "voice": 1,
+      "bar": 73,
+      "beat": 1.5,
+      "midi": 66,
+      "bass": 52,
+      "treatment": "passing tone"
+    },
+    {
+      "voice": 1,
+      "bar": 78,
+      "beat": 1.5,
+      "midi": 66,
+      "bass": 43,
+      "treatment": "neighbor note"
+    },
+    {
+      "voice": 1,
+      "bar": 78,
+      "beat": 4.5,
+      "midi": 61,
+      "bass": 43,
+      "treatment": "passing tone"
+    },
+    {
+      "voice": 1,
+      "bar": 80,
+      "beat": 2.5,
+      "midi": 62,
+      "bass": 45,
+      "treatment": "unaccented appoggiatura"
+    },
+    {
+      "voice": 1,
+      "bar": 82,
+      "beat": 1.5,
+      "midi": 71,
+      "bass": 45,
+      "treatment": "neighbor note"
+    },
+    {
+      "voice": 1,
+      "bar": 82,
+      "beat": 4.5,
+      "midi": 66,
+      "bass": 43,
+      "treatment": "passing tone"
+    },
+    {
+      "voice": 1,
+      "bar": 84,
+      "beat": 2.5,
+      "midi": 67,
+      "bass": 50,
+      "treatment": "unaccented appoggiatura"
+    },
+    {
+      "voice": 1,
+      "bar": 88,
+      "beat": 3.5,
+      "midi": 72,
+      "bass": 54,
+      "treatment": "passing tone"
+    },
+    {
+      "voice": 1,
+      "bar": 89,
+      "beat": 3.5,
+      "midi": 71,
+      "bass": 49,
+      "treatment": "escape note"
+    },
+    {
+      "voice": 1,
+      "bar": 89,
+      "beat": 4.5,
+      "midi": 66,
+      "bass": 52,
+      "treatment": "passing tone"
+    },
+    {
+      "voice": 1,
+      "bar": 90,
+      "beat": 3.75,
+      "midi": 66,
+      "bass": 55,
+      "treatment": "escape note"
+    },
+    {
+      "voice": 1,
+      "bar": 90,
+      "beat": 4.5,
+      "midi": 62,
+      "bass": 49,
+      "treatment": "upper chord tone against bass passing/neighbor note"
+    },
+    {
+      "voice": 1,
+      "bar": 91,
+      "beat": 3.5,
+      "midi": 69,
+      "bass": 55,
+      "treatment": "neighbor note"
+    },
+    {
+      "voice": 1,
+      "bar": 92,
+      "beat": 1.75,
+      "midi": 66,
+      "bass": 52,
+      "treatment": "upper chord tone against bass passing/neighbor note"
+    },
+    {
+      "voice": 1,
+      "bar": 92,
+      "beat": 3.5,
+      "midi": 71,
+      "bass": 49,
+      "treatment": "unaccented appoggiatura"
+    },
+    {
+      "voice": 1,
+      "bar": 92,
+      "beat": 4.75,
+      "midi": 76,
+      "bass": 59,
+      "treatment": "escape note"
+    },
+    {
+      "voice": 1,
+      "bar": 93,
+      "beat": 1.5,
+      "midi": 69,
+      "bass": 55,
+      "treatment": "passing tone"
+    },
+    {
+      "voice": 1,
+      "bar": 96,
+      "beat": 4.5,
+      "midi": 66,
+      "bass": 43,
+      "treatment": "passing tone"
+    },
+    {
+      "voice": 1,
+      "bar": 97,
+      "beat": 2.5,
+      "midi": 62,
+      "bass": 48,
+      "treatment": "passing tone"
+    },
+    {
+      "voice": 1,
+      "bar": 98,
+      "beat": 1.5,
+      "midi": 65,
+      "bass": 47,
+      "treatment": "neighbor note"
+    },
+    {
+      "voice": 1,
+      "bar": 98,
+      "beat": 2.5,
+      "midi": 64,
+      "bass": 47,
+      "treatment": "unaccented appoggiatura"
+    },
+    {
+      "voice": 1,
+      "bar": 99,
+      "beat": 2.5,
+      "midi": 59,
+      "bass": 45,
+      "treatment": "passing tone"
+    },
+    {
+      "voice": 1,
+      "bar": 102,
+      "beat": 2.5,
+      "midi": 64,
+      "bass": 50,
+      "treatment": "passing tone"
+    },
+    {
+      "voice": 1,
+      "bar": 104,
+      "beat": 2.5,
+      "midi": 69,
+      "bass": 52,
+      "treatment": "passing tone"
+    },
+    {
+      "voice": 1,
+      "bar": 105,
+      "beat": 3.5,
+      "midi": 72,
+      "bass": 50,
+      "treatment": "escape note"
+    },
+    {
+      "voice": 1,
+      "bar": 105,
+      "beat": 4.5,
+      "midi": 67,
+      "bass": 54,
+      "treatment": "passing tone"
+    },
+    {
+      "voice": 1,
+      "bar": 106,
+      "beat": 3.75,
+      "midi": 67,
+      "bass": 57,
+      "treatment": "escape note"
+    },
+    {
+      "voice": 1,
+      "bar": 106,
+      "beat": 4.5,
+      "midi": 64,
+      "bass": 50,
+      "treatment": "upper chord tone against bass passing/neighbor note"
+    },
+    {
+      "voice": 1,
+      "bar": 107,
+      "beat": 3.5,
+      "midi": 71,
+      "bass": 57,
+      "treatment": "neighbor note"
+    },
+    {
+      "voice": 1,
+      "bar": 108,
+      "beat": 1.75,
+      "midi": 67,
+      "bass": 54,
+      "treatment": "upper chord tone against bass passing/neighbor note"
+    },
+    {
+      "voice": 1,
+      "bar": 108,
+      "beat": 3.5,
+      "midi": 72,
+      "bass": 50,
+      "treatment": "unaccented appoggiatura"
+    },
+    {
+      "voice": 1,
+      "bar": 108,
+      "beat": 4.75,
+      "midi": 78,
+      "bass": 60,
+      "treatment": "neighbor note"
+    },
+    {
+      "voice": 1,
+      "bar": 110,
+      "beat": 3.5,
+      "midi": 72,
+      "bass": 50,
+      "treatment": "passing tone"
+    },
+    {
+      "voice": 1,
+      "bar": 111,
+      "beat": 1.5,
+      "midi": 74,
+      "bass": 48,
+      "treatment": "passing tone"
+    },
+    {
+      "voice": 1,
+      "bar": 114,
+      "beat": 1.5,
+      "midi": 64,
+      "bass": 50,
+      "treatment": "neighbor note"
+    },
+    {
+      "voice": 1,
+      "bar": 114,
+      "beat": 4.5,
+      "midi": 59,
+      "bass": 53,
+      "treatment": "passing tone"
+    },
+    {
+      "voice": 1,
+      "bar": 116,
+      "beat": 1.5,
+      "midi": 62,
+      "bass": 48,
+      "treatment": "neighbor note"
+    },
+    {
+      "voice": 1,
+      "bar": 118,
+      "beat": 1.5,
+      "midi": 66,
+      "bass": 40,
+      "treatment": "neighbor note"
+    },
+    {
+      "voice": 1,
+      "bar": 118,
+      "beat": 4.5,
+      "midi": 61,
+      "bass": 38,
+      "treatment": "passing tone"
+    },
+    {
+      "voice": 1,
+      "bar": 120,
+      "beat": 2.5,
+      "midi": 62,
+      "bass": 45,
+      "treatment": "unaccented appoggiatura"
+    },
+    {
+      "voice": 1,
+      "bar": 124,
+      "beat": 2.5,
+      "midi": 64,
+      "bass": 50,
+      "treatment": "figuration above the dominant pedal"
+    },
+    {
+      "voice": 1,
+      "bar": 124,
+      "beat": 4.5,
+      "midi": 64,
+      "bass": 50,
+      "treatment": "figuration above the dominant pedal"
+    },
+    {
+      "voice": 1,
+      "bar": 126,
+      "beat": 4.5,
+      "midi": 67,
+      "bass": 50,
+      "treatment": "figuration above the dominant pedal"
+    },
+    {
+      "voice": 1,
+      "bar": 128,
+      "beat": 1.5,
+      "midi": 67,
+      "bass": 50,
+      "treatment": "figuration above the dominant pedal"
+    },
+    {
+      "voice": 1,
+      "bar": 134,
+      "beat": 1.5,
+      "midi": 71,
+      "bass": 48,
+      "treatment": "neighbor note"
+    },
+    {
+      "voice": 1,
+      "bar": 134,
+      "beat": 4.5,
+      "midi": 66,
+      "bass": 48,
+      "treatment": "passing tone"
+    },
+    {
+      "voice": 1,
+      "bar": 136,
+      "beat": 1.5,
+      "midi": 69,
+      "bass": 43,
+      "treatment": "neighbor note"
+    },
+    {
+      "voice": 1,
+      "bar": 137,
+      "beat": 3.5,
+      "midi": 64,
+      "bass": 50,
+      "treatment": "escape note"
+    },
+    {
+      "voice": 1,
+      "bar": 137,
+      "beat": 4.5,
+      "midi": 59,
+      "bass": 45,
+      "treatment": "passing tone"
+    },
+    {
+      "voice": 1,
+      "bar": 138,
+      "beat": 3.75,
+      "midi": 59,
+      "bass": 48,
+      "treatment": "escape note"
+    },
+    {
+      "voice": 1,
+      "bar": 139,
+      "beat": 4.25,
+      "midi": 62,
+      "bass": 48,
+      "treatment": "neighbor note"
+    },
+    {
+      "voice": 1,
+      "bar": 140,
+      "beat": 3.5,
+      "midi": 64,
+      "bass": 54,
+      "treatment": "unaccented appoggiatura"
+    },
+    {
+      "voice": 1,
+      "bar": 140,
+      "beat": 4.5,
+      "midi": 67,
+      "bass": 54,
+      "treatment": "upper chord tone against bass passing/neighbor note"
+    },
+    {
+      "voice": 1,
+      "bar": 144,
+      "beat": 2.5,
+      "midi": 67,
+      "bass": 50,
+      "treatment": "passing tone"
+    },
+    {
+      "voice": 1,
+      "bar": 144,
+      "beat": 4.5,
+      "midi": 69,
+      "bass": 55,
+      "treatment": "passing tone"
+    },
+    {
+      "voice": 2,
+      "bar": 16,
+      "beat": 2.5,
+      "midi": 62,
+      "bass": 57,
+      "treatment": "passing tone"
+    },
+    {
+      "voice": 2,
+      "bar": 21,
+      "beat": 2.5,
+      "midi": 62,
+      "bass": 48,
+      "treatment": "passing tone"
+    },
+    {
+      "voice": 2,
+      "bar": 22,
+      "beat": 3.5,
+      "midi": 59,
+      "bass": 48,
+      "treatment": "passing tone"
+    },
+    {
+      "voice": 2,
+      "bar": 29,
+      "beat": 3.5,
+      "midi": 65,
+      "bass": 48,
+      "treatment": "escape note"
+    },
+    {
+      "voice": 2,
+      "bar": 29,
+      "beat": 4.5,
+      "midi": 60,
+      "bass": 50,
+      "treatment": "passing tone"
+    },
+    {
+      "voice": 2,
+      "bar": 30,
+      "beat": 3.75,
+      "midi": 60,
+      "bass": 50,
+      "treatment": "escape note"
+    },
+    {
+      "voice": 2,
+      "bar": 31,
+      "beat": 2.5,
+      "midi": 64,
+      "bass": 47,
+      "treatment": "upper chord tone against bass passing/neighbor note"
+    },
+    {
+      "voice": 2,
+      "bar": 32,
+      "beat": 4.75,
+      "midi": 71,
+      "bass": 45,
+      "treatment": "escape note"
+    },
+    {
+      "voice": 2,
+      "bar": 33,
+      "beat": 1.5,
+      "midi": 62,
+      "bass": 48,
+      "treatment": "passing tone"
+    },
+    {
+      "voice": 2,
+      "bar": 41,
+      "beat": 4.5,
+      "midi": 59,
+      "bass": 48,
+      "treatment": "passing tone"
+    },
+    {
+      "voice": 2,
+      "bar": 46,
+      "beat": 2.5,
+      "midi": 62,
+      "bass": 45,
+      "treatment": "passing tone"
+    },
+    {
+      "voice": 2,
+      "bar": 66,
+      "beat": 2.5,
+      "midi": 55,
+      "bass": 50,
+      "treatment": "passing tone"
+    },
+    {
+      "voice": 2,
+      "bar": 69,
+      "beat": 2.5,
+      "midi": 62,
+      "bass": 48,
+      "treatment": "passing tone"
+    },
+    {
+      "voice": 2,
+      "bar": 70,
+      "beat": 3.5,
+      "midi": 59,
+      "bass": 48,
+      "treatment": "passing tone"
+    },
+    {
+      "voice": 2,
+      "bar": 74,
+      "beat": 1.5,
+      "midi": 59,
+      "bass": 48,
+      "treatment": "neighbor note"
+    },
+    {
+      "voice": 2,
+      "bar": 74,
+      "beat": 4.5,
+      "midi": 54,
+      "bass": 48,
+      "treatment": "passing tone"
+    },
+    {
+      "voice": 2,
+      "bar": 84,
+      "beat": 2.5,
+      "midi": 64,
+      "bass": 50,
+      "treatment": "passing tone"
+    },
+    {
+      "voice": 2,
+      "bar": 85,
+      "beat": 3.5,
+      "midi": 64,
+      "bass": 50,
+      "treatment": "escape note"
+    },
+    {
+      "voice": 2,
+      "bar": 85,
+      "beat": 4.5,
+      "midi": 59,
+      "bass": 45,
+      "treatment": "passing tone"
+    },
+    {
+      "voice": 2,
+      "bar": 86,
+      "beat": 3.75,
+      "midi": 59,
+      "bass": 48,
+      "treatment": "escape note"
+    },
+    {
+      "voice": 2,
+      "bar": 87,
+      "beat": 4.25,
+      "midi": 62,
+      "bass": 48,
+      "treatment": "neighbor note"
+    },
+    {
+      "voice": 2,
+      "bar": 88,
+      "beat": 2.5,
+      "midi": 62,
+      "bass": 52,
+      "treatment": "upper chord tone against bass passing/neighbor note"
+    },
+    {
+      "voice": 2,
+      "bar": 88,
+      "beat": 3.5,
+      "midi": 64,
+      "bass": 54,
+      "treatment": "unaccented appoggiatura"
+    },
+    {
+      "voice": 2,
+      "bar": 88,
+      "beat": 4.75,
+      "midi": 69,
+      "bass": 55,
+      "treatment": "escape note"
+    },
+    {
+      "voice": 2,
+      "bar": 94,
+      "beat": 1.5,
+      "midi": 59,
+      "bass": 48,
+      "treatment": "neighbor note"
+    },
+    {
+      "voice": 2,
+      "bar": 94,
+      "beat": 4.5,
+      "midi": 54,
+      "bass": 48,
+      "treatment": "passing tone"
+    },
+    {
+      "voice": 2,
+      "bar": 96,
+      "beat": 1.5,
+      "midi": 57,
+      "bass": 43,
+      "treatment": "neighbor note"
+    },
+    {
+      "voice": 2,
+      "bar": 101,
+      "beat": 2.5,
+      "midi": 59,
+      "bass": 48,
+      "treatment": "passing tone"
+    },
+    {
+      "voice": 2,
+      "bar": 101,
+      "beat": 4.5,
+      "midi": 59,
+      "bass": 48,
+      "treatment": "passing tone"
+    },
+    {
+      "voice": 2,
+      "bar": 109,
+      "beat": 3.5,
+      "midi": 65,
+      "bass": 55,
+      "treatment": "escape note"
+    },
+    {
+      "voice": 2,
+      "bar": 109,
+      "beat": 4.5,
+      "midi": 60,
+      "bass": 50,
+      "treatment": "passing tone"
+    },
+    {
+      "voice": 2,
+      "bar": 110,
+      "beat": 3.75,
+      "midi": 60,
+      "bass": 50,
+      "treatment": "escape note"
+    },
+    {
+      "voice": 2,
+      "bar": 111,
+      "beat": 3.5,
+      "midi": 64,
+      "bass": 41,
+      "treatment": "neighbor note"
+    },
+    {
+      "voice": 2,
+      "bar": 112,
+      "beat": 3.5,
+      "midi": 65,
+      "bass": 52,
+      "treatment": "unaccented appoggiatura"
+    },
+    {
+      "voice": 2,
+      "bar": 112,
+      "beat": 4.5,
+      "midi": 69,
+      "bass": 56,
+      "treatment": "unaccented appoggiatura"
+    },
+    {
+      "voice": 2,
+      "bar": 118,
+      "beat": 4.5,
+      "midi": 55,
+      "bass": 38,
+      "treatment": "passing tone"
+    },
+    {
+      "voice": 2,
+      "bar": 124,
+      "beat": 2.5,
+      "midi": 60,
+      "bass": 50,
+      "treatment": "figuration above the dominant pedal"
+    },
+    {
+      "voice": 2,
+      "bar": 128,
+      "beat": 4.5,
+      "midi": 60,
+      "bass": 50,
+      "treatment": "figuration above the dominant pedal"
+    },
+    {
+      "voice": 2,
+      "bar": 131,
+      "beat": 4.5,
+      "midi": 60,
+      "bass": 43,
+      "treatment": "passing tone"
+    },
+    {
+      "voice": 2,
+      "bar": 133,
+      "beat": 3.5,
+      "midi": 64,
+      "bass": 47,
+      "treatment": "escape note"
+    },
+    {
+      "voice": 2,
+      "bar": 133,
+      "beat": 4.5,
+      "midi": 59,
+      "bass": 48,
+      "treatment": "passing tone"
+    },
+    {
+      "voice": 2,
+      "bar": 134,
+      "beat": 3.75,
+      "midi": 59,
+      "bass": 48,
+      "treatment": "escape note"
+    },
+    {
+      "voice": 2,
+      "bar": 135,
+      "beat": 3.5,
+      "midi": 62,
+      "bass": 40,
+      "treatment": "neighbor note"
+    },
+    {
+      "voice": 2,
+      "bar": 136,
+      "beat": 2.5,
+      "midi": 62,
+      "bass": 40,
+      "treatment": "upper chord tone against bass passing/neighbor note"
+    },
+    {
+      "voice": 2,
+      "bar": 136,
+      "beat": 3.5,
+      "midi": 64,
+      "bass": 42,
+      "treatment": "unaccented appoggiatura"
+    },
+    {
+      "voice": 2,
+      "bar": 136,
+      "beat": 4.75,
+      "midi": 69,
+      "bass": 43,
+      "treatment": "escape note"
+    },
+    {
+      "voice": 2,
+      "bar": 142,
+      "beat": 1.5,
+      "midi": 59,
+      "bass": 45,
+      "treatment": "neighbor note"
+    },
+    {
+      "voice": 2,
+      "bar": 142,
+      "beat": 4.5,
+      "midi": 54,
+      "bass": 43,
+      "treatment": "passing tone"
+    },
+    {
+      "voice": 2,
+      "bar": 144,
+      "beat": 2.5,
+      "midi": 55,
+      "bass": 50,
+      "treatment": "unaccented appoggiatura"
+    }
+  ],
+  "unexplained_weak_dissonances": [],
+  "voice_crossing_onsets": [],
   "structural_voice_crossings": []
 }

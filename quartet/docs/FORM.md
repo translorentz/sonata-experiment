@@ -29,8 +29,9 @@ registers, visit related keys and return to a complete tonic group.
 
 I is an asymmetrical, ornamented line, beginning with the E–D–E–C–B sigh.
 II has a distinct opening fourth, a downward response, and a more regular
-quarter/eighth-note motion. It was shaped against I before the combined
-sections were realized. It is introduced as an independent theme, rather
+quarter/eighth-note motion. Its final B-sixteenth to E-dotted-eighth
+rising fourth echoes its opening and supports the sigh's final ornament
+when II lies below I. This turn belongs to every statement of II. It is introduced as an independent theme, rather
 than being retrospectively promoted from an accompaniment figure.
 
 The pair's intervals on the sixteen quarter-note positions of the four-bar
@@ -56,9 +57,9 @@ fixed subjects.
 ## Instrumental and harmonic treatment
 
 Every staff is a single melodic part: there are no double stops or hidden
-extra voices. The viola uses alto clef; the cello uses bass clef. The two
-isolated octave changes noted by the diagnostic occur at phrase/register
-changes. A quarter-note viola breath at 113 lets the A-minor entry end before
+extra voices. The viola uses alto clef; the cello uses bass clef. The three
+isolated octave changes occur at phrase/register changes: Violin I at 97,
+and Violin II at 113 and 137. A quarter-note viola breath at 113 lets the A-minor entry end before
 the lower C-major instrumental texture begins.
 
 The opening does not begin on the tonic pitch: scale degree six belongs to
@@ -78,14 +79,28 @@ at 148 resolves down to B in the viola at 149.
 
 ## What the audit establishes
 
-`counterpoint-audit.json` examines sounding notes on every sixteenth-note
-position and checks all six pairs of instruments for directly consecutive,
-similarly moving perfect fifths or octaves. The final edition has none.
-It also records quarter-position voice crossings, long melodic intervals
-and accented dissonances against the actual lowest note. Intentional pedal
-and cadential dissonances remain visible in the report. It is a narrowly
-defined diagnostic: it does not pretend to discover every implied harmonic
-interval, validate every ornament's style, or assign an artistic ranking.
+`counterpoint-audit.json` checks all six instrument pairs at the sounding
+sixteenth-note level and on eighth- and quarter-note reductions. The revised
+edition has no similarly moving perfect parallels, no contrary-motion
+perfect consecutives at those three levels, no direct outer fifths/octaves
+with a leaping upper part, and no voice crossings. Melodic augmented seconds
+and sevenths are excluded; the three octave register changes remain visible.
+
+Accented dissonances are checked against the actual lowest voice and between
+upper parts. The 15 pedal samples, the prepared suspension at 147, and the
+three dominant-seventh samples at 148 are documented rather than hidden.
+Weak-note dissonances are classified by melodic approach and resolution,
+with a separate category for chord tones against a moving bass ornament.
+The new realization also requires chordal skips in I's ornaments to be
+consonant, except over the explicit pedal or a bass passing/neighbor note.
+
+Half-note reductions retain 64 candidates for inspection. Each includes the
+intervening quarter-note sonority: these reductions omit actual harmonic or
+chordal movement, whereas the eighth- and quarter-note checks above omit only
+shorter figuration. They are review aids, not a count of 64 errors. The
+[revision account](COUNTERPOINT_REVISION.md) records the reasoning and fixes.
+The tests and diagnostics do not assign an artistic ranking or claim that
+mechanical checks alone can establish equality with Bach.
 
 There is no claim of a full-subject stretto, exact mirror inversion,
 retrograde, or additional fugue subject where none is written. None is a

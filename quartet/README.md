@@ -15,6 +15,7 @@ repository is preserved as a separate work.
 - [Four-track MIDI](output/two-springs.mid)
 - [13 score-page images](output/pages/)
 - [Formal account and entry table](docs/FORM.md)
+- [Counterpoint revision and verification](docs/COUNTERPOINT_REVISION.md)
 - [Source attribution and adaptation](docs/SOURCES.md)
 - [Build and synchronization details](docs/BUILD.md)
 - [Timing manifest](output/page-timing.json), [technical validation](output/validation.json), and [counterpoint diagnostics](output/counterpoint-audit.json)
@@ -56,7 +57,9 @@ programs are outside PATH. Download the soundfont from the
 
 `compose.py` reconstructs the published note data and LilyPond file from the
 specified subjects, entry plan, episode lines, cadences, and a deterministic
-voice-leading realization of the supporting parts. It overwrites direct
+constrained realization of the supporting parts in `scripts/realization.py`.
+The search retains alternate voice-leading paths and refuses prohibited
+progressions instead of exchanging them for a lower numerical cost. It overwrites direct
 edits to the `.ly` and `events.json`; it is not run by `build.py`.
 The published `.ly` contains every note and needs no music includes.
 

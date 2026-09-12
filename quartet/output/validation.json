@@ -4,19 +4,19 @@
   "range_midi": [
     [
       59,
-      88
+      89
     ],
     [
       55,
-      81
+      79
     ],
     [
-      50,
+      48,
       71
     ],
     [
-      36,
-      66
+      38,
+      64
     ]
   ],
   "midi_programs": [
@@ -37,13 +37,14 @@
     60,
     59
   ],
+  "expanded_counterpoint_checks_passed": true,
   "synthesis": {
     "sample_rate": 48000,
     "samples": 17596800,
-    "raw_peak": 0.41819697618484497,
-    "normalization_gain": 2.082663528325252,
+    "raw_peak": 0.4402998983860016,
+    "normalization_gain": 1.978114446877581,
     "normalized_peak_dbfs": -1.2,
-    "soundfont_name": "GeneralUser-GS.sf2",
+    "soundfont_name": "GeneralUser-GS-restored.sf2",
     "soundfont_sha256": "9575028c7a1f589f5770fccc8cff2734566af40cd26ed836944e9a5152688cfe",
     "renderer": "TinySoundFont",
     "synthetic_performance": true
@@ -67,35 +68,35 @@
   ],
   "page_turns_verified": 12,
   "decoded_boundary_frames_checked": 24,
-  "maximum_boundary_image_error": 0.206399068236351,
+  "maximum_boundary_image_error": 0.19020748138427734,
   "page_boundary_frame_error": 0,
   "page_boundary_sample_error": 0,
   "video_codec": "h264",
   "audio_codec": "aac",
   "audio_start_seconds": 0,
   "video_start_seconds": 0,
+  "source_sha256": "65182adf90d38dff48fd45ef511ab1b699c0c9d5851bec416761f5ad9b0e2dff",
+  "event_ledger_sha256": "57d97924ac8e2160f5983d6b63eed9cbb8d85394c6ca1c749979f0fcaabc038f",
   "lilypond_version": "GNU LilyPond 2.24.4 (running Guile 2.2)",
   "artifacts": {
-    "output/counterpoint-audit.json": "4bd7cf3d88b5d7b0bc0c71b19ec141a9c80f87eb24dd23e72b80f0f2c1e4ff1c",
+    "output/counterpoint-audit.json": "3670e43beb9c080172ef94b82641ccdca49eb5c9eab9e66f68c5b74fa41e2bde",
     "output/page-timing.json": "4e503d04c114025d5f111367520c947dbb9994a1499952350012a74d2d311f1b",
-    "output/pages/page-01.png": "c56b62a78f21d4ba932351bf92a5937a7c9f3a81c2752b1215782f1ae1ac2dea",
-    "output/pages/page-02.png": "79e6f0d97ed61027938e9524ddce1f360b2044c63aa113e9f59ce0b7d92ed0a9",
-    "output/pages/page-03.png": "b0205218149fa9431c05e1f27cc7527492d34bbb66df8ed8c520cdf56fbf2a7e",
-    "output/pages/page-04.png": "0821ebc27996ffd0eceecc07b805be093211465012af7bd7540e4a80eeaadda6",
-    "output/pages/page-05.png": "3596794cbdebde0eb832ce14824e95bd2a297d40017808a0ebf0a450dd9aaa96",
-    "output/pages/page-06.png": "d236636e3e25d9bdc2b5baccfdef1a33ba73fbd0701ef460efc6941f58a401ea",
-    "output/pages/page-07.png": "ea3ac87391a3b57a28eedfd35f9fd0b90580bb0f97b57e4d507100d08bc8c789",
-    "output/pages/page-08.png": "1339924e692d00937df5f2974f15231054e3033acf5e9fbbbce7324b827dbd57",
-    "output/pages/page-09.png": "f377c248f36068c7bf3fcf3e23977e9f79a1e00cc95b8052094d661e6b9a403a",
-    "output/pages/page-10.png": "85971300fc383f751f7402248eb74141c07866a9928ddb030a3bc01f054cc8eb",
-    "output/pages/page-11.png": "1d2f90cffa5de5a7ada00457ff364f0ce39be220cdea81b266a2370bd6afedf3",
-    "output/pages/page-12.png": "d83cfab6cfb4ac3b7376f4c6db470e1f04c20431a01db7cde5098c8455c37fcb",
-    "output/pages/page-13.png": "383ef6a08e8fcf21013f0ea69aad1f85dafab51b03721e596be7d1a6f2b5ac22",
-    "output/two-springs.mid": "e312c5ef52d85aab69d24ff2cbef4a7c739cc3cd786d6d9ce41cac9ff066bc1d",
-    "output/two-springs.mp3": "b1a1f511111ac21bff1a9334707684b072307fef1db1196b7b6afd76b854999d",
-    "output/two-springs.mp4": "159c6cc56ee4ff2e6ce324512c2013919dc63adc860fb2d812c81bcd7930dfac",
-    "output/two-springs.pdf": "fe0c06811b82604b4449739e0cc21bba270fb79fe6e797575ff7375a43194001"
-  },
-  "source_sha256": "8e660b1a42288b5194ebe7291d6a529a1dd6f5e491e00501954e627f2e42cda5",
-  "event_ledger_sha256": "c603ddcc6d924b68850249660027035980f81cdec1a71b1ac70859e5b7ab42e6"
+    "output/pages/page-01.png": "277eee8f9074aa05fd83c5537e27d3ba82f268fa8cd7a88db1c1c06a0208668b",
+    "output/pages/page-02.png": "25a6cee290ee6254ab29fdfd8c73c190b34be239fb8f71175dde5c4f59ece403",
+    "output/pages/page-03.png": "615bc47754d2cf839406f153dfdcd8912208f5a50e01faa463691de831b50973",
+    "output/pages/page-04.png": "8fb6a1dd61598848686c8851b43c755b8250381de61a1e2e2f062dd2640e8c23",
+    "output/pages/page-05.png": "09bc910ac56aa2e1cb626f191226260fac41f4901b02ada95ba1cc28540d52e0",
+    "output/pages/page-06.png": "bd18b6768cd3bf8a5e2b24be6a9122253946b3b5f3ad5bc57137819adc15c935",
+    "output/pages/page-07.png": "3e2788daba00867c1841997d08f7070ddf6a33f0e531c6b7b94fcf4b40607c09",
+    "output/pages/page-08.png": "ed047d36f42bd6eec9d2e3fbe540234a7556455694d52f1674cb708f49eb72b1",
+    "output/pages/page-09.png": "57d2f6d96a651eca05a49db248f67de18c5b031307370d4c007e35e21651256e",
+    "output/pages/page-10.png": "f36080d15c8a19c0ce7c12a164bec37470d5c59e4da0464f6dde37d79fd856d2",
+    "output/pages/page-11.png": "195cdf685deaa052a375d1ebd815fb66bcb7bdecef1b2713d049f7c0d8547873",
+    "output/pages/page-12.png": "18494563e456e6ed5c2d4fa3e47677cfb96e4b260765e10c4aa123d3bec7af5d",
+    "output/pages/page-13.png": "8373304d229a5cd6a942de3ec792dc856f5e659231900bc441c54a5b4b99b128",
+    "output/two-springs.mid": "3ee277fe832aef160835b9994dad9cbc28be04504516d0bd5c94fa558bbed8c4",
+    "output/two-springs.mp3": "c0b1ea152424c22a94f70a01ecd30be08cb0ef3af18ccc014039d2f29885a146",
+    "output/two-springs.mp4": "238b953eda0800399e2fe4c5b32806cf3b2ef4ffb4322a498027c224d9535956",
+    "output/two-springs.pdf": "2e7c91e0c5175e60142ae74d05de0249b1f3c786e8bcec0036084510243ee1e6"
+  }
 }

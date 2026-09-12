@@ -15,6 +15,7 @@ from pathlib import Path
 import re
 import shutil
 import subprocess
+import sys
 import tempfile
 import wave
 import mido
@@ -305,6 +306,7 @@ def main():
     if not args.engrave_only and args.soundfont is None:p.error('--soundfont is required for an audio/video build.')
     if args.soundfont is not None:args.soundfont=args.soundfont.resolve()
     for path in [WORK,WORK/'tmp',WORK/'cache',OUT,OUT/'pages']:path.mkdir(parents=True,exist_ok=True)
+    run([sys.executable,ROOT/'scripts/audit.py','--check'])
     env=dict(os.environ,TMPDIR=str(WORK/'tmp'),XDG_CACHE_HOME=str(WORK/'cache'))
     with (WORK/'engraving.log').open('w') as log:
         run([args.lilypond,'-dno-point-and-click','-o',OUT/'two-springs',ROOT/'score/two-springs.ly'],env=env,stdout=log,stderr=subprocess.STDOUT)
@@ -326,6 +328,7 @@ def main():
                             start_sample=exact_integer(start*RATE,'Page start sample'),end_sample=exact_integer(end*RATE,'Page end sample')))
     (OUT/'page-timing.json').write_text(json.dumps(dict(fps=FPS,sample_rate=RATE,musical_end_seconds=float(musical_end),release_tail_seconds=float(TAIL),pages=page_map),indent=2)+'\n')
     report=verify_score(mid,events,structure,page_map)
+    report['expanded_counterpoint_checks_passed']=True
     print(f'Compiled and verified {report["bars"]} bars; {float(musical_end):.3f} seconds of music.',flush=True)
     if not args.engrave_only:
         if not args.soundfont.is_file():p.error('SoundFont does not exist.')
@@ -336,7 +339,10 @@ def main():
     report['source_sha256']=digest(ROOT/'score/two-springs.ly')
     report['event_ledger_sha256']=digest(ROOT/'score/events.json')
     report['lilypond_version']=subprocess.check_output([args.lilypond,'--version'],text=True).splitlines()[0]
-    report['artifacts']={str(path.relative_to(ROOT)):digest(path) for path in sorted(OUT.rglob('*')) if path.is_file() and path.name!='validation.json'}
+    produced=[OUT/'two-springs.pdf',OUT/'two-springs.mid',OUT/'page-timing.json',OUT/'counterpoint-audit.json']
+    if not args.engrave_only:
+        produced.extend([OUT/'two-springs.mp3',OUT/'two-springs.mp4',*sorted((OUT/'pages').glob('page-*.png'))])
+    report['artifacts']={str(path.relative_to(ROOT)):digest(path) for path in sorted(produced)}
     (OUT/'validation.json').write_text(json.dumps(report,indent=2)+'\n')
     print(json.dumps({k:v for k,v in report.items() if k not in ('artifacts','synthesis')},indent=2))
 
